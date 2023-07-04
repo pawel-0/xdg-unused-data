@@ -56,17 +56,20 @@ confirm_file_delete(){
 }
 
 remove_application_files(){
-    printf "\n"
     APP_PATH_INDEX=0
+
+    printf "\nStatus of removed files:\n"
 
     while [ $APP_PATH_INDEX -lt ${#FOUND_APP_PATHES[@]} ]; do
         APP_PATH=${FOUND_APP_PATHES[$APP_PATH_INDEX]}
         APP_PATH_INDEX=$((APP_PATH_INDEX + 1))
 
-        if [ -w "$APP_PATH" ]; then
-            \rm -rf "$APP_PATH""asd" && echo "deleted" # > /dev/null 2>&1
+        rm -rf "$APP_PATH" > /dev/null 2>&1
+
+        if [ -f "$APP_PATH" ] || [ -d "$APP_PATH" ] ; then
+            printf " [$COLOR_XA_RED%s$COLOR_XA_RESET] %s\n" "Failed" "$APP_PATH"
         else
-            printf "No permission to delete file: %s\n" "$APP_PATH"
+            printf " [$COLOR_XA_GREEN%s$COLOR_XA_RESET] %s\n" "Success" "$APP_PATH"
         fi
     done
 }
