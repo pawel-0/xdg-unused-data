@@ -1,0 +1,10 @@
+{
+  "name": "HexChat",
+  "executable": "hexchat",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "hexchat"
+    }
+  ]
+}

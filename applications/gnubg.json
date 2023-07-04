@@ -1,0 +1,10 @@
+{
+  "name": "GNU Backgammon",
+  "executable": "gnubg",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".gnubg"
+    }
+  ]
+}

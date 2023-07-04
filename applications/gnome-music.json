@@ -1,0 +1,10 @@
+{
+  "name": "GNOME music ",
+  "executable": "gnome-music",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "gnome-music"
+    }
+  ]
+}

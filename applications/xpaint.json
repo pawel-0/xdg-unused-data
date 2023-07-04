@@ -1,0 +1,10 @@
+{
+  "name": "Xpaint",
+  "executable": "xpaint",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".xpaint"
+    }
+  ]
+}

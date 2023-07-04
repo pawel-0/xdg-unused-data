@@ -1,0 +1,10 @@
+{
+  "name": "DreamChess",
+  "executable": "dreamchess",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".dreamchess"
+    }
+  ]
+}

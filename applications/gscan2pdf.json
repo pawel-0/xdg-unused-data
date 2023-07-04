@@ -1,0 +1,10 @@
+{
+  "name": "gscan2pdf",
+  "executable": "gscan2pdf",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "gscan2pdfrc"
+    }
+  ]
+}

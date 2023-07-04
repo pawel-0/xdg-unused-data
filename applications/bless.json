@@ -1,0 +1,10 @@
+{
+  "name": "Bless",
+  "executable": "bless",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "bless"
+    }
+  ]
+}

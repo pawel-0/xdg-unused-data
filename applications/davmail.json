@@ -1,0 +1,14 @@
+{
+  "name": "DavMail",
+  "executable": "davmail",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": "davmail.log;.davmail.properties"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "JNA"
+    }
+  ]
+}

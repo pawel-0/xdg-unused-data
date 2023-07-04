@@ -1,0 +1,10 @@
+{
+  "name": "gXNeur",
+  "executable": "gxneur",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".xneur"
+    }
+  ]
+}

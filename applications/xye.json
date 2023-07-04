@@ -1,0 +1,14 @@
+{
+  "name": "Xye",
+  "executable": "xye",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "xyeconf.xml"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "xye "
+    }
+  ]
+}

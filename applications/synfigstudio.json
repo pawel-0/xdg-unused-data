@@ -1,0 +1,10 @@
+{
+  "name": "Synfig Studio",
+  "executable": "synfigstudio",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".synfig"
+    }
+  ]
+}

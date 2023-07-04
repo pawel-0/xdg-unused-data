@@ -1,0 +1,10 @@
+{
+  "name": "HandBrake",
+  "executable": "ghb",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "ghb"
+    }
+  ]
+}

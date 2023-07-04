@@ -1,0 +1,14 @@
+{
+  "name": "Tint2",
+  "executable": "tint2",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "tint2"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "tint2"
+    }
+  ]
+}

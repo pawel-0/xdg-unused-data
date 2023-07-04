@@ -1,0 +1,10 @@
+{
+  "name": "Stella",
+  "executable": "stella",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "stella"
+    }
+  ]
+}

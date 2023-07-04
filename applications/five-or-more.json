@@ -1,0 +1,10 @@
+{
+  "name": "Five or more",
+  "executable": "five-or-more",
+  "locations": [
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "five-or-more "
+    }
+  ]
+}

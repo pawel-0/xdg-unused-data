@@ -1,0 +1,10 @@
+{
+  "name": "Scribus",
+  "executable": "scribus",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "scribus"
+    }
+  ]
+}

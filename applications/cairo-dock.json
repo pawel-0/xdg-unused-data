@@ -1,0 +1,10 @@
+{
+  "name": "Cairo-Dock",
+  "executable": "cairo-dock",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "cairo-dock"
+    }
+  ]
+}

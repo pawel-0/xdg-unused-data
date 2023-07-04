@@ -1,0 +1,10 @@
+{
+  "name": "Chromium",
+  "executable": "chromium-bsu",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".chromium-bsu"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Synaptic",
+  "executable": "synaptic",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".synaptic"
+    }
+  ]
+}

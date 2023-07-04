@@ -1,0 +1,14 @@
+{
+  "name": "Thunderbird",
+  "executable": "thunderbird",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".thunderbird"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "thunderbird"
+    }
+  ]
+}

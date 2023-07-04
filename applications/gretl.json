@@ -1,0 +1,10 @@
+{
+  "name": "gretl",
+  "executable": "gretl",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".gretl;gretl"
+    }
+  ]
+}

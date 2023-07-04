@@ -1,0 +1,14 @@
+{
+  "name": "SpeedCrunch",
+  "executable": "speedcrunch",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "SpeedCrunch"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "SpeedCrunch "
+    }
+  ]
+}

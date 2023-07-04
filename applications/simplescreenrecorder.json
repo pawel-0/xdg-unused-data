@@ -1,0 +1,10 @@
+{
+  "name": "SimpleScreenRecorder",
+  "executable": "simplescreenrecorder",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".ssr"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Qlipper",
+  "executable": "qlipper",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "Qlipper"
+    }
+  ]
+}

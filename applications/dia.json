@@ -1,0 +1,10 @@
+{
+  "name": "Dia",
+  "executable": "dia",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".dia"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Sublime Text",
+  "executable": "subl",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "sublime-text"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "sublime-text"
+    }
+  ]
+}

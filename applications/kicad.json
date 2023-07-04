@@ -1,0 +1,14 @@
+{
+  "name": "KiCad",
+  "executable": "kicad",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "kicad"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "kicad"
+    }
+  ]
+}

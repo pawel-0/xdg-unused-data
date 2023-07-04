@@ -1,0 +1,10 @@
+{
+  "name": "GNOME Chess",
+  "executable": "gnome-chess",
+  "locations": [
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "gnome-chess "
+    }
+  ]
+}

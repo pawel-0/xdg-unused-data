@@ -1,0 +1,14 @@
+{
+  "name": "AutoKey",
+  "executable": "autokey-gtk",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "autokey"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "autokey "
+    }
+  ]
+}

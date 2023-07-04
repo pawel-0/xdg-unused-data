@@ -1,0 +1,10 @@
+{
+  "name": "Xournal",
+  "executable": "xournal",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".xournal"
+    }
+  ]
+}

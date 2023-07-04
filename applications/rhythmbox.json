@@ -1,0 +1,14 @@
+{
+  "name": "Rhythmbox",
+  "executable": "rhythmbox",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "rhythmbox"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "rhythmbox"
+    }
+  ]
+}

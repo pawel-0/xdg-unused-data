@@ -1,0 +1,14 @@
+{
+  "name": "Scratch",
+  "executable": "scratch",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".scratch"
+    },
+    {
+      "scope": "HOME",
+      "object_path": "Scratch"
+    }
+  ]
+}

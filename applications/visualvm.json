@@ -1,0 +1,14 @@
+{
+  "name": "VisualVM",
+  "executable": "visualvm",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".visualvm"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "visualvm"
+    }
+  ]
+}

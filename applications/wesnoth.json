@@ -1,0 +1,10 @@
+{
+  "name": "The Battle for Wesnoth",
+  "executable": "wesnoth",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "wesnoth-1.16"
+    }
+  ]
+}

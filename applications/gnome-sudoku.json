@@ -1,0 +1,10 @@
+{
+  "name": "GNOME Sudoku",
+  "executable": "gnome-sudoku",
+  "locations": [
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "gnome-sudoku "
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Cmake GUI",
+  "executable": "cmake-gui",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "Kitware"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Amoebax",
+  "executable": "amoebax",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "amoebax"
+    }
+  ]
+}

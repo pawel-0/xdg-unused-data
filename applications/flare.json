@@ -1,0 +1,14 @@
+{
+  "name": "Flare",
+  "executable": "flare",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "flare"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "flare "
+    }
+  ]
+}

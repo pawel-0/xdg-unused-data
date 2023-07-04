@@ -1,0 +1,10 @@
+{
+  "name": "BurgerSpace",
+  "executable": "burgerspace",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".burgerspace"
+    }
+  ]
+}

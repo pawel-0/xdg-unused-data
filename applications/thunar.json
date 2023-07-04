@@ -1,0 +1,10 @@
+{
+  "name": "Thunar",
+  "executable": "thunar",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "Thunar"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "TupiTube",
+  "executable": "tupi",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".tupi"
+    }
+  ]
+}

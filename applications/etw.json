@@ -1,0 +1,10 @@
+{
+  "name": "ETW",
+  "executable": "etw",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".etw"
+    }
+  ]
+}

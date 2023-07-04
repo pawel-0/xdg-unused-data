@@ -1,0 +1,10 @@
+{
+  "name": "Gl-117",
+  "executable": "gl-117",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".gl-117"
+    }
+  ]
+}

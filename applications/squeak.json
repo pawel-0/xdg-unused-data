@@ -1,0 +1,10 @@
+{
+  "name": "Squeak",
+  "executable": "squeak",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".squeak;squeak"
+    }
+  ]
+}

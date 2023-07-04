@@ -1,0 +1,14 @@
+{
+  "name": "FileZilla",
+  "executable": "filezilla",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "filezilla"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "filezilla"
+    }
+  ]
+}

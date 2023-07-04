@@ -1,0 +1,10 @@
+{
+  "name": "vitetris",
+  "executable": "vitetris",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".vitetris"
+    }
+  ]
+}

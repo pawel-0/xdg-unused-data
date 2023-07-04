@@ -1,0 +1,10 @@
+{
+  "name": "AssaultCube",
+  "executable": "assaultcube",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".assaultcube"
+    }
+  ]
+}

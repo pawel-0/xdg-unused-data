@@ -1,0 +1,10 @@
+{
+  "name": "Seven Kingdoms: Ancient Adversaries",
+  "executable": "7kaa",
+  "locations": [
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "7kfans.com "
+    }
+  ]
+}

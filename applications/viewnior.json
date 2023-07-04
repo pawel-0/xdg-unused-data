@@ -1,0 +1,10 @@
+{
+  "name": "Viewnior",
+  "executable": "viewnior",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "viewnior"
+    }
+  ]
+}

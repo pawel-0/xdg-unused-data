@@ -1,0 +1,10 @@
+{
+  "name": "Gramps",
+  "executable": "gramps",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".gramps"
+    }
+  ]
+}

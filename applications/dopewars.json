@@ -1,0 +1,10 @@
+{
+  "name": "Dopewars",
+  "executable": "dopewars",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".dopewars"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "EasyTAG",
+  "executable": "easytag",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "easytag"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "easytag"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Arqiver ",
+  "executable": "arqiver",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "deepin"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "arqiver"
+    }
+  ]
+}

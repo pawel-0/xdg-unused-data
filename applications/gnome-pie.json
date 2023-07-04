@@ -1,0 +1,10 @@
+{
+  "name": "GNOME Pie",
+  "executable": "gnome-pie",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "gnome-pie"
+    }
+  ]
+}

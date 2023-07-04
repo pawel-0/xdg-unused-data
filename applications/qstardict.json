@@ -1,0 +1,22 @@
+{
+  "name": "QstarDict",
+  "executable": "qstardict",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".qstardict"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "qstardict"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "qstardict"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "qstardict "
+    }
+  ]
+}

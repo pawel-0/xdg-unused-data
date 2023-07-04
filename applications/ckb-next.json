@@ -1,0 +1,10 @@
+{
+  "name": "ckb-next",
+  "executable": "ckb-next",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "ckb-next"
+    }
+  ]
+}

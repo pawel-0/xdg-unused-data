@@ -1,0 +1,10 @@
+{
+  "name": "Ri-li",
+  "executable": "ri-li",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".ri-li.pref"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Red Eclipse",
+  "executable": "redeclipse",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".redeclipse"
+    }
+  ]
+}

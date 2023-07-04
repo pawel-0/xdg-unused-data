@@ -1,0 +1,10 @@
+{
+  "name": "GNOME Robots",
+  "executable": "gnome-robots",
+  "locations": [
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "gnome-robots "
+    }
+  ]
+}

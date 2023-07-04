@@ -1,0 +1,14 @@
+{
+  "name": "Tilda",
+  "executable": "tilda",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "tilda"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "tilda"
+    }
+  ]
+}

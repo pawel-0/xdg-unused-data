@@ -1,0 +1,14 @@
+{
+  "name": "ChessX",
+  "executable": "chessx",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "chessx"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "chessx "
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Genius",
+  "executable": "gnome-genius",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".genius;.genius-fifo-fromrl;.genius-fifo-torl"
+    }
+  ]
+}

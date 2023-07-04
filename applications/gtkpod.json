@@ -1,0 +1,10 @@
+{
+  "name": "Gtkpod",
+  "executable": "gtkpod",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".gtkpod"
+    }
+  ]
+}

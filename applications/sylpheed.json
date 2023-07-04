@@ -1,0 +1,10 @@
+{
+  "name": "Sylpheed",
+  "executable": "sylpheed",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".sylpheed-2.0"
+    }
+  ]
+}

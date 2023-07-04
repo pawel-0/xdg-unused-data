@@ -1,0 +1,10 @@
+{
+  "name": "Swell Foop",
+  "executable": "swell-foop",
+  "locations": [
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "swell-foop "
+    }
+  ]
+}

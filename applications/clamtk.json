@@ -1,0 +1,10 @@
+{
+  "name": "ClamTk",
+  "executable": "clamtk",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".clamtk"
+    }
+  ]
+}

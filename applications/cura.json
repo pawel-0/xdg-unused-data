@@ -1,0 +1,18 @@
+{
+  "name": "Ultimaker Cura",
+  "executable": "cura",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "cura Ultimaker B.V."
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "cura"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "cura"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Ulauncher",
+  "executable": "ulauncher",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "ulauncher"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "ulauncher"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "ulauncher_cache"
+    }
+  ]
+}

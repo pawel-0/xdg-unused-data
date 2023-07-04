@@ -1,0 +1,10 @@
+{
+  "name": "xscorch",
+  "executable": "xscorch",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".xscorch"
+    }
+  ]
+}

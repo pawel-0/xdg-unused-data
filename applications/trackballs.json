@@ -1,0 +1,10 @@
+{
+  "name": "Trackballs",
+  "executable": "trackballs",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".trackballs"
+    }
+  ]
+}

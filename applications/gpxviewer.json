@@ -1,0 +1,10 @@
+{
+  "name": "GPX Viewer",
+  "executable": "gpxviewer",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "gpxviewer"
+    }
+  ]
+}

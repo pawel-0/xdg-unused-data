@@ -1,0 +1,10 @@
+{
+  "name": "BZFlag",
+  "executable": "bzflag",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".bzf"
+    }
+  ]
+}

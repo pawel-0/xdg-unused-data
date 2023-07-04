@@ -1,0 +1,10 @@
+{
+  "name": "Advanced Strategic Command",
+  "executable": "asc",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".asc"
+    }
+  ]
+}

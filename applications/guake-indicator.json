@@ -1,0 +1,10 @@
+{
+  "name": "Guake indicator",
+  "executable": "guake-indicator",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".guake-indicator"
+    }
+  ]
+}

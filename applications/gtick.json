@@ -1,0 +1,10 @@
+{
+  "name": "Gtick",
+  "executable": "gtick",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".gtickrc"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "TripleA",
+  "executable": "triplea",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": "triplea"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Thonny",
+  "executable": "thonny",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "Thonny"
+    }
+  ]
+}

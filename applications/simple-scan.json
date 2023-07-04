@@ -1,0 +1,14 @@
+{
+  "name": "Simple Scan",
+  "executable": "simple-scan",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "simple-scan"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "simple-scan"
+    }
+  ]
+}

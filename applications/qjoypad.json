@@ -1,0 +1,10 @@
+{
+  "name": "QjoyPad",
+  "executable": "qjoypad",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".qjoypad3"
+    }
+  ]
+}

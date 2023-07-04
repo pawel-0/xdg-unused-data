@@ -1,0 +1,10 @@
+{
+  "name": "ClassicMenu Indicator",
+  "executable": "classicmenu-indicator",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "classicmenu-indicator"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "KmyMoney",
+  "executable": "kmymoney",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".aqbanking"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "kmymoney"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "digiKam",
+  "executable": "digikam",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "digikamrc"
+    }
+  ]
+}

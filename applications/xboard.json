@@ -1,0 +1,10 @@
+{
+  "name": "Xboard",
+  "executable": "xboard",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".xboardrc"
+    }
+  ]
+}

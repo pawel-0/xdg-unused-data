@@ -1,0 +1,14 @@
+{
+  "name": "Flameshot",
+  "executable": "flameshot",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "flameshot"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "flameshot"
+    }
+  ]
+}

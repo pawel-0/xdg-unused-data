@@ -1,0 +1,10 @@
+{
+  "name": "Warzone 2100",
+  "executable": "warzone2100",
+  "locations": [
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "warzone2100 "
+    }
+  ]
+}

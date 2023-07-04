@@ -1,0 +1,10 @@
+{
+  "name": "aMule",
+  "executable": "amule",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".aMule"
+    }
+  ]
+}

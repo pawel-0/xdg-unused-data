@@ -1,0 +1,10 @@
+{
+  "name": "Deja Dup",
+  "executable": "deja-dup",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "deja-dup"
+    }
+  ]
+}

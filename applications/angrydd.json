@@ -1,0 +1,10 @@
+{
+  "name": "Angry Drunken Dwarves",
+  "executable": "angrydd",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".angryddrc"
+    }
+  ]
+}

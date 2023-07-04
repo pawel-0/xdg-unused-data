@@ -1,0 +1,10 @@
+{
+  "name": "FooBillardplus",
+  "executable": "foobillardplus",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".foobillardplus;.foobillardrc"
+    }
+  ]
+}

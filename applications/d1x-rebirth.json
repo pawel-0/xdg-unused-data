@@ -1,0 +1,10 @@
+{
+  "name": "DXX-Rebirth",
+  "executable": "d1x-rebirth",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".d1x-rebirth"
+    }
+  ]
+}

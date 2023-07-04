@@ -1,0 +1,10 @@
+{
+  "name": "Frozen Bubble",
+  "executable": "frozen-bubble",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".frozen-bubble"
+    }
+  ]
+}

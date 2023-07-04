@@ -1,0 +1,10 @@
+{
+  "name": "Deepin Calculator",
+  "executable": "deepin-calculator",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".deepin-calculator"
+    }
+  ]
+}

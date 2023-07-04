@@ -1,0 +1,18 @@
+{
+  "name": "Formiko",
+  "executable": "formiko",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "formiko"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "formiko.ini"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "formiko "
+    }
+  ]
+}

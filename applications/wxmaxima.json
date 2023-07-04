@@ -1,0 +1,10 @@
+{
+  "name": "wxMaxima",
+  "executable": "wxmaxima",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".maxima"
+    }
+  ]
+}

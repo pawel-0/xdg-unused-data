@@ -1,0 +1,10 @@
+{
+  "name": "ABE",
+  "executable": "abe",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".abe"
+    }
+  ]
+}

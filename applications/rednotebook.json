@@ -1,0 +1,18 @@
+{
+  "name": "RedNotebook",
+  "executable": "rednotebook",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".rednotebook"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "rednotebook"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "rednotebook "
+    }
+  ]
+}

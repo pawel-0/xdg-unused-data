@@ -1,0 +1,14 @@
+{
+  "name": "dupeGuru",
+  "executable": "dupeguru",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "Hardcoded Software"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "Hardcoded Software"
+    }
+  ]
+}

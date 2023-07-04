@@ -1,0 +1,10 @@
+{
+  "name": "Claws Mail",
+  "executable": "claws-mail",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".claws-mail"
+    }
+  ]
+}

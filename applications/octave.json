@@ -1,0 +1,14 @@
+{
+  "name": "Octave",
+  "executable": "octave",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "octave"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "octave"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "qmmp",
+  "executable": "qmmp",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".qmmp"
+    }
+  ]
+}

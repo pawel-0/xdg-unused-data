@@ -1,0 +1,10 @@
+{
+  "name": "Emacs",
+  "executable": "emacs",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".emacs.d"
+    }
+  ]
+}

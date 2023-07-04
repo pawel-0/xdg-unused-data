@@ -1,0 +1,10 @@
+{
+  "name": "Xfburn",
+  "executable": "xfburn",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "xfburn"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Terminology",
+  "executable": "terminology",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "terminology"
+    }
+  ]
+}

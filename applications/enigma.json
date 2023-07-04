@@ -1,0 +1,10 @@
+{
+  "name": "Enigma",
+  "executable": "enigma",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".enigma;.enigmarc.xml"
+    }
+  ]
+}

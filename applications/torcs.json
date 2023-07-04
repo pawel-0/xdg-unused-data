@@ -1,0 +1,10 @@
+{
+  "name": "TORCS",
+  "executable": "torcs",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".torcs"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Grsync",
+  "executable": "grsync",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".grsync"
+    }
+  ]
+}

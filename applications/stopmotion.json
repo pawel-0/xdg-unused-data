@@ -1,0 +1,10 @@
+{
+  "name": "Stop-Motion",
+  "executable": "stopmotion",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".stopmotion"
+    }
+  ]
+}

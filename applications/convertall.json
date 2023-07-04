@@ -1,0 +1,10 @@
+{
+  "name": "ConvertAll",
+  "executable": "convertall",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".convertall"
+    }
+  ]
+}

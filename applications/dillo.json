@@ -1,0 +1,10 @@
+{
+  "name": "Dillo",
+  "executable": "dillo",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".dillo"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Funguloids",
+  "executable": "funguloids",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".funguloids"
+    }
+  ]
+}

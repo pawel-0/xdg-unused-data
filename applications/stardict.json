@@ -1,0 +1,14 @@
+{
+  "name": "StarDict",
+  "executable": "stardict",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "stardict"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "stardict"
+    }
+  ]
+}

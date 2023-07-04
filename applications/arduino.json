@@ -1,0 +1,14 @@
+{
+  "name": "Arduino",
+  "executable": "arduino",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": "Arduino"
+    },
+    {
+      "scope": "HOME",
+      "object_path": ".arduino15"
+    }
+  ]
+}

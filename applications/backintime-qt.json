@@ -1,0 +1,10 @@
+{
+  "name": "Back In Time",
+  "executable": "backintime-qt",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "backintime"
+    }
+  ]
+}

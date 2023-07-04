@@ -1,0 +1,10 @@
+{
+  "name": "Hedgewars",
+  "executable": "hedgewars",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".hedgewars"
+    }
+  ]
+}

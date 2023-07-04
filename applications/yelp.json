@@ -1,0 +1,18 @@
+{
+  "name": "Yelp",
+  "executable": "yelp",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "yelp"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "yelp"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "yelp "
+    }
+  ]
+}

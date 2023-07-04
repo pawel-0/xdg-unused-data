@@ -1,0 +1,10 @@
+{
+  "name": "GNOME Video Arcade",
+  "executable": "gnome-video-arcade",
+  "locations": [
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "gnome-video-arcade "
+    }
+  ]
+}

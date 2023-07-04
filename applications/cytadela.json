@@ -1,0 +1,10 @@
+{
+  "name": "Cytadela",
+  "executable": "cytadela",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".cytadela"
+    }
+  ]
+}

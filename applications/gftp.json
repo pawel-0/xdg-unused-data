@@ -1,0 +1,10 @@
+{
+  "name": "gFTP",
+  "executable": "gftp",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".gftp"
+    }
+  ]
+}

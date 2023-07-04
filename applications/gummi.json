@@ -1,0 +1,14 @@
+{
+  "name": "Gummi",
+  "executable": "gummi",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "gummi"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "gummi"
+    }
+  ]
+}

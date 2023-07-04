@@ -1,0 +1,10 @@
+{
+  "name": "Tomatoes",
+  "executable": "tomatoes",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".tomatoes"
+    }
+  ]
+}

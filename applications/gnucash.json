@@ -1,0 +1,14 @@
+{
+  "name": "GnuCash",
+  "executable": "gnucash",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "gnucash"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "gnucash"
+    }
+  ]
+}

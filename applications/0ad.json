@@ -1,0 +1,14 @@
+{
+  "name": "0 A.D.",
+  "executable": "0ad",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "0ad"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "0ad"
+    }
+  ]
+}

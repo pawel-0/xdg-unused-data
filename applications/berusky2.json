@@ -1,0 +1,10 @@
+{
+  "name": "Berusky II",
+  "executable": "berusky2",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".berusky2"
+    }
+  ]
+}

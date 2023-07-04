@@ -1,0 +1,10 @@
+{
+  "name": "gitg",
+  "executable": "gitg",
+  "locations": [
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "gitg "
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Stellarium",
+  "executable": "stellarium",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".stellarium"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "stellarium"
+    }
+  ]
+}

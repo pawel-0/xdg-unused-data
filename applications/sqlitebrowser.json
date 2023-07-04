@@ -1,0 +1,10 @@
+{
+  "name": "SQLite Database Browser",
+  "executable": "sqlitebrowser",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "sqlitebrowser"
+    }
+  ]
+}

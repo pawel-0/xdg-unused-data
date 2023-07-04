@@ -1,0 +1,10 @@
+{
+  "name": "Ren’Py",
+  "executable": "renpy",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".renpy"
+    }
+  ]
+}

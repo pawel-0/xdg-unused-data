@@ -1,0 +1,10 @@
+{
+  "name": "Armagetron Advanced",
+  "executable": "armagetronad",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".armagetronad"
+    }
+  ]
+}

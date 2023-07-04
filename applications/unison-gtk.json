@@ -1,0 +1,10 @@
+{
+  "name": "Unison",
+  "executable": "unison-gtk",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".unison"
+    }
+  ]
+}

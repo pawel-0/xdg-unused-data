@@ -1,0 +1,14 @@
+{
+  "name": "Shotwell",
+  "executable": "shotwell",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "shotwell"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "shotwell"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Gimp",
+  "executable": "gimp",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "GIMP"
+    },
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "gimp"
+    }
+  ]
+}

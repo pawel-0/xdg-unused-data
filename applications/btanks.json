@@ -1,0 +1,10 @@
+{
+  "name": "Battle Tanks",
+  "executable": "btanks",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".btanks"
+    }
+  ]
+}

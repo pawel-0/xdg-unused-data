@@ -1,0 +1,10 @@
+{
+  "name": "Xiphos",
+  "executable": "xiphos",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".xiphos"
+    }
+  ]
+}

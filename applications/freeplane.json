@@ -1,0 +1,10 @@
+{
+  "name": "FreePlane",
+  "executable": "freeplane",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "freeplane"
+    }
+  ]
+}

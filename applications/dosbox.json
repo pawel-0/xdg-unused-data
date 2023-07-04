@@ -1,0 +1,10 @@
+{
+  "name": "DOSBox",
+  "executable": "dosbox",
+  "locations": [
+    {
+      "scope": "HOME",
+      "object_path": ".dosbox"
+    }
+  ]
+}

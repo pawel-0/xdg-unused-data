@@ -1,0 +1,18 @@
+{
+  "name": "Dolphin Emulator",
+  "executable": "dolphin-emu",
+  "locations": [
+    {
+      "scope": "XDG_CACHE_HOME",
+      "object_path": "dolphin-emu"
+    },
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "dolphin-emu"
+    },
+    {
+      "scope": "XDG_DATA_HOME",
+      "object_path": "dolphin-emu"
+    }
+  ]
+}

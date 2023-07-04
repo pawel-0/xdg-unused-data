@@ -1,0 +1,10 @@
+{
+  "name": "Gpick",
+  "executable": "gpick",
+  "locations": [
+    {
+      "scope": "XDG_CONFIG_HOME",
+      "object_path": "gpick"
+    }
+  ]
+}
