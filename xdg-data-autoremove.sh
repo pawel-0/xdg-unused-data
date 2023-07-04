@@ -21,8 +21,12 @@ main(){
         check_application "$APP_NAME" "$APP_EXECUTABLE" "$FILE_PATH"
     done <<< "$PARSED_JSON"
 
-    info_output
-    confirm_file_delete
+    if [ ${#FOUND_APP_PATHES[@]} -ne 0  ]; then
+        info_output
+        confirm_file_delete
+    else
+        printf "No files found\n"
+    fi
 }
 
 check_application(){
