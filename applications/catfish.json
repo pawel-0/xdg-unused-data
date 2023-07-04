@@ -3,8 +3,7 @@
   "executable": "catfish",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "catfish"
+      "file": "$XDG_CONFIG_HOME/catfish"
     }
   ]
 }

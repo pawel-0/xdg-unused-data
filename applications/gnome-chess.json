@@ -3,8 +3,7 @@
   "executable": "gnome-chess",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "gnome-chess "
+      "file": "$XDG_DATA_HOME/gnome-chess "
     }
   ]
 }

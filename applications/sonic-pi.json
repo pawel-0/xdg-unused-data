@@ -3,12 +3,10 @@
   "executable": "sonic-pi",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".sonic-pi"
+      "file": "$HOME/.sonic-pi"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "sonic-pi.net"
+      "file": "$XDG_CONFIG_HOME/sonic-pi.net"
     }
   ]
 }

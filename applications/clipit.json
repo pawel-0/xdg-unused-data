@@ -3,8 +3,7 @@
   "executable": "clipit",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "clipit"
+      "file": "$XDG_CONFIG_HOME/clipit"
     }
   ]
 }

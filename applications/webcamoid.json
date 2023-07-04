@@ -3,12 +3,10 @@
   "executable": "webcamoid",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "Webcamoid"
+      "file": "$XDG_CACHE_HOME/Webcamoid"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "Webcamoid"
+      "file": "$XDG_CONFIG_HOME/Webcamoid"
     }
   ]
 }

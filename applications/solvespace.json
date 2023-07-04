@@ -3,8 +3,7 @@
   "executable": "solvespace",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "solvespace"
+      "file": "$XDG_CONFIG_HOME/solvespace"
     }
   ]
 }

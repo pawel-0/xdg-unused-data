@@ -3,16 +3,13 @@
   "executable": "flowblade",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "flowblade"
+      "file": "$XDG_CACHE_HOME/flowblade"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "flowblade"
+      "file": "$XDG_CONFIG_HOME/flowblade"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "flowblade "
+      "file": "$XDG_DATA_HOME/flowblade "
     }
   ]
 }

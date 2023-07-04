@@ -3,8 +3,7 @@
   "executable": "audacious",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "audacious"
+      "file": "$XDG_CONFIG_HOME/audacious"
     }
   ]
 }

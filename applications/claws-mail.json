@@ -3,8 +3,7 @@
   "executable": "claws-mail",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".claws-mail"
+      "file": "$HOME/.claws-mail"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "vokoscreenNG",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "vokoscreenNG"
+      "file": "$XDG_CONFIG_HOME/vokoscreenNG"
     }
   ]
 }

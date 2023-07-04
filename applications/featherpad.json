@@ -3,8 +3,7 @@
   "executable": "featherpad",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "featherpad"
+      "file": "$XDG_CONFIG_HOME/featherpad"
     }
   ]
 }

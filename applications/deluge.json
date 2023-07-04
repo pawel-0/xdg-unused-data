@@ -3,8 +3,7 @@
   "executable": "deluge",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "deluge"
+      "file": "$XDG_CONFIG_HOME/deluge"
     }
   ]
 }

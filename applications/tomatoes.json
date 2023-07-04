@@ -3,8 +3,7 @@
   "executable": "tomatoes",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".tomatoes"
+      "file": "$HOME/.tomatoes"
     }
   ]
 }

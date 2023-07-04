@@ -3,12 +3,10 @@
   "executable": "foliate",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "com.github.johnfactotum.Foliate"
+      "file": "$XDG_CACHE_HOME/com.github.johnfactotum.Foliate"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "com.github.johnfactotum.Foliate"
+      "file": "$XDG_DATA_HOME/com.github.johnfactotum.Foliate"
     }
   ]
 }

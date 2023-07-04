@@ -3,16 +3,13 @@
   "executable": "dolphin-emu",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "dolphin-emu"
+      "file": "$XDG_CACHE_HOME/dolphin-emu"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "dolphin-emu"
+      "file": "$XDG_CONFIG_HOME/dolphin-emu"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "dolphin-emu"
+      "file": "$XDG_DATA_HOME/dolphin-emu"
     }
   ]
 }

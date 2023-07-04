@@ -3,12 +3,10 @@
   "executable": "krusader",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "krusaderrc"
+      "file": "$XDG_CONFIG_HOME/krusaderrc"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "krusader"
+      "file": "$XDG_DATA_HOME/krusader"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "grsync",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".grsync"
+      "file": "$HOME/.grsync"
     }
   ]
 }

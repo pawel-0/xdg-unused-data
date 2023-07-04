@@ -3,12 +3,10 @@
   "executable": "bijiben",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "bijiben"
+      "file": "$XDG_CACHE_HOME/bijiben"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "bijiben "
+      "file": "$XDG_DATA_HOME/bijiben "
     }
   ]
 }

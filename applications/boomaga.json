@@ -3,8 +3,7 @@
   "executable": "boomaga",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "boomaga"
+      "file": "$XDG_CONFIG_HOME/boomaga"
     }
   ]
 }

@@ -3,16 +3,13 @@
   "executable": "drascula",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "scummvm"
+      "file": "$XDG_CACHE_HOME/scummvm"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "scummvm"
+      "file": "$XDG_CONFIG_HOME/scummvm"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "scummvm "
+      "file": "$XDG_DATA_HOME/scummvm "
     }
   ]
 }

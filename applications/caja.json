@@ -3,8 +3,7 @@
   "executable": "caja",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "caja"
+      "file": "$XDG_CONFIG_HOME/caja"
     }
   ]
 }

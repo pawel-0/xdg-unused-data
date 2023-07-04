@@ -3,8 +3,7 @@
   "executable": "quake3",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".q3a"
+      "file": "$HOME/.q3a"
     }
   ]
 }

@@ -3,16 +3,13 @@
   "executable": "calibre",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": "Calibre Library"
+      "file": "$HOME/Calibre Library"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "calibre"
+      "file": "$XDG_CACHE_HOME/calibre"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "calibre"
+      "file": "$XDG_CONFIG_HOME/calibre"
     }
   ]
 }

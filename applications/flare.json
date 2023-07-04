@@ -3,12 +3,10 @@
   "executable": "flare",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "flare"
+      "file": "$XDG_CONFIG_HOME/flare"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "flare "
+      "file": "$XDG_DATA_HOME/flare "
     }
   ]
 }

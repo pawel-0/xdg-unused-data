@@ -3,8 +3,7 @@
   "executable": "qtqr",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "qr-tools"
+      "file": "$XDG_CONFIG_HOME/qr-tools"
     }
   ]
 }

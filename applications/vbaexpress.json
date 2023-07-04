@@ -3,8 +3,7 @@
   "executable": "vbaexpress",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": "VisualBoyAdvance.cfg"
+      "file": "$HOME/VisualBoyAdvance.cfg"
     }
   ]
 }

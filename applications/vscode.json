@@ -3,8 +3,7 @@
   "executable": "code",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "Code"
+      "file": "$XDG_CONFIG_HOME/Code"
     }
   ]
 }

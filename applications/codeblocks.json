@@ -3,12 +3,10 @@
   "executable": "codeblocks",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "codeblocks"
+      "file": "$XDG_CONFIG_HOME/codeblocks"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "codeblocks"
+      "file": "$XDG_DATA_HOME/codeblocks"
     }
   ]
 }

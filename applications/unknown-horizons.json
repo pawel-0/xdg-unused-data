@@ -3,16 +3,13 @@
   "executable": "unknown-horizons",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "unknown-horizons"
+      "file": "$XDG_CACHE_HOME/unknown-horizons"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "unknown-horizons"
+      "file": "$XDG_CONFIG_HOME/unknown-horizons"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "unknown-horizons "
+      "file": "$XDG_DATA_HOME/unknown-horizons "
     }
   ]
 }

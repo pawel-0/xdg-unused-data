@@ -3,8 +3,7 @@
   "executable": "butt",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".buttrc"
+      "file": "$HOME/.buttrc"
     }
   ]
 }

@@ -3,12 +3,10 @@
   "executable": "gthumb",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "gthumb"
+      "file": "$XDG_CONFIG_HOME/gthumb"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "gthumb"
+      "file": "$XDG_DATA_HOME/gthumb"
     }
   ]
 }

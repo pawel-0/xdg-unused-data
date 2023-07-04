@@ -3,8 +3,7 @@
   "executable": "synfigstudio",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".synfig"
+      "file": "$HOME/.synfig"
     }
   ]
 }

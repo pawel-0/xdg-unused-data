@@ -3,8 +3,7 @@
   "executable": "guake-indicator",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".guake-indicator"
+      "file": "$HOME/.guake-indicator"
     }
   ]
 }

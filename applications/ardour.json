@@ -3,12 +3,10 @@
   "executable": "ardour",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "ardour7"
+      "file": "$XDG_CACHE_HOME/ardour7"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "ardour7"
+      "file": "$XDG_CONFIG_HOME/ardour7"
     }
   ]
 }

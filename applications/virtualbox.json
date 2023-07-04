@@ -3,8 +3,7 @@
   "executable": "virtualbox",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "VirtualBox"
+      "file": "$XDG_CONFIG_HOME/VirtualBox"
     }
   ]
 }

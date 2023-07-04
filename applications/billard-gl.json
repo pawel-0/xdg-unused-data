@@ -3,8 +3,7 @@
   "executable": "billard-gl",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".BillardGL.conf.v7"
+      "file": "$HOME/.BillardGL.conf.v7"
     }
   ]
 }

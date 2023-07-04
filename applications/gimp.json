@@ -3,12 +3,10 @@
   "executable": "gimp",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "GIMP"
+      "file": "$XDG_CONFIG_HOME/GIMP"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "gimp"
+      "file": "$XDG_CACHE_HOME/gimp"
     }
   ]
 }

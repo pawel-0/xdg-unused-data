@@ -3,8 +3,7 @@
   "executable": "wesnoth",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "wesnoth-1.16"
+      "file": "$XDG_CONFIG_HOME/wesnoth-1.16"
     }
   ]
 }

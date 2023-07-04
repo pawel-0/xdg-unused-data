@@ -3,8 +3,7 @@
   "executable": "trackballs",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".trackballs"
+      "file": "$HOME/.trackballs"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "deja-dup",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "deja-dup"
+      "file": "$XDG_CACHE_HOME/deja-dup"
     }
   ]
 }

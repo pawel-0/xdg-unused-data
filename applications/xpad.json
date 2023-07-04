@@ -3,8 +3,7 @@
   "executable": "xpad",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "xpad"
+      "file": "$XDG_CONFIG_HOME/xpad"
     }
   ]
 }

@@ -3,12 +3,10 @@
   "executable": "rclone-browser",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "rclone-browser"
+      "file": "$XDG_CONFIG_HOME/rclone-browser"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "rclone-browser "
+      "file": "$XDG_DATA_HOME/rclone-browser "
     }
   ]
 }

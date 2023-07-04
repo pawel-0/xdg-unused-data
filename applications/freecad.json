@@ -3,16 +3,13 @@
   "executable": "freecad",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "FreeCAD"
+      "file": "$XDG_CACHE_HOME/FreeCAD"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "FreeCAD"
+      "file": "$XDG_CONFIG_HOME/FreeCAD"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "FreeCAD"
+      "file": "$XDG_DATA_HOME/FreeCAD"
     }
   ]
 }

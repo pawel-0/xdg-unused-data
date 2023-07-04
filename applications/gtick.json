@@ -3,8 +3,7 @@
   "executable": "gtick",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".gtickrc"
+      "file": "$HOME/.gtickrc"
     }
   ]
 }

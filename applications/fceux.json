@@ -3,8 +3,7 @@
   "executable": "fceux",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".fceux"
+      "file": "$HOME/.fceux"
     }
   ]
 }

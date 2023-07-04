@@ -3,8 +3,7 @@
   "executable": "gweled",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "gweled.conf"
+      "file": "$XDG_CONFIG_HOME/gweled.conf"
     }
   ]
 }

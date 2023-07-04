@@ -3,8 +3,7 @@
   "executable": "hdfview",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".hdfview2.11"
+      "file": "$HOME/.hdfview2.11"
     }
   ]
 }

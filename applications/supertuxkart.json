@@ -3,16 +3,13 @@
   "executable": "supertuxkart",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "supertuxkart"
+      "file": "$XDG_CACHE_HOME/supertuxkart"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "supertuxkart"
+      "file": "$XDG_CONFIG_HOME/supertuxkart"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "supertuxkart "
+      "file": "$XDG_DATA_HOME/supertuxkart "
     }
   ]
 }

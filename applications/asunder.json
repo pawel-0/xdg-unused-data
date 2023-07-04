@@ -3,8 +3,7 @@
   "executable": "asunder",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "asunder"
+      "file": "$XDG_CONFIG_HOME/asunder"
     }
   ]
 }

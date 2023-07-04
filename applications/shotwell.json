@@ -3,12 +3,10 @@
   "executable": "shotwell",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "shotwell"
+      "file": "$XDG_CACHE_HOME/shotwell"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "shotwell"
+      "file": "$XDG_DATA_HOME/shotwell"
     }
   ]
 }

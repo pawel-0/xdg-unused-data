@@ -3,8 +3,7 @@
   "executable": "artha",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "artha.conf"
+      "file": "$XDG_CONFIG_HOME/artha.conf"
     }
   ]
 }

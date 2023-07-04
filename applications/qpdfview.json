@@ -3,12 +3,10 @@
   "executable": "qpdfview",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "qpdfview"
+      "file": "$XDG_CONFIG_HOME/qpdfview"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "qpdfview "
+      "file": "$XDG_DATA_HOME/qpdfview "
     }
   ]
 }

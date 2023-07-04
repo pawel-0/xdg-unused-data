@@ -3,12 +3,10 @@
   "executable": "rawtherapee",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "RawTherapee"
+      "file": "$XDG_CACHE_HOME/RawTherapee"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "RawTherapee"
+      "file": "$XDG_CONFIG_HOME/RawTherapee"
     }
   ]
 }

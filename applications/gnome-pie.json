@@ -3,8 +3,7 @@
   "executable": "gnome-pie",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "gnome-pie"
+      "file": "$XDG_CONFIG_HOME/gnome-pie"
     }
   ]
 }

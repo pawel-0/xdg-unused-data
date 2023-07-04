@@ -3,8 +3,7 @@
   "executable": "endless-sky",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "endless-sky"
+      "file": "$XDG_DATA_HOME/endless-sky"
     }
   ]
 }

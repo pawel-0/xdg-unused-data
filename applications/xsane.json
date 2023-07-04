@@ -3,8 +3,7 @@
   "executable": "xsane",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".sane"
+      "file": "$HOME/.sane"
     }
   ]
 }

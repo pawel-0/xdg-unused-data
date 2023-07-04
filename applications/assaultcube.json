@@ -3,8 +3,7 @@
   "executable": "assaultcube",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".assaultcube"
+      "file": "$HOME/.assaultcube"
     }
   ]
 }

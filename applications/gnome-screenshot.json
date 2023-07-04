@@ -3,8 +3,7 @@
   "executable": "gnome-screenshot",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "gnome-screenshot"
+      "file": "$XDG_CACHE_HOME/gnome-screenshot"
     }
   ]
 }

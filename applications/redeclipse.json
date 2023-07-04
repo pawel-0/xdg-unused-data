@@ -3,8 +3,7 @@
   "executable": "redeclipse",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".redeclipse"
+      "file": "$HOME/.redeclipse"
     }
   ]
 }

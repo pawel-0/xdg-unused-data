@@ -3,8 +3,7 @@
   "executable": "emacs",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".emacs.d"
+      "file": "$HOME/.emacs.d"
     }
   ]
 }

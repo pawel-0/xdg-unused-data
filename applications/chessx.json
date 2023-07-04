@@ -3,12 +3,10 @@
   "executable": "chessx",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "chessx"
+      "file": "$XDG_CONFIG_HOME/chessx"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "chessx "
+      "file": "$XDG_DATA_HOME/chessx "
     }
   ]
 }

@@ -3,12 +3,10 @@
   "executable": "stellarium",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".stellarium"
+      "file": "$HOME/.stellarium"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "stellarium"
+      "file": "$XDG_CACHE_HOME/stellarium"
     }
   ]
 }

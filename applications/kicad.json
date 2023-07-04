@@ -3,12 +3,10 @@
   "executable": "kicad",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "kicad"
+      "file": "$XDG_CONFIG_HOME/kicad"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "kicad"
+      "file": "$XDG_DATA_HOME/kicad"
     }
   ]
 }

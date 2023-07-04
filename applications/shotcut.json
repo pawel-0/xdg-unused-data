@@ -3,16 +3,13 @@
   "executable": "shotcut",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "Meltytech"
+      "file": "$XDG_CACHE_HOME/Meltytech"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "Meltytech"
+      "file": "$XDG_CONFIG_HOME/Meltytech"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "Meltytech"
+      "file": "$XDG_DATA_HOME/Meltytech"
     }
   ]
 }

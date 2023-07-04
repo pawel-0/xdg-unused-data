@@ -3,8 +3,7 @@
   "executable": "dde-calendar",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "deepin"
+      "file": "$XDG_CONFIG_HOME/deepin"
     }
   ]
 }

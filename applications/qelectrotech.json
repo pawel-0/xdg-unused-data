@@ -3,8 +3,7 @@
   "executable": "qelectrotech",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".qet"
+      "file": "$HOME/.qet"
     }
   ]
 }

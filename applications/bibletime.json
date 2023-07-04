@@ -3,8 +3,7 @@
   "executable": "bibletime",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".bibletime"
+      "file": "$HOME/.bibletime"
     }
   ]
 }

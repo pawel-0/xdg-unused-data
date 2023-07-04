@@ -3,8 +3,7 @@
   "executable": "classicmenu-indicator",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "classicmenu-indicator"
+      "file": "$XDG_CONFIG_HOME/classicmenu-indicator"
     }
   ]
 }

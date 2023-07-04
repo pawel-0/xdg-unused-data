@@ -3,8 +3,10 @@
   "executable": "squeak",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".squeak;squeak"
+      "file": "$HOME/.squeak"
+    },
+    {
+      "file": "$HOME/squeak"
     }
   ]
 }

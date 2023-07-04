@@ -3,8 +3,7 @@
   "executable": "viewnior",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "viewnior"
+      "file": "$XDG_CONFIG_HOME/viewnior"
     }
   ]
 }

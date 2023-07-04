@@ -3,8 +3,7 @@
   "executable": "deepin-calculator",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".deepin-calculator"
+      "file": "$HOME/.deepin-calculator"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "blobwars",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".parallelrealities"
+      "file": "$HOME/.parallelrealities"
     }
   ]
 }

@@ -3,12 +3,10 @@
   "executable": "sonic-visualiser",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "sonic-visualiser"
+      "file": "$XDG_CONFIG_HOME/sonic-visualiser"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "sonic-visualiser "
+      "file": "$XDG_DATA_HOME/sonic-visualiser "
     }
   ]
 }

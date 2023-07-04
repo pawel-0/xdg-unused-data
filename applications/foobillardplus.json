@@ -3,8 +3,10 @@
   "executable": "foobillardplus",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".foobillardplus;.foobillardrc"
+      "file": "$HOME/.foobillardplus"
+    },
+    {
+      "file": "$HOME/.foobillardrc"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "amule",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".aMule"
+      "file": "$HOME/.aMule"
     }
   ]
 }

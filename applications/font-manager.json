@@ -3,12 +3,10 @@
   "executable": "font-manager",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "font-manager"
+      "file": "$XDG_CACHE_HOME/font-manager"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "font-manager"
+      "file": "$XDG_CONFIG_HOME/font-manager"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "etw",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".etw"
+      "file": "$HOME/.etw"
     }
   ]
 }

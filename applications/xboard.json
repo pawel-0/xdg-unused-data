@@ -3,8 +3,7 @@
   "executable": "xboard",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".xboardrc"
+      "file": "$HOME/.xboardrc"
     }
   ]
 }

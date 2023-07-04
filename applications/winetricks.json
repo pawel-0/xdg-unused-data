@@ -3,8 +3,7 @@
   "executable": "winetricks",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".wine"
+      "file": "$HOME/.wine"
     }
   ]
 }

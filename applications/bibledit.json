@@ -3,16 +3,13 @@
   "executable": "bibledit",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": "bibledit"
+      "file": "$HOME/bibledit"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "bibledit"
+      "file": "$XDG_CACHE_HOME/bibledit"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "bibledit "
+      "file": "$XDG_DATA_HOME/bibledit "
     }
   ]
 }

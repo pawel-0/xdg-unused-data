@@ -3,12 +3,10 @@
   "executable": "dwarf-fortress",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "dwarf-fortress"
+      "file": "$XDG_CONFIG_HOME/dwarf-fortress"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "dwarf-fortress "
+      "file": "$XDG_DATA_HOME/dwarf-fortress "
     }
   ]
 }

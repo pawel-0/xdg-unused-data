@@ -3,16 +3,13 @@
   "executable": "godot3",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "godot"
+      "file": "$XDG_CACHE_HOME/godot"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "godot"
+      "file": "$XDG_CONFIG_HOME/godot"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "godot "
+      "file": "$XDG_DATA_HOME/godot "
     }
   ]
 }

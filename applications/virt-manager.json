@@ -3,8 +3,7 @@
   "executable": "virt-manager",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "virt-manager"
+      "file": "$XDG_CACHE_HOME/virt-manager"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "gsmartcontrol",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "gsmartcontrol"
+      "file": "$XDG_CONFIG_HOME/gsmartcontrol"
     }
   ]
 }

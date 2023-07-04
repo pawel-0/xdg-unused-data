@@ -3,16 +3,13 @@
   "executable": "freecol",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "freecol"
+      "file": "$XDG_CACHE_HOME/freecol"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "freecol"
+      "file": "$XDG_CONFIG_HOME/freecol"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "freecol "
+      "file": "$XDG_DATA_HOME/freecol "
     }
   ]
 }

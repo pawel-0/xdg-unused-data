@@ -3,8 +3,7 @@
   "executable": "guitarix",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "guitarix"
+      "file": "$XDG_CONFIG_HOME/guitarix"
     }
   ]
 }

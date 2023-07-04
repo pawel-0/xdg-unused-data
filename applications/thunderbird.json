@@ -3,12 +3,10 @@
   "executable": "thunderbird",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".thunderbird"
+      "file": "$HOME/.thunderbird"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "thunderbird"
+      "file": "$XDG_CACHE_HOME/thunderbird"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "cytadela",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".cytadela"
+      "file": "$HOME/.cytadela"
     }
   ]
 }

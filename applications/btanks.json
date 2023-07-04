@@ -3,8 +3,7 @@
   "executable": "btanks",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".btanks"
+      "file": "$HOME/.btanks"
     }
   ]
 }

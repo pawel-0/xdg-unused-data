@@ -3,8 +3,7 @@
   "executable": "backintime-qt",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "backintime"
+      "file": "$XDG_CONFIG_HOME/backintime"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "asc",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".asc"
+      "file": "$HOME/.asc"
     }
   ]
 }

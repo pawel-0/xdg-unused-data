@@ -3,8 +3,7 @@
   "executable": "gpick",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "gpick"
+      "file": "$XDG_CONFIG_HOME/gpick"
     }
   ]
 }

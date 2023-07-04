@@ -3,12 +3,10 @@
   "executable": "scratch",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".scratch"
+      "file": "$HOME/.scratch"
     },
     {
-      "scope": "HOME",
-      "object_path": "Scratch"
+      "file": "$HOME/Scratch"
     }
   ]
 }

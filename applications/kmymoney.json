@@ -3,12 +3,10 @@
   "executable": "kmymoney",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".aqbanking"
+      "file": "$HOME/.aqbanking"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "kmymoney"
+      "file": "$XDG_CONFIG_HOME/kmymoney"
     }
   ]
 }

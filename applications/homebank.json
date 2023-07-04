@@ -1,10 +1,9 @@
 {
-  "name": "HomeBank",
-  "executable": "homebank",
+  "name": "$HOMEBank",
+  "executable": "$HOMEbank",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "homebank"
+      "file": "$XDG_CONFIG_HOME/homebank"
     }
   ]
 }

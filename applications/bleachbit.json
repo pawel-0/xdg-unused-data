@@ -3,8 +3,7 @@
   "executable": "bleachbit",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "bleachbit"
+      "file": "$XDG_CONFIG_HOME/bleachbit"
     }
   ]
 }

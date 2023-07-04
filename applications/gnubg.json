@@ -3,8 +3,7 @@
   "executable": "gnubg",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".gnubg"
+      "file": "$HOME/.gnubg"
     }
   ]
 }

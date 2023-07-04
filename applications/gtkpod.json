@@ -3,8 +3,7 @@
   "executable": "gtkpod",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".gtkpod"
+      "file": "$HOME/.gtkpod"
     }
   ]
 }

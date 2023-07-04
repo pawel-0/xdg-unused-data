@@ -3,8 +3,7 @@
   "executable": "hedgewars",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".hedgewars"
+      "file": "$HOME/.hedgewars"
     }
   ]
 }

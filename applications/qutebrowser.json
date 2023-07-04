@@ -3,16 +3,13 @@
   "executable": "qutebrowser",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "qutebrowser"
+      "file": "$XDG_CACHE_HOME/qutebrowser"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "qutebrowser"
+      "file": "$XDG_CONFIG_HOME/qutebrowser"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "qutebrowser "
+      "file": "$XDG_DATA_HOME/qutebrowser "
     }
   ]
 }

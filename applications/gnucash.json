@@ -3,12 +3,10 @@
   "executable": "gnucash",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "gnucash"
+      "file": "$XDG_CONFIG_HOME/gnucash"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "gnucash"
+      "file": "$XDG_DATA_HOME/gnucash"
     }
   ]
 }

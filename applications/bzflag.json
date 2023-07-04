@@ -3,8 +3,7 @@
   "executable": "bzflag",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".bzf"
+      "file": "$HOME/.bzf"
     }
   ]
 }

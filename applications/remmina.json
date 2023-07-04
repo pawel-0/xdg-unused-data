@@ -3,16 +3,13 @@
   "executable": "remmina",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "remmina"
+      "file": "$XDG_CACHE_HOME/remmina"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "remmina"
+      "file": "$XDG_CONFIG_HOME/remmina"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "remmina"
+      "file": "$XDG_DATA_HOME/remmina"
     }
   ]
 }

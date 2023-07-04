@@ -3,12 +3,10 @@
   "executable": "twinkle",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".twinkle"
+      "file": "$HOME/.twinkle"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "twinkle"
+      "file": "$XDG_CACHE_HOME/twinkle"
     }
   ]
 }

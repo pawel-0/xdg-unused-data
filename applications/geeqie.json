@@ -3,16 +3,13 @@
   "executable": "geeqie",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "geeqie"
+      "file": "$XDG_CACHE_HOME/geeqie"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "geeqie"
+      "file": "$XDG_CONFIG_HOME/geeqie"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "geeqie "
+      "file": "$XDG_DATA_HOME/geeqie "
     }
   ]
 }

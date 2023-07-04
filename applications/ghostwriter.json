@@ -3,12 +3,10 @@
   "executable": "ghostwriter",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "ghostwriter"
+      "file": "$XDG_CONFIG_HOME/ghostwriter"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "ghostwriter "
+      "file": "$XDG_DATA_HOME/ghostwriter "
     }
   ]
 }

@@ -3,12 +3,10 @@
   "executable": "subl",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "sublime-text"
+      "file": "$XDG_CONFIG_HOME/sublime-text"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "sublime-text"
+      "file": "$XDG_CACHE_HOME/sublime-text"
     }
   ]
 }

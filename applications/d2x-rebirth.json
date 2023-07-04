@@ -3,8 +3,7 @@
   "executable": "d2x-rebirth",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".d2x-rebirth"
+      "file": "$HOME/.d2x-rebirth"
     }
   ]
 }

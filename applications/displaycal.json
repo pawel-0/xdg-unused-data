@@ -3,12 +3,10 @@
   "executable": "displaycal",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "DisplayCAL"
+      "file": "$XDG_CONFIG_HOME/DisplayCAL"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "DisplayCAL "
+      "file": "$XDG_DATA_HOME/DisplayCAL "
     }
   ]
 }

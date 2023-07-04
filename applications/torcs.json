@@ -3,8 +3,7 @@
   "executable": "torcs",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".torcs"
+      "file": "$HOME/.torcs"
     }
   ]
 }

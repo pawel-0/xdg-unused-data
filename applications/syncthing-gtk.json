@@ -3,8 +3,10 @@
   "executable": "syncthing-gtk",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "syncthing;syncthing-gtk"
+      "file": "$XDG_CONFIG_HOME/syncthing"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/syncthing-gtk"
     }
   ]
 }

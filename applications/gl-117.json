@@ -3,8 +3,7 @@
   "executable": "gl-117",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".gl-117"
+      "file": "$HOME/.gl-117"
     }
   ]
 }

@@ -3,12 +3,10 @@
   "executable": "riseup-vpn",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "RiseupVPN"
+      "file": "$XDG_CACHE_HOME/RiseupVPN"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "leap"
+      "file": "$XDG_CONFIG_HOME/leap"
     }
   ]
 }

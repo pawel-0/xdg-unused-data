@@ -3,8 +3,7 @@
   "executable": "swell-foop",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "swell-foop "
+      "file": "$XDG_DATA_HOME/swell-foop "
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "teeworlds",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "teeworlds "
+      "file": "$XDG_DATA_HOME/teeworlds "
     }
   ]
 }

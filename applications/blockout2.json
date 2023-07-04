@@ -3,8 +3,7 @@
   "executable": "blockout2",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".bl2"
+      "file": "$HOME/.bl2"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "gxneur",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".xneur"
+      "file": "$HOME/.xneur"
     }
   ]
 }

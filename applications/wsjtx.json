@@ -3,12 +3,10 @@
   "executable": "wsjtx",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "WSJT-X.ini"
+      "file": "$XDG_CONFIG_HOME/WSJT-X.ini"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "WSJT-X "
+      "file": "$XDG_DATA_HOME/WSJT-X "
     }
   ]
 }

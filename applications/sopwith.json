@@ -3,8 +3,7 @@
   "executable": "sopwith",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "SDL Sopwith "
+      "file": "$XDG_DATA_HOME/SDL Sopwith "
     }
   ]
 }

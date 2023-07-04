@@ -3,12 +3,10 @@
   "executable": "xgnokii",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "gnokii"
+      "file": "$XDG_CONFIG_HOME/gnokii"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "gnokii "
+      "file": "$XDG_DATA_HOME/gnokii "
     }
   ]
 }

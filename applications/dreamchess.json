@@ -3,8 +3,7 @@
   "executable": "dreamchess",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".dreamchess"
+      "file": "$HOME/.dreamchess"
     }
   ]
 }

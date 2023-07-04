@@ -3,8 +3,7 @@
   "executable": "stopmotion",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".stopmotion"
+      "file": "$HOME/.stopmotion"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "ri-li",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".ri-li.pref"
+      "file": "$HOME/.ri-li.pref"
     }
   ]
 }

@@ -3,16 +3,13 @@
   "executable": "goldendict",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "goldendict"
+      "file": "$XDG_CACHE_HOME/goldendict"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "goldendict"
+      "file": "$XDG_CONFIG_HOME/goldendict"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "goldendict "
+      "file": "$XDG_DATA_HOME/goldendict "
     }
   ]
 }

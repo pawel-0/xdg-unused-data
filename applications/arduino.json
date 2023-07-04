@@ -3,12 +3,10 @@
   "executable": "arduino",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": "Arduino"
+      "file": "$HOME/Arduino"
     },
     {
-      "scope": "HOME",
-      "object_path": ".arduino15"
+      "file": "$HOME/.arduino15"
     }
   ]
 }

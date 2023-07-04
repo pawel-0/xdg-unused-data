@@ -3,8 +3,7 @@
   "executable": "eog",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "eog"
+      "file": "$XDG_CONFIG_HOME/eog"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "swami",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "swami"
+      "file": "$XDG_CACHE_HOME/swami"
     }
   ]
 }

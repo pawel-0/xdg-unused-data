@@ -3,16 +3,13 @@
   "executable": "copyq",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "deepin"
+      "file": "$XDG_CACHE_HOME/deepin"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "copyq"
+      "file": "$XDG_CONFIG_HOME/copyq"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "copyq"
+      "file": "$XDG_DATA_HOME/copyq"
     }
   ]
 }

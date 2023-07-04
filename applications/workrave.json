@@ -3,8 +3,7 @@
   "executable": "workrave",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".workrave"
+      "file": "$HOME/.workrave"
     }
   ]
 }

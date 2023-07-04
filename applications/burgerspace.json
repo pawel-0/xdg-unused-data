@@ -3,8 +3,7 @@
   "executable": "burgerspace",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".burgerspace"
+      "file": "$HOME/.burgerspace"
     }
   ]
 }

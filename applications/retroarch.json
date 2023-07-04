@@ -3,8 +3,7 @@
   "executable": "retroarch",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "retroarch"
+      "file": "$XDG_CONFIG_HOME/retroarch"
     }
   ]
 }

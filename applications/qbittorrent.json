@@ -3,16 +3,13 @@
   "executable": "qbittorrent",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "qBittorrent"
+      "file": "$XDG_CACHE_HOME/qBittorrent"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "qBittorrent"
+      "file": "$XDG_CONFIG_HOME/qBittorrent"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "qBittorrent "
+      "file": "$XDG_DATA_HOME/qBittorrent "
     }
   ]
 }

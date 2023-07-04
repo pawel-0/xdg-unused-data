@@ -3,8 +3,7 @@
   "executable": "gnome-klotski",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "gnome-klotski "
+      "file": "$XDG_DATA_HOME/gnome-klotski "
     }
   ]
 }

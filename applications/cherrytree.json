@@ -3,8 +3,7 @@
   "executable": "cherrytree",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "cherrytree"
+      "file": "$XDG_CONFIG_HOME/cherrytree"
     }
   ]
 }

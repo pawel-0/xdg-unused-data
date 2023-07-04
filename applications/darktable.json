@@ -3,12 +3,10 @@
   "executable": "darktable",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "darktable"
+      "file": "$XDG_CACHE_HOME/darktable"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "darktable"
+      "file": "$XDG_CONFIG_HOME/darktable"
     }
   ]
 }

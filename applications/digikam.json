@@ -3,8 +3,7 @@
   "executable": "digikam",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "digikamrc"
+      "file": "$XDG_CONFIG_HOME/digikamrc"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "angrydd",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".angryddrc"
+      "file": "$HOME/.angryddrc"
     }
   ]
 }

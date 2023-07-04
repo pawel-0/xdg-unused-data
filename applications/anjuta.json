@@ -3,12 +3,10 @@
   "executable": "anjuta",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "anjuta"
+      "file": "$XDG_CACHE_HOME/anjuta"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "anjuta"
+      "file": "$XDG_CONFIG_HOME/anjuta"
     }
   ]
 }

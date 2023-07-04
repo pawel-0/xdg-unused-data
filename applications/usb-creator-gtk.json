@@ -3,8 +3,7 @@
   "executable": "usb-creator-gtk",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "usb-creator.log"
+      "file": "$XDG_CACHE_HOME/usb-creator.log"
     }
   ]
 }

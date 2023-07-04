@@ -3,8 +3,7 @@
   "executable": "codium",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "VSCodium"
+      "file": "$XDG_CONFIG_HOME/VSCodium"
     }
   ]
 }

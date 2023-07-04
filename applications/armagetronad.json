@@ -3,8 +3,7 @@
   "executable": "armagetronad",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".armagetronad"
+      "file": "$HOME/.armagetronad"
     }
   ]
 }

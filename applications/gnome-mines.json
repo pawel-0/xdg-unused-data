@@ -3,8 +3,7 @@
   "executable": "gnome-mines",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "gnome-mines "
+      "file": "$XDG_DATA_HOME/gnome-mines "
     }
   ]
 }

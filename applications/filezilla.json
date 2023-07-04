@@ -3,12 +3,10 @@
   "executable": "filezilla",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "filezilla"
+      "file": "$XDG_CACHE_HOME/filezilla"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "filezilla"
+      "file": "$XDG_CONFIG_HOME/filezilla"
     }
   ]
 }

@@ -3,12 +3,10 @@
   "executable": "rhythmbox",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "rhythmbox"
+      "file": "$XDG_CACHE_HOME/rhythmbox"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "rhythmbox"
+      "file": "$XDG_DATA_HOME/rhythmbox"
     }
   ]
 }

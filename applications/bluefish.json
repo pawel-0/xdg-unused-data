@@ -3,8 +3,7 @@
   "executable": "bluefish",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".bluefish"
+      "file": "$HOME/.bluefish"
     }
   ]
 }

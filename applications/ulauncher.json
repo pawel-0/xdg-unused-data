@@ -3,16 +3,13 @@
   "executable": "ulauncher",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "ulauncher"
+      "file": "$XDG_CONFIG_HOME/ulauncher"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "ulauncher"
+      "file": "$XDG_CACHE_HOME/ulauncher"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "ulauncher_cache"
+      "file": "$XDG_CACHE_HOME/ulauncher_cache"
     }
   ]
 }

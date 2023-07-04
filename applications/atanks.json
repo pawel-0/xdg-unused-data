@@ -3,8 +3,7 @@
   "executable": "atanks",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".atanks"
+      "file": "$HOME/.atanks"
     }
   ]
 }

@@ -15,10 +15,10 @@ COLOR_XA_YELLOW="\033[33m"
 COLOR_XA_BLUE="\033[34m"
 
 main(){
-    PARSED_JSON=$(jq -r '.name as $name | .executable as $executable | .locations[] | "\($name),\($executable),\(.scope),\(.object_path)"' "$APPLICATION_JSON_DIRECTORY"/*json)
+    PARSED_JSON=$(jq -r '.name as $name | .executable as $executable | .locations[] | "\($name),\($executable),\(.file)"' "$APPLICATION_JSON_DIRECTORY"/*.json)
     
-    while IFS="," read -r APP_NAME APP_EXECUTABLE APP_SCOPE APP_OBJECT_PATH_REL; do 
-        check_application "$APP_NAME" "$APP_SCOPE" "$APP_OBJECT_PATH_REL" "$APP_EXECUTABLE"    
+    while IFS="," read -r APP_NAME APP_EXECUTABLE FILE_PATH; do 
+        check_application "$APP_NAME" "$APP_EXECUTABLE" $FILE_PATH
     done <<< "$PARSED_JSON"
 
     info_output
@@ -27,21 +27,19 @@ main(){
 
 check_application(){
     APP_NAME="$1"
-    APP_SCOPE="$2"
-    APP_OBJECT_PATH_REL="$3"
-    APP_EXECUTABLE="$4"
-    APP_OBJECT_PATH_ABS="${!APP_SCOPE}/$APP_OBJECT_PATH_REL"
-
-    if check_delete_file "$APP_EXECUTABLE" "$APP_OBJECT_PATH_ABS"; then
-        XA_OBJECT_SIZE=$(\du -0 -b -s "$APP_OBJECT_PATH_ABS" 2> /dev/null | cut -f1)
+    APP_EXECUTABLE="$2"
+    FILE_PATH=$(echo "$3" | envsubst)
+   
+    if check_delete_file "$APP_EXECUTABLE" "$FILE_PATH"; then
+        XA_OBJECT_SIZE=$(\du -0 -b -s "$FILE_PATH" 2> /dev/null | cut -f1)
         TOTAL_FOUND_FILE_SIZE=$((TOTAL_FOUND_FILE_SIZE+XA_OBJECT_SIZE))
         TOTAL_FOUND_FILE_COUNT=$((TOTAL_FOUND_FILE_COUNT+1))
-        FOUND_APP_PATHES+=( "$APP_OBJECT_PATH_ABS" )
+        FOUND_APP_PATHES+=( "$FILE_PATH" )
 
         if $OPTION_RAW; then
-            printf -v APP_OUTPUT_LOC "%s\n" "$APP_OBJECT_PATH_ABS"
+            printf -v APP_OUTPUT_LOC "%s\n" "$FILE_PATH"
         else
-            printf -v APP_OUTPUT_LOC "[$COLOR_XA_GREEN%s$COLOR_XA_RESET]: %s ($COLOR_XA_BLUE%s$COLOR_XA_RESET)\n" "$APP_NAME" "$APP_OBJECT_PATH_ABS" "$(bytes_to_human_readable "$XA_OBJECT_SIZE")"
+            printf -v APP_OUTPUT_LOC "[$COLOR_XA_GREEN%s$COLOR_XA_RESET]: %s ($COLOR_XA_BLUE%s$COLOR_XA_RESET)\n" "$APP_NAME" "$FILE_PATH" "$(bytes_to_human_readable "$XA_OBJECT_SIZE")"
         fi
 
          APP_OUTPUT="$APP_OUTPUT""$APP_OUTPUT_LOC"
@@ -190,6 +188,14 @@ check_delete_file(){
 
     return 1
 }
+
+apply_shell_expansion() {
+    data="$1"
+    delimiter="__apply_shell_expansion_delimiter__"
+    command=$(printf "cat <<%s\n%s\n%s" "$delimiter" "$data" "$delimiter")
+    eval "$command"
+}
+
 
 requirement_check
 manage_flags "$@"

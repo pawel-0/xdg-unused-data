@@ -3,12 +3,10 @@
   "executable": "basket",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "basketrc"
+      "file": "$XDG_CONFIG_HOME/basketrc"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "basket "
+      "file": "$XDG_DATA_HOME/basket "
     }
   ]
 }

@@ -3,8 +3,10 @@
   "executable": "qstopmotion",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": "log_qstopmotion.txt;.qstopmotion"
+      "file": "$HOME/log_qstopmotion.txt"
+    },
+    {
+      "file": "$HOME/.qstopmotion"
     }
   ]
 }

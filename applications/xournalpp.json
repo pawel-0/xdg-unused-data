@@ -3,12 +3,10 @@
   "executable": "xournalpp",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "xournalpp"
+      "file": "$XDG_CACHE_HOME/xournalpp"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "xournalpp"
+      "file": "$XDG_CONFIG_HOME/xournalpp"
     }
   ]
 }

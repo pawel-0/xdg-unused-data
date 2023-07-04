@@ -3,8 +3,7 @@
   "executable": "amoebax",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "amoebax"
+      "file": "$XDG_CONFIG_HOME/amoebax"
     }
   ]
 }

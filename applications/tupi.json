@@ -3,8 +3,7 @@
   "executable": "tupi",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".tupi"
+      "file": "$HOME/.tupi"
     }
   ]
 }

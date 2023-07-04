@@ -3,16 +3,13 @@
   "executable": "cool-retro-term",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "cool-retro-term"
+      "file": "$XDG_CACHE_HOME/cool-retro-term"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "cool-retro-term"
+      "file": "$XDG_CONFIG_HOME/cool-retro-term"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "cool-retro-term"
+      "file": "$XDG_DATA_HOME/cool-retro-term"
     }
   ]
 }

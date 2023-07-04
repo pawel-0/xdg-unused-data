@@ -3,16 +3,13 @@
   "executable": "formiko",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "formiko"
+      "file": "$XDG_CACHE_HOME/formiko"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "formiko.ini"
+      "file": "$XDG_CONFIG_HOME/formiko.ini"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "formiko "
+      "file": "$XDG_DATA_HOME/formiko "
     }
   ]
 }

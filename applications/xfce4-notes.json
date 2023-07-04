@@ -3,8 +3,7 @@
   "executable": "xfce4-notes",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "notes "
+      "file": "$XDG_DATA_HOME/notes "
     }
   ]
 }

@@ -3,12 +3,10 @@
   "executable": "quodlibet",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "quodlibet"
+      "file": "$XDG_CACHE_HOME/quodlibet"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "quodlibet"
+      "file": "$XDG_CONFIG_HOME/quodlibet"
     }
   ]
 }

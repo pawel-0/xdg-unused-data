@@ -3,12 +3,10 @@
   "executable": "deepin-screen-recorder",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".deepin-screen-recorder"
+      "file": "$HOME/.deepin-screen-recorder"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "deepin"
+      "file": "$XDG_CONFIG_HOME/deepin"
     }
   ]
 }

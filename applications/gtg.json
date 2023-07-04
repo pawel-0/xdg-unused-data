@@ -3,12 +3,10 @@
   "executable": "gtg",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "gtg"
+      "file": "$XDG_CONFIG_HOME/gtg"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "gtg "
+      "file": "$XDG_DATA_HOME/gtg "
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "abe",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".abe"
+      "file": "$HOME/.abe"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "convertall",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".convertall"
+      "file": "$HOME/.convertall"
     }
   ]
 }

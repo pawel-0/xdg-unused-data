@@ -3,8 +3,7 @@
   "executable": "xiphos",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".xiphos"
+      "file": "$HOME/.xiphos"
     }
   ]
 }

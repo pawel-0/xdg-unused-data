@@ -3,16 +3,13 @@
   "executable": "ephoto",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".elementary"
+      "file": "$HOME/.elementary"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "efreet"
+      "file": "$XDG_CACHE_HOME/efreet"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "ephoto"
+      "file": "$XDG_CONFIG_HOME/ephoto"
     }
   ]
 }

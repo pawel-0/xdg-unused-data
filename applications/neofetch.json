@@ -3,8 +3,7 @@
   "executable": "neofetch",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "neofetch"
+      "file": "$XDG_CONFIG_HOME/neofetch"
     }
   ]
 }

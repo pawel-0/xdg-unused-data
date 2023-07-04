@@ -3,8 +3,7 @@
   "executable": "trophy",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".trophy"
+      "file": "$HOME/.trophy"
     }
   ]
 }

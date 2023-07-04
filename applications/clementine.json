@@ -3,12 +3,10 @@
   "executable": "clementine",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "Clementine"
+      "file": "$XDG_CACHE_HOME/Clementine"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "Clementine"
+      "file": "$XDG_CONFIG_HOME/Clementine"
     }
   ]
 }

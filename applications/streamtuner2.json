@@ -3,12 +3,10 @@
   "executable": "streamtuner2",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "streamtuner2"
+      "file": "$XDG_CACHE_HOME/streamtuner2"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "streamtuner2"
+      "file": "$XDG_CONFIG_HOME/streamtuner2"
     }
   ]
 }

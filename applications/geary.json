@@ -3,8 +3,7 @@
   "executable": "geary",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "geary"
+      "file": "$XDG_CONFIG_HOME/geary"
     }
   ]
 }

@@ -3,8 +3,10 @@
   "executable": "gretl",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".gretl;gretl"
+      "file": "$HOME/.gretl"
+    },
+    {
+      "file": "$HOME/gretl"
     }
   ]
 }

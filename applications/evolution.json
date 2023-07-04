@@ -3,12 +3,10 @@
   "executable": "evolution",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "evolution"
+      "file": "$XDG_CACHE_HOME/evolution"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "evolution"
+      "file": "$XDG_CONFIG_HOME/evolution"
     }
   ]
 }

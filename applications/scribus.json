@@ -3,8 +3,7 @@
   "executable": "scribus",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "scribus"
+      "file": "$XDG_CONFIG_HOME/scribus"
     }
   ]
 }

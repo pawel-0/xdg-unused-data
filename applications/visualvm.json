@@ -3,12 +3,10 @@
   "executable": "visualvm",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".visualvm"
+      "file": "$HOME/.visualvm"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "visualvm"
+      "file": "$XDG_CACHE_HOME/visualvm"
     }
   ]
 }

@@ -3,8 +3,7 @@
   "executable": "xscorch",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".xscorch"
+      "file": "$HOME/.xscorch"
     }
   ]
 }

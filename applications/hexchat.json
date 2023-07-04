@@ -3,8 +3,7 @@
   "executable": "hexchat",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "hexchat"
+      "file": "$XDG_CONFIG_HOME/hexchat"
     }
   ]
 }

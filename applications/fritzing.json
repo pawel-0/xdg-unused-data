@@ -3,8 +3,7 @@
   "executable": "fritzing",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "Fritzing"
+      "file": "$XDG_CONFIG_HOME/Fritzing"
     }
   ]
 }

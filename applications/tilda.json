@@ -3,12 +3,10 @@
   "executable": "tilda",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "tilda"
+      "file": "$XDG_CACHE_HOME/tilda"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "tilda"
+      "file": "$XDG_CONFIG_HOME/tilda"
     }
   ]
 }

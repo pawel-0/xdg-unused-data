@@ -3,8 +3,7 @@
   "executable": "stella",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "stella"
+      "file": "$XDG_CONFIG_HOME/stella"
     }
   ]
 }

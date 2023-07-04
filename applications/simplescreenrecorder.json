@@ -3,8 +3,7 @@
   "executable": "simplescreenrecorder",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".ssr"
+      "file": "$HOME/.ssr"
     }
   ]
 }

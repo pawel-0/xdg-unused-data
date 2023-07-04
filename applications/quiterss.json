@@ -3,16 +3,13 @@
   "executable": "quiterss",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "QuiteRss"
+      "file": "$XDG_CACHE_HOME/QuiteRss"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "QuiteRss"
+      "file": "$XDG_CONFIG_HOME/QuiteRss"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "QuiteRss "
+      "file": "$XDG_DATA_HOME/QuiteRss "
     }
   ]
 }

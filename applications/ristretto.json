@@ -3,8 +3,7 @@
   "executable": "ristretto",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "ristretto "
+      "file": "$XDG_DATA_HOME/ristretto "
     }
   ]
 }

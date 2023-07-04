@@ -3,8 +3,7 @@
   "executable": "winff",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".winff"
+      "file": "$HOME/.winff"
     }
   ]
 }

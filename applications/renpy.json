@@ -3,8 +3,7 @@
   "executable": "renpy",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".renpy"
+      "file": "$HOME/.renpy"
     }
   ]
 }

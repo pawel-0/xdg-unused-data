@@ -3,12 +3,10 @@
   "executable": "qimgv",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "qimgv"
+      "file": "$XDG_CACHE_HOME/qimgv"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "qimgv"
+      "file": "$XDG_CONFIG_HOME/qimgv"
     }
   ]
 }

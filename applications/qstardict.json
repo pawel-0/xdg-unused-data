@@ -3,20 +3,16 @@
   "executable": "qstardict",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".qstardict"
+      "file": "$HOME/.qstardict"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "qstardict"
+      "file": "$XDG_CACHE_HOME/qstardict"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "qstardict"
+      "file": "$XDG_CONFIG_HOME/qstardict"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "qstardict "
+      "file": "$XDG_DATA_HOME/qstardict "
     }
   ]
 }

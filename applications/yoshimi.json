@@ -3,16 +3,13 @@
   "executable": "yoshimi",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".yoshimi_history"
+      "file": "$HOME/.yoshimi_history"
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "yoshimi"
+      "file": "$XDG_CONFIG_HOME/yoshimi"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "yoshimi"
+      "file": "$XDG_DATA_HOME/yoshimi"
     }
   ]
 }

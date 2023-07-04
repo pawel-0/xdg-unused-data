@@ -3,8 +3,7 @@
   "executable": "ckb-next",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "ckb-next"
+      "file": "$XDG_CONFIG_HOME/ckb-next"
     }
   ]
 }

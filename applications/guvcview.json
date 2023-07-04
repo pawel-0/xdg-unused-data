@@ -3,8 +3,7 @@
   "executable": "guvcview",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "guvcview2"
+      "file": "$XDG_CONFIG_HOME/guvcview2"
     }
   ]
 }

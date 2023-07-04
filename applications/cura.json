@@ -3,16 +3,13 @@
   "executable": "cura",
   "locations": [
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "cura Ultimaker B.V."
+      "file": "$XDG_CACHE_HOME/cura Ultimaker B.V."
     },
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "cura"
+      "file": "$XDG_CONFIG_HOME/cura"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "cura"
+      "file": "$XDG_DATA_HOME/cura"
     }
   ]
 }

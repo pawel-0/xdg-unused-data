@@ -3,8 +3,7 @@
   "executable": "qmmp",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".qmmp"
+      "file": "$HOME/.qmmp"
     }
   ]
 }

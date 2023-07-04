@@ -3,8 +3,7 @@
   "executable": "libreoffice",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "libreoffice"
+      "file": "$XDG_CONFIG_HOME/libreoffice"
     }
   ]
 }

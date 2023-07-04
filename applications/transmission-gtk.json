@@ -3,8 +3,7 @@
   "executable": "transmission-gtk",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "transmission"
+      "file": "$XDG_CONFIG_HOME/transmission"
     }
   ]
 }

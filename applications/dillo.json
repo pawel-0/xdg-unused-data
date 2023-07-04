@@ -3,8 +3,7 @@
   "executable": "dillo",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".dillo"
+      "file": "$HOME/.dillo"
     }
   ]
 }

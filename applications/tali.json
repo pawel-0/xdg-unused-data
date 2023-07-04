@@ -3,8 +3,7 @@
   "executable": "tali",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "tali "
+      "file": "$XDG_DATA_HOME/tali "
     }
   ]
 }

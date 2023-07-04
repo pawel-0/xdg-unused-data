@@ -3,12 +3,13 @@
   "executable": "davmail",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": "davmail.log;.davmail.properties"
+      "file": "$HOME/davmail.log"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "JNA"
+      "file": "$HOME/.davmail.properties"
+    },
+    {
+      "file": "$XDG_CACHE_HOME/JNA"
     }
   ]
 }

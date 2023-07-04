@@ -3,8 +3,7 @@
   "executable": "gnome-commander",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "gnome-commander"
+      "file": "$XDG_CONFIG_HOME/gnome-commander"
     }
   ]
 }

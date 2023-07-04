@@ -3,8 +3,7 @@
   "executable": "shutter",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".shutter"
+      "file": "$HOME/.shutter"
     }
   ]
 }

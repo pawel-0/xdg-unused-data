@@ -3,8 +3,7 @@
   "executable": "thonny",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "Thonny"
+      "file": "$XDG_CONFIG_HOME/Thonny"
     }
   ]
 }

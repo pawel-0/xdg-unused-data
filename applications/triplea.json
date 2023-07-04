@@ -3,8 +3,7 @@
   "executable": "triplea",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": "triplea"
+      "file": "$HOME/triplea"
     }
   ]
 }

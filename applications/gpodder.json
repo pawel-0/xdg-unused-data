@@ -3,16 +3,13 @@
   "executable": "gpodder",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": "gPodder"
+      "file": "$HOME/gPodder"
     },
     {
-      "scope": "XDG_CACHE_HOME",
-      "object_path": "gpodder"
+      "file": "$XDG_CACHE_HOME/gpodder"
     },
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "gpodder "
+      "file": "$XDG_DATA_HOME/gpodder "
     }
   ]
 }

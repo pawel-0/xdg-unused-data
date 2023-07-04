@@ -3,8 +3,7 @@
   "executable": "thunar",
   "locations": [
     {
-      "scope": "XDG_CONFIG_HOME",
-      "object_path": "Thunar"
+      "file": "$XDG_CONFIG_HOME/Thunar"
     }
   ]
 }

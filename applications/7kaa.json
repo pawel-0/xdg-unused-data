@@ -3,8 +3,7 @@
   "executable": "7kaa",
   "locations": [
     {
-      "scope": "XDG_DATA_HOME",
-      "object_path": "7kfans.com "
+      "file": "$XDG_DATA_HOME/7kfans.com "
     }
   ]
 }

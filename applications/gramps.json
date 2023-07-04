@@ -3,8 +3,7 @@
   "executable": "gramps",
   "locations": [
     {
-      "scope": "HOME",
-      "object_path": ".gramps"
+      "file": "$HOME/.gramps"
     }
   ]
 }
