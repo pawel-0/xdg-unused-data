@@ -18,7 +18,7 @@ main(){
     PARSED_JSON=$(jq -r '.name as $name | .executable as $executable | .locations[] | "\($name),\($executable),\(.file)"' "$APPLICATION_JSON_DIRECTORY"/*.json)
     
     while IFS="," read -r APP_NAME APP_EXECUTABLE FILE_PATH; do 
-        check_application "$APP_NAME" "$APP_EXECUTABLE" $FILE_PATH
+        check_application "$APP_NAME" "$APP_EXECUTABLE" "$FILE_PATH"
     done <<< "$PARSED_JSON"
 
     info_output
@@ -31,7 +31,7 @@ check_application(){
     FILE_PATH=$(echo "$3" | envsubst)
    
     if check_delete_file "$APP_EXECUTABLE" "$FILE_PATH"; then
-        XA_OBJECT_SIZE=$(\du -0 -b -s "$FILE_PATH" 2> /dev/null | cut -f1)
+        XA_OBJECT_SIZE=$(\du -0 -b -s "$FILE_PATH" 2> /dev/null | \cut -f1)
         TOTAL_FOUND_FILE_SIZE=$((TOTAL_FOUND_FILE_SIZE+XA_OBJECT_SIZE))
         TOTAL_FOUND_FILE_COUNT=$((TOTAL_FOUND_FILE_COUNT+1))
         FOUND_APP_PATHES+=( "$FILE_PATH" )
@@ -97,7 +97,7 @@ requirement_check(){
 
     if [ -n "$MISSING_XDG" ]; then
         printf "$COLOR_XA_RED%s\n\n$COLOR_XA_RESET" "Missing XDG environment variables detected."
-        printf "$COLOR_XA_YELLOW%s %b$COLOR_XA_RESET\n" "Please add the following variables in your shell configuration:" "$MISSING_XDG"
+        printf "$COLOR_XA_YELLOW%s %b$COLOR_XA_RESET\n" "Please configure the following variables in your shell configuration:" "$MISSING_XDG"
 
         exit 1
     fi
@@ -178,7 +178,6 @@ bytes_to_human_readable() {
 }
 
 check_delete_file(){
-    #return $(($RANDOM%2))
     APP_EXECUTABLE="$1"
     APP_OBJECT_PATH="$2"
 
@@ -188,14 +187,6 @@ check_delete_file(){
 
     return 1
 }
-
-apply_shell_expansion() {
-    data="$1"
-    delimiter="__apply_shell_expansion_delimiter__"
-    command=$(printf "cat <<%s\n%s\n%s" "$delimiter" "$data" "$delimiter")
-    eval "$command"
-}
-
 
 requirement_check
 manage_flags "$@"
