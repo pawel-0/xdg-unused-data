@@ -1,0 +1,12 @@
+{
+  "name": "go",
+  "executable": "go",
+  "locations": [
+    {
+      "file": "$HOME/go"
+    },
+    {
+      "file": "$GOPATH"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "xbindkeys",
+  "executable": "xbindkeys",
+  "locations": [
+    {
+      "file": "$HOME/.xbindkeysrc"
+    },
+    {
+      "file": "$HOME/.xbindkeysrc.scm"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/xbindkeys"
+    }
+  ]
+}

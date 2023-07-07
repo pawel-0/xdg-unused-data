@@ -1,0 +1,12 @@
+{
+  "name": "abook",
+  "executable": "abook",
+  "locations": [
+    {
+      "file": "$HOME/.abook"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/abook"
+    }
+  ]
+}

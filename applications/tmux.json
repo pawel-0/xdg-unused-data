@@ -1,0 +1,12 @@
+{
+  "name": "tmux",
+  "executable": "tmux",
+  "locations": [
+    {
+      "file": "$HOME/.tmux.conf"
+    },
+    {
+      "file": "$HOME/.tmux"
+    }
+  ]
+}

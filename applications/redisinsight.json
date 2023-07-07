@@ -1,0 +1,15 @@
+{
+  "name": "Redis Insight",
+  "executable": "Redis Insight",
+  "locations": [
+    {
+      "file": "$HOME/.redisinsight-v2"
+    },
+    {
+      "file": "$HOME/.redisinsight-preview"
+    },
+    {
+      "file": "$APP_FOLDER_ABSOLUTE_PATH"
+    }
+  ]
+}

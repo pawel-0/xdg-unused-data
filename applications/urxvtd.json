@@ -1,0 +1,12 @@
+{
+  "name": "URxvt",
+  "executable": "urxvtd",
+  "locations": [
+    {
+      "file": "$HOME/.urxvt"
+    },
+    {
+      "file": "$RXVT_SOCKET"
+    }
+  ]
+}

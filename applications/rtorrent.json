@@ -1,0 +1,9 @@
+{
+  "name": "rTorrent",
+  "executable": "rtorrent",
+  "locations": [
+    {
+      "file": "$HOME/.rtorrent.rc"
+    }
+  ]
+}

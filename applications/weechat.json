@@ -1,0 +1,21 @@
+{
+  "name": "weechat",
+  "executable": "weechat",
+  "locations": [
+    {
+      "file": "$HOME/.weechat"
+    },
+    {
+      "file": "$WEECHAT_HOME"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/weechat"
+    },
+    {
+      "file": "$XDG_CACHE_HOME/weechat"
+    },
+    {
+      "file": "$XDG_DATA_HOME/weechat"
+    }
+  ]
+}

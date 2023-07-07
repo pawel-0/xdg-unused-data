@@ -1,0 +1,12 @@
+{
+  "name": "Vagrant",
+  "executable": "vagrant",
+  "locations": [
+    {
+      "file": "$HOME/.vagrant.d"
+    },
+    {
+      "file": "$VAGRANT_HOME"
+    }
+  ]
+}

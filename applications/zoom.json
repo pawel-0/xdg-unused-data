@@ -1,0 +1,12 @@
+{
+  "name": "zoom",
+  "executable": "zoom",
+  "locations": [
+    {
+      "file": "$HOME/.zoom"
+    },
+    {
+      "file": "$SSB_HOME"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "getmail",
+  "executable": "getmail",
+  "locations": [
+    {
+      "file": "$HOME/.getmail"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/getmail"
+    }
+  ]
+}

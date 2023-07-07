@@ -3,6 +3,9 @@
   "executable": "freecad",
   "locations": [
     {
+      "file": "$HOME/.FreeCAD"
+    },
+    {
       "file": "$XDG_CACHE_HOME/FreeCAD"
     },
     {

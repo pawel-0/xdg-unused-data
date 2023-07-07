@@ -3,9 +3,6 @@
   "executable": "arqiver",
   "locations": [
     {
-      "file": "$XDG_CACHE_HOME/deepin"
-    },
-    {
       "file": "$XDG_CONFIG_HOME/arqiver"
     }
   ]

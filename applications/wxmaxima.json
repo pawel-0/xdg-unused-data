@@ -4,6 +4,9 @@
   "locations": [
     {
       "file": "$HOME/.maxima"
+    },
+    {
+      "file": "$MAXIMA_USERDIR"
     }
   ]
 }

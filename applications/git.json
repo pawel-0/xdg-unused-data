@@ -1,0 +1,18 @@
+{
+  "name": "Git",
+  "executable": "git",
+  "locations": [
+    {
+      "file": "$HOME/.gitconfig"
+    },
+    {
+      "file": "$HOME/.gitignore"
+    },
+    {
+      "file": "$HOME/.git-credentials"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/git"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "bazaar",
+  "executable": "bzr",
+  "locations": [
+    {
+      "file": "$HOME/.bzr.log"
+    },
+    {
+      "file": "$HOME/.bzr"
+    },
+    {
+      "file": "$XDG_CACHE_HOME/breezy/brz.log"
+    }
+  ]
+}

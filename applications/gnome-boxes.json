@@ -1,0 +1,15 @@
+{
+  "name": "GNOME Calculator",
+  "executable": "gnome-boxes",
+  "locations": [
+    {
+      "file": "$XDG_DATA_HOME/gnome-boxes"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/gnome-boxes"
+    },
+    {
+      "file": "$XDG_CACHE_HOME/gnome-boxes"
+    }
+  ]
+}

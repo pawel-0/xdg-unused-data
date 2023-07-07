@@ -1,9 +1,0 @@
-{
-  "name": "HandBrake",
-  "executable": "handbrake",
-  "locations": [
-    {
-      "file": "$XDG_CONFIG_HOME/ghb"
-    }
-  ]
-}

@@ -4,6 +4,9 @@
   "locations": [
     {
       "file": "$HOME/.emacs.d"
+    },
+    {
+      "file": "$HOME/.emacs"
     }
   ]
 }

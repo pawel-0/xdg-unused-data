@@ -1,0 +1,21 @@
+{
+  "name": "scummvm",
+  "executable": "scummvm",
+  "locations": [
+    {
+      "file": "$HOME/.scummvmrc"
+    },
+    {
+      "file": "$HOME/.scummvm"
+    },
+    {
+      "file": "$XDG_CACHE_HOME/scummvm"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/scummvm"
+    },
+    {
+      "file": "$XDG_DATA_HOME/scummvm"
+    }
+  ]
+}

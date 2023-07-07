@@ -1,0 +1,18 @@
+{
+  "name": "Alacritty",
+  "executable": "alacritty",
+  "locations": [
+    {
+      "file": "$HOME/.alacritty.yml"
+    },
+    {
+      "file": "$HOME/.alacritty.toml"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/alacritty"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/alacritty.toml"
+    }
+  ]
+}

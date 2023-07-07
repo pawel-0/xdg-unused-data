@@ -4,9 +4,6 @@
   "locations": [
     {
       "file": "$HOME/.deepin-screen-recorder"
-    },
-    {
-      "file": "$XDG_CONFIG_HOME/deepin"
     }
   ]
 }
