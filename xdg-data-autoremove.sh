@@ -25,7 +25,7 @@ main(){
         info_output
         confirm_file_delete
     else
-        printf "No files found\n"
+        $OPTION_RAW || printf "No files found\n"
     fi
 }
 
