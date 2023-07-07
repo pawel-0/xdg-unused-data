@@ -1,6 +1,8 @@
 {
   "name": "BillardGL",
-  "executable": "billard-gl",
+  "executables": [
+    "billard-gl"
+  ],
   "locations": [
     {
       "file": "$HOME/.BillardGL.conf.v7"

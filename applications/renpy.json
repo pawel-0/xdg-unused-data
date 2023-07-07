@@ -1,6 +1,8 @@
 {
   "name": "Ren’Py",
-  "executable": "renpy",
+  "executables": [
+    "renpy"
+  ],
   "locations": [
     {
       "file": "$HOME/.renpy"

@@ -1,6 +1,8 @@
 {
   "name": "Rofi",
-  "executable": "rofi",
+  "executables": [
+    "rofi"
+  ],
   "locations": [
     {
       "file": "$HOME/.rofi.pid"

@@ -1,6 +1,8 @@
 {
   "name": "Stellarium",
-  "executable": "stellarium",
+  "executables": [
+    "stellarium"
+  ],
   "locations": [
     {
       "file": "$HOME/.stellarium"

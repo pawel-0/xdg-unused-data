@@ -1,6 +1,8 @@
 {
   "name": "KmyMoney",
-  "executable": "kmymoney",
+  "executables": [
+    "kmymoney"
+  ],
   "locations": [
     {
       "file": "$HOME/.aqbanking"

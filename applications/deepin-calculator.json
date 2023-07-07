@@ -1,6 +1,8 @@
 {
   "name": "Deepin Calculator",
-  "executable": "deepin-calculator",
+  "executables": [
+    "deepin-calculator"
+  ],
   "locations": [
     {
       "file": "$HOME/.deepin-calculator"

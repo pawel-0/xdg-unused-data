@@ -1,6 +1,8 @@
 {
   "name": "VokoscreenNG",
-  "executable": "vokoscreenNG",
+  "executables": [
+    "vokoscreenNG"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/vokoscreenNG"

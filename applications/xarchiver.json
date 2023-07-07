@@ -1,6 +1,8 @@
 {
   "name": "Xarchiver",
-  "executable": "xarchiver",
+  "executables": [
+    "xarchiver"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/xarchiver"

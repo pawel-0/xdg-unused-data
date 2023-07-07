@@ -1,6 +1,8 @@
 {
   "name": "Advanced Strategic Command",
-  "executable": "asc",
+  "executables": [
+    "asc"
+  ],
   "locations": [
     {
       "file": "$HOME/.asc"

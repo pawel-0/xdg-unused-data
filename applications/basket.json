@@ -1,6 +1,8 @@
 {
   "name": "Basket",
-  "executable": "basket",
+  "executables": [
+    "basket"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/basketrc"

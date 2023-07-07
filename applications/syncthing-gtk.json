@@ -1,6 +1,8 @@
 {
   "name": "Syncthing GTK",
-  "executable": "syncthing-gtk",
+  "executables": [
+    "syncthing-gtk"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/syncthing"

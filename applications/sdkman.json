@@ -1,6 +1,8 @@
 {
   "name": "sdkman",
-  "executable": "sdk",
+  "executables": [
+    "sdk"
+  ],
   "locations": [
     {
       "file": "$HOME/.sdkman"

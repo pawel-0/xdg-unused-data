@@ -1,6 +1,8 @@
 {
   "name": "Back In Time",
-  "executable": "backintime-qt",
+  "executables": [
+    "backintime-qt"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/backintime"

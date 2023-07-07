@@ -1,6 +1,8 @@
 {
   "name": "Gerbera",
-  "executable": "gerbera",
+  "executables": [
+    "gerbera"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/gerbera"

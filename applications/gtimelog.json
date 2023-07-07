@@ -1,6 +1,8 @@
 {
   "name": "GtimeLog",
-  "executable": "gtimelog",
+  "executables": [
+    "gtimelog"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/gtimelog "

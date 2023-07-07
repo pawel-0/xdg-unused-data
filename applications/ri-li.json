@@ -1,6 +1,8 @@
 {
   "name": "Ri-li",
-  "executable": "ri-li",
+  "executables": [
+    "ri-li"
+  ],
   "locations": [
     {
       "file": "$HOME/.ri-li.pref"

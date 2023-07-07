@@ -1,6 +1,8 @@
 {
   "name": "Gramps",
-  "executable": "gramps",
+  "executables": [
+    "gramps"
+  ],
   "locations": [
     {
       "file": "$HOME/.gramps"

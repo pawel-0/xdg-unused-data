@@ -1,6 +1,8 @@
 {
   "name": "Dopewars",
-  "executable": "dopewars",
+  "executables": [
+    "dopewars"
+  ],
   "locations": [
     {
       "file": "$HOME/.dopewars"

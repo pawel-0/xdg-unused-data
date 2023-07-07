@@ -1,6 +1,8 @@
 {
   "name": "BleachBit",
-  "executable": "bleachbit",
+  "executables": [
+    "bleachbit"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/bleachbit"

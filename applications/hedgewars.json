@@ -1,6 +1,8 @@
 {
   "name": "Hedgewars",
-  "executable": "hedgewars",
+  "executables": [
+    "hedgewars"
+  ],
   "locations": [
     {
       "file": "$HOME/.hedgewars"

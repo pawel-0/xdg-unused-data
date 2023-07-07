@@ -1,6 +1,8 @@
 {
   "name": "Godot Engine",
-  "executable": "godot3",
+  "executables": [
+    "godot3"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/godot"

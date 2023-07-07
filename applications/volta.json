@@ -1,6 +1,8 @@
 {
   "name": "Volta",
-  "executable": "volta",
+  "executables": [
+    "volta"
+  ],
   "locations": [
     {
       "file": "$HOME/.volta"

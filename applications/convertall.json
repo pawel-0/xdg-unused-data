@@ -1,6 +1,8 @@
 {
   "name": "ConvertAll",
-  "executable": "convertall",
+  "executables": [
+    "convertall"
+  ],
   "locations": [
     {
       "file": "$HOME/.convertall"

@@ -1,6 +1,8 @@
 {
   "name": "BibleTime",
-  "executable": "bibletime",
+  "executables": [
+    "bibletime"
+  ],
   "locations": [
     {
       "file": "$HOME/.bibletime"

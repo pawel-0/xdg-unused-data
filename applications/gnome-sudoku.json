@@ -1,6 +1,8 @@
 {
   "name": "GNOME Sudoku",
-  "executable": "gnome-sudoku",
+  "executables": [
+    "gnome-sudoku"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/gnome-sudoku "

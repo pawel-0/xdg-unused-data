@@ -1,6 +1,8 @@
 {
   "name": "Flowblade",
-  "executable": "flowblade",
+  "executables": [
+    "flowblade"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/flowblade"

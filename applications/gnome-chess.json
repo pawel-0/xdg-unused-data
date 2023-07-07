@@ -1,6 +1,8 @@
 {
   "name": "GNOME Chess",
-  "executable": "gnome-chess",
+  "executables": [
+    "gnome-chess"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/gnome-chess "

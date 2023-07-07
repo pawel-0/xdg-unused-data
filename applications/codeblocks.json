@@ -1,6 +1,8 @@
 {
   "name": "Code::Blocks",
-  "executable": "codeblocks",
+  "executables": [
+    "codeblocks"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/codeblocks"

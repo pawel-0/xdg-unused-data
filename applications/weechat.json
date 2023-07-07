@@ -1,6 +1,8 @@
 {
   "name": "weechat",
-  "executable": "weechat",
+  "executables": [
+    "weechat"
+  ],
   "locations": [
     {
       "file": "$HOME/.weechat"

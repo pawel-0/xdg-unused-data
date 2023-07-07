@@ -1,6 +1,8 @@
 {
   "name": "digiKam",
-  "executable": "digikam",
+  "executables": [
+    "digikam"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/digikamrc"

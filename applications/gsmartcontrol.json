@@ -1,6 +1,8 @@
 {
   "name": "GsmartControl",
-  "executable": "gsmartcontrol",
+  "executables": [
+    "gsmartcontrol"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/gsmartcontrol"

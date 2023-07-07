@@ -1,6 +1,8 @@
 {
   "name": "QtQR",
-  "executable": "qtqr",
+  "executables": [
+    "qtqr"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/qr-tools"

@@ -1,6 +1,8 @@
 {
   "name": "Unknown Horizons",
-  "executable": "unknown-horizons",
+  "executables": [
+    "unknown-horizons"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/unknown-horizons"

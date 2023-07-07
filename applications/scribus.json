@@ -1,6 +1,8 @@
 {
   "name": "Scribus",
-  "executable": "scribus",
+  "executables": [
+    "scribus"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/scribus"

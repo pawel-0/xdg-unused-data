@@ -1,6 +1,8 @@
 {
   "name": "$HOMEBank",
-  "executable": "$HOMEbank",
+  "executables": [
+    "$HOMEbank"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/homebank"

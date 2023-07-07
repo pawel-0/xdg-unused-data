@@ -1,6 +1,8 @@
 {
   "name": "SuperTuxKart",
-  "executable": "supertuxkart",
+  "executables": [
+    "supertuxkart"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/supertuxkart"

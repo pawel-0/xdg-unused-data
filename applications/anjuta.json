@@ -1,6 +1,8 @@
 {
   "name": "Anjuta",
-  "executable": "anjuta",
+  "executables": [
+    "anjuta"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/anjuta"

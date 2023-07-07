@@ -1,6 +1,8 @@
 {
   "name": "Evolution",
-  "executable": "evolution",
+  "executables": [
+    "evolution"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/evolution"

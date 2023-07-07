@@ -1,6 +1,8 @@
 {
   "name": "zoom",
-  "executable": "zoom",
+  "executables": [
+    "zoom"
+  ],
   "locations": [
     {
       "file": "$HOME/.zoom"

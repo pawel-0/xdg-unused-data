@@ -1,6 +1,8 @@
 {
   "name": "Caja",
-  "executable": "caja",
+  "executables": [
+    "caja"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/caja"

@@ -1,6 +1,8 @@
 {
   "name": "zsh",
-  "executable": "zsh",
+  "executables": [
+    "zsh"
+  ],
   "locations": [
     {
       "file": "$HOME/.zshrc"

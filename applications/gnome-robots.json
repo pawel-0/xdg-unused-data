@@ -1,6 +1,8 @@
 {
   "name": "GNOME Robots",
-  "executable": "gnome-robots",
+  "executables": [
+    "gnome-robots"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/gnome-robots "

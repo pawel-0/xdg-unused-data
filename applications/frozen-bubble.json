@@ -1,6 +1,8 @@
 {
   "name": "Frozen Bubble",
-  "executable": "frozen-bubble",
+  "executables": [
+    "frozen-bubble"
+  ],
   "locations": [
     {
       "file": "$HOME/.frozen-bubble"

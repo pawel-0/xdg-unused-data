@@ -1,6 +1,8 @@
 {
   "name": "URxvt",
-  "executable": "urxvtd",
+  "executables": [
+    "urxvtd"
+  ],
   "locations": [
     {
       "file": "$HOME/.urxvt"

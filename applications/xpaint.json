@@ -1,6 +1,8 @@
 {
   "name": "Xpaint",
-  "executable": "xpaint",
+  "executables": [
+    "xpaint"
+  ],
   "locations": [
     {
       "file": "$HOME/.xpaint"

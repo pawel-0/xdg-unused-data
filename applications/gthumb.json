@@ -1,6 +1,8 @@
 {
   "name": "gThumb",
-  "executable": "gthumb",
+  "executables": [
+    "gthumb"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/gthumb"

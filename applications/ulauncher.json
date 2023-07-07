@@ -1,6 +1,8 @@
 {
   "name": "Ulauncher",
-  "executable": "ulauncher",
+  "executables": [
+    "ulauncher"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/ulauncher"

@@ -1,6 +1,8 @@
 {
   "name": "GNOME Calculator",
-  "executable": "gnome-boxes",
+  "executables": [
+    "gnome-boxes"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/gnome-boxes"

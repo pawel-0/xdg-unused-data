@@ -1,6 +1,9 @@
 {
   "name": "wxMaxima",
-  "executable": "wxmaxima",
+  "executables": [
+    "maxima",
+    "wxmaxima"
+  ],
   "locations": [
     {
       "file": "$HOME/.maxima"

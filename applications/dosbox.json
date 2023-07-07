@@ -1,6 +1,8 @@
 {
   "name": "DOSBox",
-  "executable": "dosbox",
+  "executables": [
+    "dosbox"
+  ],
   "locations": [
     {
       "file": "$HOME/.dosbox"

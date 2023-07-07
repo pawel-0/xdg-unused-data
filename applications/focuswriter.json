@@ -1,6 +1,8 @@
 {
   "name": "FocusWriter",
-  "executable": "focuswriter",
+  "executables": [
+    "focuswriter"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/GottCode"

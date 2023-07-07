@@ -1,6 +1,8 @@
 {
   "name": "Bluefish",
-  "executable": "bluefish",
+  "executables": [
+    "bluefish"
+  ],
   "locations": [
     {
       "file": "$HOME/.bluefish"

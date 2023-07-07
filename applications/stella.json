@@ -1,6 +1,8 @@
 {
   "name": "Stella",
-  "executable": "stella",
+  "executables": [
+    "stella"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/stella"

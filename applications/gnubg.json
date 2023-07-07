@@ -1,6 +1,8 @@
 {
   "name": "GNU Backgammon",
-  "executable": "gnubg",
+  "executables": [
+    "gnubg"
+  ],
   "locations": [
     {
       "file": "$HOME/.gnubg"

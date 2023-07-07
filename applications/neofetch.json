@@ -1,6 +1,8 @@
 {
   "name": "Neofetch",
-  "executable": "neofetch",
+  "executables": [
+    "neofetch"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/neofetch"

@@ -1,6 +1,8 @@
 {
   "name": "gFTP",
-  "executable": "gftp",
+  "executables": [
+    "gftp"
+  ],
   "locations": [
     {
       "file": "$HOME/.gftp"

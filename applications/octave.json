@@ -1,6 +1,8 @@
 {
   "name": "Octave",
-  "executable": "octave",
+  "executables": [
+    "octave"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/octave"

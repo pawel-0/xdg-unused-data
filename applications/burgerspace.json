@@ -1,6 +1,8 @@
 {
   "name": "BurgerSpace",
-  "executable": "burgerspace",
+  "executables": [
+    "burgerspace"
+  ],
   "locations": [
     {
       "file": "$HOME/.burgerspace"

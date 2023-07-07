@@ -1,6 +1,8 @@
 {
   "name": "CopyQ",
-  "executable": "copyq",
+  "executables": [
+    "copyq"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/deepin"

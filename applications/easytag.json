@@ -1,6 +1,8 @@
 {
   "name": "EasyTAG",
-  "executable": "easytag",
+  "executables": [
+    "easytag"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/easytag"

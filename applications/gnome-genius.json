@@ -1,6 +1,8 @@
 {
   "name": "Genius",
-  "executable": "gnome-genius",
+  "executables": [
+    "gnome-genius"
+  ],
   "locations": [
     {
       "file": "$HOME/.genius"

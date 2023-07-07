@@ -1,6 +1,8 @@
 {
   "name": "CherryTree",
-  "executable": "cherrytree",
+  "executables": [
+    "cherrytree"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/cherrytree"

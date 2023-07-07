@@ -1,6 +1,8 @@
 {
   "name": "Tilda",
-  "executable": "tilda",
+  "executables": [
+    "tilda"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/tilda"

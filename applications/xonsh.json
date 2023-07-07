@@ -1,6 +1,8 @@
 {
   "name": "Xonsh",
-  "executable": "xonsh",
+  "executables": [
+    "xonsh"
+  ],
   "locations": [
     {
       "file": "$HOME/.xonshrc"

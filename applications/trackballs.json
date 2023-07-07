@@ -1,6 +1,8 @@
 {
   "name": "Trackballs",
-  "executable": "trackballs",
+  "executables": [
+    "trackballs"
+  ],
   "locations": [
     {
       "file": "$HOME/.trackballs"

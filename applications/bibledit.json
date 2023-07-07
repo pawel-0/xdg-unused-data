@@ -1,6 +1,8 @@
 {
   "name": "Bibledit",
-  "executable": "bibledit",
+  "executables": [
+    "bibledit"
+  ],
   "locations": [
     {
       "file": "$HOME/bibledit"

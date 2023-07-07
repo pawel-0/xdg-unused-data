@@ -1,6 +1,8 @@
 {
   "name": "TROPHY",
-  "executable": "trophy",
+  "executables": [
+    "trophy"
+  ],
   "locations": [
     {
       "file": "$HOME/.trophy"

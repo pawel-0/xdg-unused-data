@@ -1,6 +1,8 @@
 {
   "name": "Gtkpod",
-  "executable": "gtkpod",
+  "executables": [
+    "gtkpod"
+  ],
   "locations": [
     {
       "file": "$HOME/.gtkpod"

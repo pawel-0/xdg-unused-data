@@ -1,6 +1,8 @@
 {
   "name": "Warzone 2100",
-  "executable": "warzone2100",
+  "executables": [
+    "warzone2100"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/warzone2100 "

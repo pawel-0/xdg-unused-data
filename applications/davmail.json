@@ -1,6 +1,8 @@
 {
   "name": "DavMail",
-  "executable": "davmail",
+  "executables": [
+    "davmail"
+  ],
   "locations": [
     {
       "file": "$HOME/davmail.log"

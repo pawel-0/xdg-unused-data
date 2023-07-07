@@ -1,6 +1,8 @@
 {
   "name": "QcomicBook",
-  "executable": "qcomicbook",
+  "executables": [
+    "qcomicbook"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/PawelStolowski"

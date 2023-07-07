@@ -1,6 +1,8 @@
 {
   "name": "Gtick",
-  "executable": "gtick",
+  "executables": [
+    "gtick"
+  ],
   "locations": [
     {
       "file": "$HOME/.gtickrc"

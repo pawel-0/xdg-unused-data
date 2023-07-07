@@ -1,6 +1,8 @@
 {
   "name": "ePhoto",
-  "executable": "ephoto",
+  "executables": [
+    "ephoto"
+  ],
   "locations": [
     {
       "file": "$HOME/.elementary"

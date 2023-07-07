@@ -1,6 +1,8 @@
 {
   "name": "Swami ",
-  "executable": "swami",
+  "executables": [
+    "swami"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/swami"

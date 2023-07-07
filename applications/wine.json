@@ -1,6 +1,8 @@
 {
   "name": "wine",
-  "executable": "wine",
+  "executables": [
+    "wine"
+  ],
   "locations": [
     {
       "file": "$HOME/.wine"

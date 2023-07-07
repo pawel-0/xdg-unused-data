@@ -1,6 +1,8 @@
 {
   "name": "FreePlane",
-  "executable": "freeplane",
+  "executables": [
+    "freeplane"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/freeplane"

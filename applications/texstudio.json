@@ -1,6 +1,8 @@
 {
   "name": "TeXstudio",
-  "executable": "texstudio",
+  "executables": [
+    "texstudio"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/texstudio"

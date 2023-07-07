@@ -1,6 +1,8 @@
 {
   "name": "BZFlag",
-  "executable": "bzflag",
+  "executables": [
+    "bzflag"
+  ],
   "locations": [
     {
       "file": "$HOME/.bzf"

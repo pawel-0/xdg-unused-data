@@ -1,6 +1,8 @@
 {
   "name": "Subtitle Composer",
-  "executable": "subtitlecomposer",
+  "executables": [
+    "subtitlecomposer"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/subtitlecomposerrc"

@@ -1,6 +1,8 @@
 {
   "name": "gXNeur",
-  "executable": "gxneur",
+  "executables": [
+    "gxneur"
+  ],
   "locations": [
     {
       "file": "$HOME/.xneur"

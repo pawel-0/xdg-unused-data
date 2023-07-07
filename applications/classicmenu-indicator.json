@@ -1,6 +1,8 @@
 {
   "name": "ClassicMenu Indicator",
-  "executable": "classicmenu-indicator",
+  "executables": [
+    "classicmenu-indicator"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/classicmenu-indicator"

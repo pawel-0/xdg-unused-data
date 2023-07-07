@@ -1,6 +1,8 @@
 {
   "name": "Guvcview",
-  "executable": "guvcview",
+  "executables": [
+    "guvcview"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/guvcview2"

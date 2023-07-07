@@ -1,6 +1,8 @@
 {
   "name": "Five or more",
-  "executable": "five-or-more",
+  "executables": [
+    "five-or-more"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/five-or-more "

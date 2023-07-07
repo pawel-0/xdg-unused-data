@@ -1,6 +1,8 @@
 {
   "name": "0 A.D.",
-  "executable": "0ad",
+  "executables": [
+    "0ad"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/0ad"

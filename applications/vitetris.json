@@ -1,6 +1,8 @@
 {
   "name": "vitetris",
-  "executable": "vitetris",
+  "executables": [
+    "vitetris"
+  ],
   "locations": [
     {
       "file": "$HOME/.vitetris"

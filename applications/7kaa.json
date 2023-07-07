@@ -1,6 +1,8 @@
 {
   "name": "Seven Kingdoms: Ancient Adversaries",
-  "executable": "7kaa",
+  "executables": [
+    "7kaa"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/7kfans.com "

@@ -1,6 +1,8 @@
 {
   "name": "WakaTime",
-  "executable": "wakatime",
+  "executables": [
+    "wakatime"
+  ],
   "locations": [
     {
       "file": "$HOME/.wakatime"

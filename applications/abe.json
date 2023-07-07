@@ -1,6 +1,8 @@
 {
   "name": "ABE",
-  "executable": "abe",
+  "executables": [
+    "abe"
+  ],
   "locations": [
     {
       "file": "$HOME/.abe"

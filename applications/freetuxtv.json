@@ -1,6 +1,8 @@
 {
   "name": "FreetuxTV",
-  "executable": "freetuxtv",
+  "executables": [
+    "freetuxtv"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/freetuxtv"

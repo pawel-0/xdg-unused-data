@@ -1,6 +1,8 @@
 {
   "name": "SciTE",
-  "executable": "scite",
+  "executables": [
+    "scite"
+  ],
   "locations": [
     {
       "file": "$HOME/.SciTE.session"

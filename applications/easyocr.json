@@ -1,6 +1,8 @@
 {
   "name": "easyocr",
-  "executable": "easyocr",
+  "executables": [
+    "easyocr"
+  ],
   "locations": [
     {
       "file": "$HOME/.EasyOCR"

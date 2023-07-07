@@ -1,6 +1,8 @@
 {
   "name": "Sonic Visualiser",
-  "executable": "sonic-visualiser",
+  "executables": [
+    "sonic-visualiser"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/sonic-visualiser"

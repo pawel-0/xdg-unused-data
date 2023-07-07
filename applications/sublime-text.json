@@ -1,6 +1,8 @@
 {
   "name": "Sublime Text",
-  "executable": "subl",
+  "executables": [
+    "subl"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/sublime-text"

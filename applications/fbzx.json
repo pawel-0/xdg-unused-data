@@ -1,6 +1,8 @@
 {
   "name": "FBZX",
-  "executable": "fbzx",
+  "executables": [
+    "fbzx"
+  ],
   "locations": [
     {
       "file": "$HOME/.fbzx"

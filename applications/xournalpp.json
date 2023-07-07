@@ -1,6 +1,8 @@
 {
   "name": "Xournal++",
-  "executable": "xournalpp",
+  "executables": [
+    "xournalpp"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/xournalpp"

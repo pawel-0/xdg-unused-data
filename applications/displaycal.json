@@ -1,6 +1,8 @@
 {
   "name": "DisplayCAL",
-  "executable": "displaycal",
+  "executables": [
+    "displaycal"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/DisplayCAL"

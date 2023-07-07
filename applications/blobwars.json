@@ -1,6 +1,8 @@
 {
   "name": "Blob Wars",
-  "executable": "blobwars",
+  "executables": [
+    "blobwars"
+  ],
   "locations": [
     {
       "file": "$HOME/.parallelrealities"

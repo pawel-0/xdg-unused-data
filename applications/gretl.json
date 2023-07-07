@@ -1,6 +1,8 @@
 {
   "name": "gretl",
-  "executable": "gretl",
+  "executables": [
+    "gretl"
+  ],
   "locations": [
     {
       "file": "$HOME/.gretl"

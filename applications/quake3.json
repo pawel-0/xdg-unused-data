@@ -1,6 +1,8 @@
 {
   "name": "Quake III Arena",
-  "executable": "quake3",
+  "executables": [
+    "quake3"
+  ],
   "locations": [
     {
       "file": "$HOME/.q3a"

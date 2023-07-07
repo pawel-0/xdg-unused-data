@@ -1,6 +1,8 @@
 {
   "name": "AbiWord",
-  "executable": "abiword",
+  "executables": [
+    "abiword"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/abiword"

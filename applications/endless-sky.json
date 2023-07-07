@@ -1,6 +1,8 @@
 {
   "name": "Endless Sky",
-  "executable": "endless-sky",
+  "executables": [
+    "endless-sky"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/endless-sky"

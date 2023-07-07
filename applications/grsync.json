@@ -1,6 +1,8 @@
 {
   "name": "Grsync",
-  "executable": "grsync",
+  "executables": [
+    "grsync"
+  ],
   "locations": [
     {
       "file": "$HOME/.grsync"

@@ -1,6 +1,8 @@
 {
   "name": "Guake indicator",
-  "executable": "guake-indicator",
+  "executables": [
+    "guake-indicator"
+  ],
   "locations": [
     {
       "file": "$HOME/.guake-indicator"

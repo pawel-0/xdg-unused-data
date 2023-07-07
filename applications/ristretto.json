@@ -1,6 +1,8 @@
 {
   "name": "Ristretto",
-  "executable": "ristretto",
+  "executables": [
+    "ristretto"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/ristretto "

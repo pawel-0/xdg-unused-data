@@ -1,6 +1,8 @@
 {
   "name": "Darktable",
-  "executable": "darktable",
+  "executables": [
+    "darktable"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/darktable"

@@ -1,6 +1,8 @@
 {
   "name": "Formiko",
-  "executable": "formiko",
+  "executables": [
+    "formiko"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/formiko"

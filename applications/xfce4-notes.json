@@ -1,6 +1,8 @@
 {
   "name": "Xfce 4 Notes",
-  "executable": "xfce4-notes",
+  "executables": [
+    "xfce4-notes"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/notes "

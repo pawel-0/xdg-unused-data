@@ -1,6 +1,8 @@
 {
   "name": "Shotcut",
-  "executable": "shotcut",
+  "executables": [
+    "shotcut"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/Meltytech"

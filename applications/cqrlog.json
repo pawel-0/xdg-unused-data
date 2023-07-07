@@ -1,6 +1,8 @@
 {
   "name": "CQRLOG",
-  "executable": "cqrlog",
+  "executables": [
+    "cqrlog"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/cqrlog"

@@ -1,6 +1,8 @@
 {
   "name": "SpeedCrunch",
-  "executable": "speedcrunch",
+  "executables": [
+    "speedcrunch"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/SpeedCrunch"

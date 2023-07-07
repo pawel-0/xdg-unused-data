@@ -1,6 +1,8 @@
 {
   "name": "Xye",
-  "executable": "xye",
+  "executables": [
+    "xye"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/xyeconf.xml"

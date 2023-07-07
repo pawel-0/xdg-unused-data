@@ -1,6 +1,8 @@
 {
   "name": "Simple Scan",
-  "executable": "simple-scan",
+  "executables": [
+    "simple-scan"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/simple-scan"

@@ -1,6 +1,8 @@
 {
   "name": "ETW",
-  "executable": "etw",
+  "executables": [
+    "etw"
+  ],
   "locations": [
     {
       "file": "$HOME/.etw"

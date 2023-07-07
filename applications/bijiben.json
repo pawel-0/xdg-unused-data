@@ -1,6 +1,8 @@
 {
   "name": "Bijiben",
-  "executable": "bijiben",
+  "executables": [
+    "bijiben"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/bijiben"

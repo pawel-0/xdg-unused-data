@@ -1,6 +1,8 @@
 {
   "name": "Rust",
-  "executable": "rustup",
+  "executables": [
+    "rustup"
+  ],
   "locations": [
     {
       "file": "$HOME/.rustup"

@@ -1,6 +1,8 @@
 {
   "name": "Clip IT",
-  "executable": "clipit",
+  "executables": [
+    "clipit"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/clipit"

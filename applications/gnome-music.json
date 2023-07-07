@@ -1,6 +1,8 @@
 {
   "name": "GNOME music ",
-  "executable": "gnome-music",
+  "executables": [
+    "gnome-music"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/gnome-music"

@@ -1,6 +1,8 @@
 {
   "name": "GNUjump",
-  "executable": "gnujump",
+  "executables": [
+    "gnujump"
+  ],
   "locations": [
     {
       "file": "$HOME/.gnujump"

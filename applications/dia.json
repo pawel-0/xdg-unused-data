@@ -1,6 +1,8 @@
 {
   "name": "Dia",
-  "executable": "dia",
+  "executables": [
+    "dia"
+  ],
   "locations": [
     {
       "file": "$HOME/.dia"

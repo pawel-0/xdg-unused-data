@@ -1,6 +1,8 @@
 {
   "name": "USB Creator",
-  "executable": "usb-creator-gtk",
+  "executables": [
+    "usb-creator-gtk"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/usb-creator.log"

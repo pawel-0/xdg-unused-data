@@ -1,6 +1,8 @@
 {
   "name": "Cmake GUI",
-  "executable": "cmake-gui",
+  "executables": [
+    "cmake-gui"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/Kitware"

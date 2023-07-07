@@ -1,6 +1,8 @@
 {
   "name": "Sonic Pi",
-  "executable": "sonic-pi",
+  "executables": [
+    "sonic-pi"
+  ],
   "locations": [
     {
       "file": "$HOME/.sonic-pi"

@@ -1,6 +1,8 @@
 {
   "name": "QelectroTech",
-  "executable": "qelectrotech",
+  "executables": [
+    "qelectrotech"
+  ],
   "locations": [
     {
       "file": "$HOME/.qet"

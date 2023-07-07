@@ -1,6 +1,8 @@
 {
   "name": "Gummi",
-  "executable": "gummi",
+  "executables": [
+    "gummi"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/gummi"

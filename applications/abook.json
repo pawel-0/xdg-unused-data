@@ -1,6 +1,8 @@
 {
   "name": "abook",
-  "executable": "abook",
+  "executables": [
+    "abook"
+  ],
   "locations": [
     {
       "file": "$HOME/.abook"

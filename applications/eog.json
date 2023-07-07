@@ -1,6 +1,8 @@
 {
   "name": "Eye of GNOME",
-  "executable": "eog",
+  "executables": [
+    "eog"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/eog"

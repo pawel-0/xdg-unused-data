@@ -1,6 +1,8 @@
 {
   "name": "StarDict",
-  "executable": "stardict",
+  "executables": [
+    "stardict"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/stardict"

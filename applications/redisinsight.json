@@ -1,6 +1,8 @@
 {
   "name": "Redis Insight",
-  "executable": "Redis Insight",
+  "executables": [
+    "Redis Insight"
+  ],
   "locations": [
     {
       "file": "$HOME/.redisinsight-v2"

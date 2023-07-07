@@ -1,6 +1,8 @@
 {
   "name": "Foliate",
-  "executable": "foliate",
+  "executables": [
+    "foliate"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/com.github.johnfactotum.Foliate"

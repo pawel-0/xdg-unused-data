@@ -1,6 +1,8 @@
 {
   "name": "DXX-Rebirth",
-  "executable": "d1x-rebirth",
+  "executables": [
+    "d1x-rebirth"
+  ],
   "locations": [
     {
       "file": "$HOME/.d1x-rebirth"

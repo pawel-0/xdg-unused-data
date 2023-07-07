@@ -1,6 +1,8 @@
 {
   "name": "Calibre",
-  "executable": "calibre",
+  "executables": [
+    "calibre"
+  ],
   "locations": [
     {
       "file": "$HOME/Calibre Library"

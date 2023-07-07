@@ -1,6 +1,8 @@
 {
   "name": "Qutebrowser",
-  "executable": "qutebrowser",
+  "executables": [
+    "qutebrowser"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/qutebrowser"

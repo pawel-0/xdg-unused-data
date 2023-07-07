@@ -1,6 +1,8 @@
 {
   "name": "TupiTube",
-  "executable": "tupi",
+  "executables": [
+    "tupi"
+  ],
   "locations": [
     {
       "file": "$HOME/.tupi"

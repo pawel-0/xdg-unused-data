@@ -1,6 +1,8 @@
 {
   "name": "Fontmanager",
-  "executable": "font-manager",
+  "executables": [
+    "font-manager"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/font-manager"

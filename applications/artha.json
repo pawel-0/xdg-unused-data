@@ -1,6 +1,8 @@
 {
   "name": "Artha",
-  "executable": "artha",
+  "executables": [
+    "artha"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/artha.conf"

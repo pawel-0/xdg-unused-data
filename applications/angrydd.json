@@ -1,6 +1,8 @@
 {
   "name": "Angry Drunken Dwarves",
-  "executable": "angrydd",
+  "executables": [
+    "angrydd"
+  ],
   "locations": [
     {
       "file": "$HOME/.angryddrc"

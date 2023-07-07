@@ -1,6 +1,8 @@
 {
   "name": "Xiphos",
-  "executable": "xiphos",
+  "executables": [
+    "xiphos"
+  ],
   "locations": [
     {
       "file": "$HOME/.xiphos"

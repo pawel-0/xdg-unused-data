@@ -1,6 +1,8 @@
 {
   "name": "getmail",
-  "executable": "getmail",
+  "executables": [
+    "getmail"
+  ],
   "locations": [
     {
       "file": "$HOME/.getmail"

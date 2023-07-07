@@ -1,6 +1,8 @@
 {
   "name": "Redis cli",
-  "executable": "redis-cli",
+  "executables": [
+    "redis-cli"
+  ],
   "locations": [
     {
       "file": "$HOME/.rediscli_history"

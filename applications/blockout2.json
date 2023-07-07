@@ -1,6 +1,8 @@
 {
   "name": "BlockOut II",
-  "executable": "blockout2",
+  "executables": [
+    "blockout2"
+  ],
   "locations": [
     {
       "file": "$HOME/.bl2"

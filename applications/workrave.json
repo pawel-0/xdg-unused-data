@@ -1,6 +1,8 @@
 {
   "name": "Workrave",
-  "executable": "workrave",
+  "executables": [
+    "workrave"
+  ],
   "locations": [
     {
       "file": "$HOME/.workrave"

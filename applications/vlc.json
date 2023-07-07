@@ -1,6 +1,8 @@
 {
   "name": "VLC media player",
-  "executable": "vlc",
+  "executables": [
+    "vlc"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/vlc"

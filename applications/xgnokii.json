@@ -1,6 +1,8 @@
 {
   "name": "Xgnokii",
-  "executable": "xgnokii",
+  "executables": [
+    "xgnokii"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/gnokii"

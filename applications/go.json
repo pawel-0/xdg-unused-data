@@ -1,6 +1,8 @@
 {
   "name": "go",
-  "executable": "go",
+  "executables": [
+    "go"
+  ],
   "locations": [
     {
       "file": "$HOME/go"

@@ -1,6 +1,8 @@
 {
   "name": "HTOP Monitoring",
-  "executable": "htop",
+  "executables": [
+    "htop"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/htop"

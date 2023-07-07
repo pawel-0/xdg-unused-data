@@ -1,6 +1,8 @@
 {
   "name": "xmobar",
-  "executable": "xmobar",
+  "executables": [
+    "xmobar"
+  ],
   "locations": [
     {
       "file": "$HOME/.xmobarrc"
