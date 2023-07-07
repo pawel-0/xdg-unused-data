@@ -1,6 +1,6 @@
 {
   "name": "Robocode",
-  "executable": [
+  "executables": [
     "robocode"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "GNOME Sudoku",
-  "executable": [
+  "executables": [
     "gnome-sudoku"
   ],
   "locations": [

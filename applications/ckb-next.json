@@ -1,6 +1,6 @@
 {
   "name": "ckb-next",
-  "executable": [
+  "executables": [
     "ckb-next"
   ],
   "locations": [

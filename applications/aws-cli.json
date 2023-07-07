@@ -1,6 +1,6 @@
 {
   "name": "AWS CLI",
-  "executable": [
+  "executables": [
     "aws"
   ],
   "locations": [

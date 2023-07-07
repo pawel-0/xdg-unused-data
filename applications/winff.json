@@ -1,6 +1,6 @@
 {
   "name": "WinFF",
-  "executable": [
+  "executables": [
     "winff"
   ],
   "locations": [

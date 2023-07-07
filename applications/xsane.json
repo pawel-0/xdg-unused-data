@@ -1,6 +1,6 @@
 {
   "name": "Xsane",
-  "executable": [
+  "executables": [
     "xsane"
   ],
   "locations": [

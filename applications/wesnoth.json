@@ -1,6 +1,6 @@
 {
   "name": "The Battle for Wesnoth",
-  "executable": [
+  "executables": [
     "wesnoth"
   ],
   "locations": [

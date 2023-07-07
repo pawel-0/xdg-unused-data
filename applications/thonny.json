@@ -1,6 +1,6 @@
 {
   "name": "Thonny",
-  "executable": [
+  "executables": [
     "thonny"
   ],
   "locations": [

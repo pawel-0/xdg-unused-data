@@ -1,6 +1,6 @@
 {
   "name": "DreamChess",
-  "executable": [
+  "executables": [
     "dreamchess"
   ],
   "locations": [

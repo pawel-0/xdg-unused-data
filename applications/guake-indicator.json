@@ -1,6 +1,6 @@
 {
   "name": "Guake indicator",
-  "executable": [
+  "executables": [
     "guake-indicator"
   ],
   "locations": [

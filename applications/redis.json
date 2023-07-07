@@ -1,6 +1,6 @@
 {
   "name": "Redis cli",
-  "executable": [
+  "executables": [
     "redis-cli"
   ],
   "locations": [

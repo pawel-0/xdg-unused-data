@@ -1,6 +1,6 @@
 {
   "name": "Solfege",
-  "executable": [
+  "executables": [
     "solfege"
   ],
   "locations": [

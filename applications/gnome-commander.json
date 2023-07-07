@@ -1,6 +1,6 @@
 {
   "name": "GNOME Commander",
-  "executable": [
+  "executables": [
     "gnome-commander"
   ],
   "locations": [

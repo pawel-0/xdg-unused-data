@@ -1,6 +1,6 @@
 {
   "name": "Hedgewars",
-  "executable": [
+  "executables": [
     "hedgewars"
   ],
   "locations": [

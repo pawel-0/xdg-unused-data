@@ -1,6 +1,6 @@
 {
   "name": "Shotwell",
-  "executable": [
+  "executables": [
     "shotwell"
   ],
   "locations": [

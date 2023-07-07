@@ -1,6 +1,6 @@
 {
   "name": "RcloneBrowser",
-  "executable": [
+  "executables": [
     "rclone-browser"
   ],
   "locations": [

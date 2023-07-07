@@ -1,6 +1,6 @@
 {
   "name": "Alacritty",
-  "executable": [
+  "executables": [
     "alacritty"
   ],
   "locations": [

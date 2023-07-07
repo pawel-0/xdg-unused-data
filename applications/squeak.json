@@ -1,6 +1,6 @@
 {
   "name": "Squeak",
-  "executable": [
+  "executables": [
     "squeak"
   ],
   "locations": [

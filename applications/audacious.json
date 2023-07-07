@@ -1,6 +1,6 @@
 {
   "name": "Audacious",
-  "executable": [
+  "executables": [
     "audacious"
   ],
   "locations": [

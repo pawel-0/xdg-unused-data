@@ -1,6 +1,6 @@
 {
   "name": "Dia",
-  "executable": [
+  "executables": [
     "dia"
   ],
   "locations": [

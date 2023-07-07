@@ -1,6 +1,6 @@
 {
   "name": "Unknown Horizons",
-  "executable": [
+  "executables": [
     "unknown-horizons"
   ],
   "locations": [

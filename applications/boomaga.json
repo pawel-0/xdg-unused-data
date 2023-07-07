@@ -1,6 +1,6 @@
 {
   "name": "Boomaga",
-  "executable": [
+  "executables": [
     "boomaga"
   ],
   "locations": [

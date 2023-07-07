@@ -1,6 +1,6 @@
 {
   "name": "ClassicMenu Indicator",
-  "executable": [
+  "executables": [
     "classicmenu-indicator"
   ],
   "locations": [

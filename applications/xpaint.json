@@ -1,6 +1,6 @@
 {
   "name": "Xpaint",
-  "executable": [
+  "executables": [
     "xpaint"
   ],
   "locations": [

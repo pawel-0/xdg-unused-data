@@ -1,6 +1,6 @@
 {
   "name": "qStopMotion",
-  "executable": [
+  "executables": [
     "qstopmotion"
   ],
   "locations": [

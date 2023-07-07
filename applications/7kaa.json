@@ -1,6 +1,6 @@
 {
   "name": "Seven Kingdoms: Ancient Adversaries",
-  "executable": [
+  "executables": [
     "7kaa"
   ],
   "locations": [

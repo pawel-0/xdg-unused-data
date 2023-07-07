@@ -1,6 +1,6 @@
 {
   "name": "Xonsh",
-  "executable": [
+  "executables": [
     "xonsh"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "CopyQ",
-  "executable": [
+  "executables": [
     "copyq"
   ],
   "locations": [

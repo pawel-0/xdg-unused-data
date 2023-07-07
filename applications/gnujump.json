@@ -1,6 +1,6 @@
 {
   "name": "GNUjump",
-  "executable": [
+  "executables": [
     "gnujump"
   ],
   "locations": [

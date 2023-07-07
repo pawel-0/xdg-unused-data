@@ -1,6 +1,6 @@
 {
   "name": "AbiWord",
-  "executable": [
+  "executables": [
     "abiword"
   ],
   "locations": [

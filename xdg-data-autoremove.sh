@@ -15,7 +15,7 @@ COLOR_XA_YELLOW="\033[33m"
 COLOR_XA_BLUE="\033[34m"
 
 main(){
-    PARSED_JSON=$(jq -r '.name as $name | .executable as $executable | .locations[] | "\($name),\($executable[]),\(.file)"' "$APPLICATION_JSON_DIRECTORY"/wxmaxima.json)
+    PARSED_JSON=$(jq -r '.name as $name | .executables as $executables | .locations[] | "\($name),\($executables|join("|")),\(.file)"' "$APPLICATION_JSON_DIRECTORY"/*.json)
     
     while IFS="," read -r APP_NAME APP_EXECUTABLE FILE_PATH; do 
         check_application "$APP_NAME" "$APP_EXECUTABLE" "$FILE_PATH"
@@ -34,28 +34,26 @@ check_application(){
     APP_EXECUTABLE="$2"
     FILE_PATH=$(echo "$3" | envsubst)
    
-    if check_delete_file "$APP_EXECUTABLE" "$FILE_PATH"; then
-        XA_OBJECT_SIZE=$(\du -0 -b -s "$FILE_PATH" 2> /dev/null | \cut -f1)
-        TOTAL_FOUND_FILE_SIZE=$((TOTAL_FOUND_FILE_SIZE+XA_OBJECT_SIZE))
-        TOTAL_FOUND_FILE_COUNT=$((TOTAL_FOUND_FILE_COUNT+1))
-        FOUND_APP_PATHES+=( "$FILE_PATH" )
+    # Skip if executable and file or folder doesn't exists
+    (! check_command_available "$APP_EXECUTABLE" && { [ -f "$FILE_PATH" ] || [ -d "$FILE_PATH" ]; }) || return 0
 
-        if $OPTION_RAW; then
-            printf -v APP_OUTPUT_LOC "%s\n" "$FILE_PATH"
-        else
-            printf -v APP_OUTPUT_LOC "[$COLOR_XA_GREEN%s$COLOR_XA_RESET]: %s ($COLOR_XA_BLUE%s$COLOR_XA_RESET)\n" "$APP_NAME" "$FILE_PATH" "$(bytes_to_human_readable "$XA_OBJECT_SIZE")"
-        fi
+    XA_OBJECT_SIZE=$(\du -0 -b -s "$FILE_PATH" 2> /dev/null | \cut -f1)
+    TOTAL_FOUND_FILE_SIZE=$((TOTAL_FOUND_FILE_SIZE+XA_OBJECT_SIZE))
+    TOTAL_FOUND_FILE_COUNT=$((TOTAL_FOUND_FILE_COUNT+1))
+    FOUND_APP_PATHES+=( "$FILE_PATH" )
 
-         APP_OUTPUT="$APP_OUTPUT""$APP_OUTPUT_LOC"
+    if $OPTION_RAW; then
+        printf -v APP_OUTPUT_LOC "%s\n" "$FILE_PATH"
+    else
+        printf -v APP_OUTPUT_LOC "[$COLOR_XA_GREEN%s$COLOR_XA_RESET]: %s ($COLOR_XA_BLUE%s$COLOR_XA_RESET)\n" "$APP_NAME" "$FILE_PATH" "$(bytes_to_human_readable "$XA_OBJECT_SIZE")"
     fi
+
+    APP_OUTPUT="$APP_OUTPUT""$APP_OUTPUT_LOC"
+    
 }
 
 confirm_file_delete(){
-    if $OPTION_REMOVE_ALL; then
-        warning_message
-        read -rep "Are you sure you want to delete this files? (y/N): " REMOVE_CONFIRMATION        
-    fi
-
+    $OPTION_REMOVE_ALL && warning_message && read -rep "Are you sure you want to delete this files? (y/N): " REMOVE_CONFIRMATION   
     { [ "${REMOVE_CONFIRMATION,,}" == "y" ] || [ $OPTION_REMOVE_ALL_FORCE == true ]; }  && remove_application_files
 }
 
@@ -144,9 +142,16 @@ END
 }
 
 check_command_available(){
-    command -v "$1" > /dev/null 2>&1
+    APP_COMMANDS="$1"
+    APP_COMMAND_CHECK_RETURN=1
 
-    return $?
+    IFS='|' read -ra APP_COMMANDS <<< "$APP_COMMANDS"
+
+    for APP_COMMAND in "${APP_COMMANDS[@]}"; do
+        command -v "$APP_COMMAND" > /dev/null 2>&1 && APP_COMMAND_CHECK_RETURN=0
+    done
+
+    return $APP_COMMAND_CHECK_RETURN
 }
 
 warning_message(){
@@ -182,17 +187,6 @@ bytes_to_human_readable() {
     done
 
     echo "$i$d ${S[$s]}"
-}
-
-check_delete_file(){
-    APP_EXECUTABLE="$1"
-    APP_OBJECT_PATH="$2"
-
-    if ! check_command_available "$APP_EXECUTABLE" && { [ -f "$APP_OBJECT_PATH" ] || [ -d "$APP_OBJECT_PATH" ]; } ; then
-        return 0
-    fi
-
-    return 1
 }
 
 requirement_check

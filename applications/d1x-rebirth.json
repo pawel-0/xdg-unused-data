@@ -1,6 +1,6 @@
 {
   "name": "DXX-Rebirth",
-  "executable": [
+  "executables": [
     "d1x-rebirth"
   ],
   "locations": [

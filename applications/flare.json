@@ -1,6 +1,6 @@
 {
   "name": "Flare",
-  "executable": [
+  "executables": [
     "flare"
   ],
   "locations": [

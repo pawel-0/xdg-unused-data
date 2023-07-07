@@ -1,6 +1,6 @@
 {
   "name": "Butt",
-  "executable": [
+  "executables": [
     "butt"
   ],
   "locations": [

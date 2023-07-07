@@ -1,6 +1,6 @@
 {
   "name": "VirtualBox",
-  "executable": [
+  "executables": [
     "virtualbox"
   ],
   "locations": [

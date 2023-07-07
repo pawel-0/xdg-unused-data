@@ -1,6 +1,6 @@
 {
   "name": "Subtitle Composer",
-  "executable": [
+  "executables": [
     "subtitlecomposer"
   ],
   "locations": [

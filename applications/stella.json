@@ -1,6 +1,6 @@
 {
   "name": "Stella",
-  "executable": [
+  "executables": [
     "stella"
   ],
   "locations": [

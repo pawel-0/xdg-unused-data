@@ -1,6 +1,6 @@
 {
   "name": "Guvcview",
-  "executable": [
+  "executables": [
     "guvcview"
   ],
   "locations": [

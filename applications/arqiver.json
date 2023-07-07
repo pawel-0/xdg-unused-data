@@ -1,6 +1,6 @@
 {
   "name": "Arqiver ",
-  "executable": [
+  "executables": [
     "arqiver"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "gThumb",
-  "executable": [
+  "executables": [
     "gthumb"
   ],
   "locations": [

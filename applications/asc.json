@@ -1,6 +1,6 @@
 {
   "name": "Advanced Strategic Command",
-  "executable": [
+  "executables": [
     "asc"
   ],
   "locations": [

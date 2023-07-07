@@ -1,6 +1,6 @@
 {
   "name": "GtimeLog",
-  "executable": [
+  "executables": [
     "gtimelog"
   ],
   "locations": [

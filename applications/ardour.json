@@ -1,6 +1,6 @@
 {
   "name": "Ardour",
-  "executable": [
+  "executables": [
     "ardour"
   ],
   "locations": [

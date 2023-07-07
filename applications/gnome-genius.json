@@ -1,6 +1,6 @@
 {
   "name": "Genius",
-  "executable": [
+  "executables": [
     "gnome-genius"
   ],
   "locations": [

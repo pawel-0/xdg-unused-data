@@ -1,6 +1,6 @@
 {
   "name": "Bless",
-  "executable": [
+  "executables": [
     "bless"
   ],
   "locations": [

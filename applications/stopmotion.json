@@ -1,6 +1,6 @@
 {
   "name": "Stop-Motion",
-  "executable": [
+  "executables": [
     "stopmotion"
   ],
   "locations": [

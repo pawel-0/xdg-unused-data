@@ -1,6 +1,6 @@
 {
   "name": "Battle Tanks",
-  "executable": [
+  "executables": [
     "btanks"
   ],
   "locations": [

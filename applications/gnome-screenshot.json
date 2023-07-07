@@ -1,6 +1,6 @@
 {
   "name": "GNOME Screenshot",
-  "executable": [
+  "executables": [
     "gnome-screenshot"
   ],
   "locations": [

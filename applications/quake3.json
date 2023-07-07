@@ -1,6 +1,6 @@
 {
   "name": "Quake III Arena",
-  "executable": [
+  "executables": [
     "quake3"
   ],
   "locations": [

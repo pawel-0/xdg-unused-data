@@ -1,6 +1,6 @@
 {
   "name": "DOSBox",
-  "executable": [
+  "executables": [
     "dosbox"
   ],
   "locations": [

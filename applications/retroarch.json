@@ -1,6 +1,6 @@
 {
   "name": "RetroArch",
-  "executable": [
+  "executables": [
     "retroarch"
   ],
   "locations": [

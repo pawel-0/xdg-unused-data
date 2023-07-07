@@ -1,6 +1,6 @@
 {
   "name": "Darktable",
-  "executable": [
+  "executables": [
     "darktable"
   ],
   "locations": [

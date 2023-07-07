@@ -1,6 +1,6 @@
 {
   "name": "Thunderbird",
-  "executable": [
+  "executables": [
     "thunderbird"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Sopwith",
-  "executable": [
+  "executables": [
     "sopwith"
   ],
   "locations": [

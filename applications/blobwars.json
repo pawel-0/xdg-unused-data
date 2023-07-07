@@ -1,6 +1,6 @@
 {
   "name": "Blob Wars",
-  "executable": [
+  "executables": [
     "blobwars"
   ],
   "locations": [

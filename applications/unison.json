@@ -1,6 +1,6 @@
 {
   "name": "Unison",
-  "executable": [
+  "executables": [
     "unison",
     "unison-gtk"
   ],

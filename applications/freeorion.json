@@ -1,6 +1,6 @@
 {
   "name": "FreeOrion",
-  "executable": [
+  "executables": [
     "freeorion"
   ],
   "locations": [

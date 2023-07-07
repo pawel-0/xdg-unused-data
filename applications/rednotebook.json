@@ -1,6 +1,6 @@
 {
   "name": "RedNotebook",
-  "executable": [
+  "executables": [
     "rednotebook"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "SimpleScreenRecorder",
-  "executable": [
+  "executables": [
     "simplescreenrecorder"
   ],
   "locations": [

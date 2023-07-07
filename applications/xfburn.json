@@ -1,6 +1,6 @@
 {
   "name": "Xfburn",
-  "executable": [
+  "executables": [
     "xfburn"
   ],
   "locations": [

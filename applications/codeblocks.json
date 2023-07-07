@@ -1,6 +1,6 @@
 {
   "name": "Code::Blocks",
-  "executable": [
+  "executables": [
     "codeblocks"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Rhythmbox",
-  "executable": [
+  "executables": [
     "rhythmbox"
   ],
   "locations": [

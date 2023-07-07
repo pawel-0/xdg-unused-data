@@ -1,6 +1,6 @@
 {
   "name": "Red Eclipse",
-  "executable": [
+  "executables": [
     "redeclipse"
   ],
   "locations": [

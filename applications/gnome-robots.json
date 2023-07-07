@@ -1,6 +1,6 @@
 {
   "name": "GNOME Robots",
-  "executable": [
+  "executables": [
     "gnome-robots"
   ],
   "locations": [

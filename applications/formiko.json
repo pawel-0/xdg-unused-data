@@ -1,6 +1,6 @@
 {
   "name": "Formiko",
-  "executable": [
+  "executables": [
     "formiko"
   ],
   "locations": [

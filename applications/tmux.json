@@ -1,6 +1,6 @@
 {
   "name": "tmux",
-  "executable": [
+  "executables": [
     "tmux"
   ],
   "locations": [

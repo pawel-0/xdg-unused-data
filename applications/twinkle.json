@@ -1,6 +1,6 @@
 {
   "name": "Twinkle",
-  "executable": [
+  "executables": [
     "twinkle"
   ],
   "locations": [

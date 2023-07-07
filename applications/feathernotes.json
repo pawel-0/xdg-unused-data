@@ -1,6 +1,6 @@
 {
   "name": "FeatherNotes",
-  "executable": [
+  "executables": [
     "feathernotes"
   ],
   "locations": [

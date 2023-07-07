@@ -1,6 +1,6 @@
 {
   "name": "StarDict",
-  "executable": [
+  "executables": [
     "stardict"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "TeXstudio",
-  "executable": [
+  "executables": [
     "texstudio"
   ],
   "locations": [

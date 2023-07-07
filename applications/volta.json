@@ -1,6 +1,6 @@
 {
   "name": "Volta",
-  "executable": [
+  "executables": [
     "volta"
   ],
   "locations": [

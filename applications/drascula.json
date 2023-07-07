@@ -1,6 +1,6 @@
 {
   "name": "Drascula",
-  "executable": [
+  "executables": [
     "drascula"
   ],
   "locations": [

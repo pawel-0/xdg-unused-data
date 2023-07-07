@@ -1,6 +1,6 @@
 {
   "name": "Git",
-  "executable": [
+  "executables": [
     "git"
   ],
   "locations": [

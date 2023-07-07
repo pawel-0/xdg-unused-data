@@ -1,6 +1,6 @@
 {
   "name": "BZFlag",
-  "executable": [
+  "executables": [
     "bzflag"
   ],
   "locations": [

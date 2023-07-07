@@ -1,6 +1,6 @@
 {
   "name": "SciTE",
-  "executable": [
+  "executables": [
     "scite"
   ],
   "locations": [

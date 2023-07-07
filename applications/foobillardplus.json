@@ -1,6 +1,6 @@
 {
   "name": "FooBillardplus",
-  "executable": [
+  "executables": [
     "foobillardplus"
   ],
   "locations": [

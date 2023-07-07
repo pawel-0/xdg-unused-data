@@ -1,6 +1,6 @@
 {
   "name": "Vinagre",
-  "executable": [
+  "executables": [
     "vinagre"
   ],
   "locations": [

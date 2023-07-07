@@ -1,6 +1,6 @@
 {
   "name": "Eye of GNOME",
-  "executable": [
+  "executables": [
     "eog"
   ],
   "locations": [

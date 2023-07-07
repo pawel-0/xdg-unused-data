@@ -1,6 +1,6 @@
 {
   "name": "HardInfo",
-  "executable": [
+  "executables": [
     "hardinfo"
   ],
   "locations": [

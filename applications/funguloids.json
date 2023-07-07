@@ -1,6 +1,6 @@
 {
   "name": "Funguloids",
-  "executable": [
+  "executables": [
     "funguloids"
   ],
   "locations": [

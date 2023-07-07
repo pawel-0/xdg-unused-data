@@ -1,6 +1,6 @@
 {
   "name": "$HOMEBank",
-  "executable": [
+  "executables": [
     "$HOMEbank"
   ],
   "locations": [

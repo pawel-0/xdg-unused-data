@@ -1,6 +1,6 @@
 {
   "name": "Rofi",
-  "executable": [
+  "executables": [
     "rofi"
   ],
   "locations": [

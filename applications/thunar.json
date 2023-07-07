@@ -1,6 +1,6 @@
 {
   "name": "Thunar",
-  "executable": [
+  "executables": [
     "thunar"
   ],
   "locations": [

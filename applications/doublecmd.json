@@ -1,6 +1,6 @@
 {
   "name": "Double Commander",
-  "executable": [
+  "executables": [
     "doublecmd"
   ],
   "locations": [

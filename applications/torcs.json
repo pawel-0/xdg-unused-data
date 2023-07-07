@@ -1,6 +1,6 @@
 {
   "name": "TORCS",
-  "executable": [
+  "executables": [
     "torcs"
   ],
   "locations": [

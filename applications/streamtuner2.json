@@ -1,6 +1,6 @@
 {
   "name": "Streamtuner2",
-  "executable": [
+  "executables": [
     "streamtuner2"
   ],
   "locations": [

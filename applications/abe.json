@@ -1,6 +1,6 @@
 {
   "name": "ABE",
-  "executable": [
+  "executables": [
     "abe"
   ],
   "locations": [

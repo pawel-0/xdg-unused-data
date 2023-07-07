@@ -1,6 +1,6 @@
 {
   "name": "Gimp",
-  "executable": [
+  "executables": [
     "gimp"
   ],
   "locations": [

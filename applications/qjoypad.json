@@ -1,6 +1,6 @@
 {
   "name": "QjoyPad",
-  "executable": [
+  "executables": [
     "qjoypad"
   ],
   "locations": [

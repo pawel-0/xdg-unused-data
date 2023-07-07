@@ -1,6 +1,6 @@
 {
   "name": "Ristretto",
-  "executable": [
+  "executables": [
     "ristretto"
   ],
   "locations": [

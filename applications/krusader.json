@@ -1,6 +1,6 @@
 {
   "name": "Krusader",
-  "executable": [
+  "executables": [
     "krusader"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "aMule",
-  "executable": [
+  "executables": [
     "amule"
   ],
   "locations": [

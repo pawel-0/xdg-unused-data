@@ -1,6 +1,6 @@
 {
   "name": "FBZX",
-  "executable": [
+  "executables": [
     "fbzx"
   ],
   "locations": [

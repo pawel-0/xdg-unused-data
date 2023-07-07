@@ -1,6 +1,6 @@
 {
   "name": "wine",
-  "executable": [
+  "executables": [
     "wine"
   ],
   "locations": [

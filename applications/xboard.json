@@ -1,6 +1,6 @@
 {
   "name": "Xboard",
-  "executable": [
+  "executables": [
     "xboard"
   ],
   "locations": [

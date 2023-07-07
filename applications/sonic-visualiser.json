@@ -1,6 +1,6 @@
 {
   "name": "Sonic Visualiser",
-  "executable": [
+  "executables": [
     "sonic-visualiser"
   ],
   "locations": [

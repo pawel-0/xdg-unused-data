@@ -1,6 +1,6 @@
 {
   "name": "Uncrustify",
-  "executable": [
+  "executables": [
     "uncrustify"
   ],
   "locations": [

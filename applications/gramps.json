@@ -1,6 +1,6 @@
 {
   "name": "Gramps",
-  "executable": [
+  "executables": [
     "gramps"
   ],
   "locations": [

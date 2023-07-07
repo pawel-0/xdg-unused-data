@@ -1,6 +1,6 @@
 {
   "name": "Deja Dup",
-  "executable": [
+  "executables": [
     "deja-dup"
   ],
   "locations": [

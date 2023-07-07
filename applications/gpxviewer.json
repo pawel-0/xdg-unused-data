@@ -1,6 +1,6 @@
 {
   "name": "GPX Viewer",
-  "executable": [
+  "executables": [
     "gpxviewer"
   ],
   "locations": [

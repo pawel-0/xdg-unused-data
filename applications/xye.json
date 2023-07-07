@@ -1,6 +1,6 @@
 {
   "name": "Xye",
-  "executable": [
+  "executables": [
     "xye"
   ],
   "locations": [

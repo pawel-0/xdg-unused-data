@@ -1,6 +1,6 @@
 {
   "name": "VLC media player",
-  "executable": [
+  "executables": [
     "vlc"
   ],
   "locations": [

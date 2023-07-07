@@ -1,6 +1,6 @@
 {
   "name": "DavMail",
-  "executable": [
+  "executables": [
     "davmail"
   ],
   "locations": [

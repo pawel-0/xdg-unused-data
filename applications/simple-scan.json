@@ -1,6 +1,6 @@
 {
   "name": "Simple Scan",
-  "executable": [
+  "executables": [
     "simple-scan"
   ],
   "locations": [

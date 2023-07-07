@@ -1,6 +1,6 @@
 {
   "name": "Clip IT",
-  "executable": [
+  "executables": [
     "clipit"
   ],
   "locations": [

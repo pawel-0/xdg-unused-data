@@ -1,6 +1,6 @@
 {
   "name": "Audacity",
-  "executable": [
+  "executables": [
     "audacity"
   ],
   "locations": [

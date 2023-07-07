@@ -1,6 +1,6 @@
 {
   "name": "sdkman",
-  "executable": [
+  "executables": [
     "sdk"
   ],
   "locations": [

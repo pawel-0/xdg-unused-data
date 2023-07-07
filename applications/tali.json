@@ -1,6 +1,6 @@
 {
   "name": "Tali",
-  "executable": [
+  "executables": [
     "tali"
   ],
   "locations": [

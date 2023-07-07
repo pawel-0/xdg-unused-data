@@ -1,6 +1,6 @@
 {
   "name": "Dolphin Emulator",
-  "executable": [
+  "executables": [
     "dolphin-emu"
   ],
   "locations": [

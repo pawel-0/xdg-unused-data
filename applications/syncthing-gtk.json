@@ -1,6 +1,6 @@
 {
   "name": "Syncthing GTK",
-  "executable": [
+  "executables": [
     "syncthing-gtk"
   ],
   "locations": [

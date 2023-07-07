@@ -1,6 +1,6 @@
 {
   "name": "DisplayCAL",
-  "executable": [
+  "executables": [
     "displaycal"
   ],
   "locations": [

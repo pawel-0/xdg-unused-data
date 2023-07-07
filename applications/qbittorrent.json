@@ -1,6 +1,6 @@
 {
   "name": "qBittorrent",
-  "executable": [
+  "executables": [
     "qbittorrent"
   ],
   "locations": [

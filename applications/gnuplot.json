@@ -1,6 +1,6 @@
 {
   "name": "Gnuplot",
-  "executable": [
+  "executables": [
     "gnuplot"
   ],
   "locations": [

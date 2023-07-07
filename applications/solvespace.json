@@ -1,6 +1,6 @@
 {
   "name": "SolveSpace",
-  "executable": [
+  "executables": [
     "solvespace"
   ],
   "locations": [

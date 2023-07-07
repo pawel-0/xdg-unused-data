@@ -1,6 +1,6 @@
 {
   "name": "BibleTime",
-  "executable": [
+  "executables": [
     "bibletime"
   ],
   "locations": [

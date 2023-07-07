@@ -1,6 +1,6 @@
 {
   "name": "Catfish",
-  "executable": [
+  "executables": [
     "catfish"
   ],
   "locations": [

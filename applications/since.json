@@ -1,6 +1,6 @@
 {
   "name": "since",
-  "executable": [
+  "executables": [
     "since"
   ],
   "locations": [

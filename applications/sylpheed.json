@@ -1,6 +1,6 @@
 {
   "name": "Sylpheed",
-  "executable": [
+  "executables": [
     "sylpheed"
   ],
   "locations": [

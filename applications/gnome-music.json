@@ -1,6 +1,6 @@
 {
   "name": "GNOME music ",
-  "executable": [
+  "executables": [
     "gnome-music"
   ],
   "locations": [

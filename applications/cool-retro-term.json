@@ -1,6 +1,6 @@
 {
   "name": "Cool-retro-term",
-  "executable": [
+  "executables": [
     "cool-retro-term"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Wireshark",
-  "executable": [
+  "executables": [
     "wireshark"
   ],
   "locations": [

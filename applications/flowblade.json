@@ -1,6 +1,6 @@
 {
   "name": "Flowblade",
-  "executable": [
+  "executables": [
     "flowblade"
   ],
   "locations": [

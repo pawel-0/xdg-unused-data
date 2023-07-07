@@ -1,6 +1,6 @@
 {
   "name": "GnuCash",
-  "executable": [
+  "executables": [
     "gnucash"
   ],
   "locations": [

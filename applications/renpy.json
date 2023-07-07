@@ -1,6 +1,6 @@
 {
   "name": "Ren’Py",
-  "executable": [
+  "executables": [
     "renpy"
   ],
   "locations": [

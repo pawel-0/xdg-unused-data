@@ -1,6 +1,6 @@
 {
   "name": "Terminology",
-  "executable": [
+  "executables": [
     "terminology"
   ],
   "locations": [

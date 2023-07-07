@@ -1,6 +1,6 @@
 {
   "name": "Calibre",
-  "executable": [
+  "executables": [
     "calibre"
   ],
   "locations": [

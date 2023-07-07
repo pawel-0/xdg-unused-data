@@ -1,6 +1,6 @@
 {
   "name": "Synaptic",
-  "executable": [
+  "executables": [
     "synaptic"
   ],
   "locations": [

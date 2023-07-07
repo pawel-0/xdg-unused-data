@@ -1,6 +1,6 @@
 {
   "name": "Foliate",
-  "executable": [
+  "executables": [
     "foliate"
   ],
   "locations": [

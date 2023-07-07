@@ -1,6 +1,6 @@
 {
   "name": "gitg",
-  "executable": [
+  "executables": [
     "gitg"
   ],
   "locations": [

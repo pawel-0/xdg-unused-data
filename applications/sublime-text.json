@@ -1,6 +1,6 @@
 {
   "name": "Sublime Text",
-  "executable": [
+  "executables": [
     "subl"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Xpad",
-  "executable": [
+  "executables": [
     "xpad"
   ],
   "locations": [

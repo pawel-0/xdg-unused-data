@@ -1,6 +1,6 @@
 {
   "name": "gFTP",
-  "executable": [
+  "executables": [
     "gftp"
   ],
   "locations": [

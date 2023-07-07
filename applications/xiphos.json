@@ -1,6 +1,6 @@
 {
   "name": "Xiphos",
-  "executable": [
+  "executables": [
     "xiphos"
   ],
   "locations": [

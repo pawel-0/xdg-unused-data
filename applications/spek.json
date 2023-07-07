@@ -1,6 +1,6 @@
 {
   "name": "Spek",
-  "executable": [
+  "executables": [
     "spek"
   ],
   "locations": [

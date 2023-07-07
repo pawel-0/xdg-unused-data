@@ -1,6 +1,6 @@
 {
   "name": "Ultimaker Cura",
-  "executable": [
+  "executables": [
     "cura"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "BillardGL",
-  "executable": [
+  "executables": [
     "billard-gl"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "GNOME Chess",
-  "executable": [
+  "executables": [
     "gnome-chess"
   ],
   "locations": [

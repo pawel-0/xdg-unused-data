@@ -1,6 +1,6 @@
 {
   "name": "weechat",
-  "executable": [
+  "executables": [
     "weechat"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "HexChat",
-  "executable": [
+  "executables": [
     "hexchat"
   ],
   "locations": [

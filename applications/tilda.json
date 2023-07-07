@@ -1,6 +1,6 @@
 {
   "name": "Tilda",
-  "executable": [
+  "executables": [
     "tilda"
   ],
   "locations": [

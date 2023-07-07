@@ -1,6 +1,6 @@
 {
   "name": "Dwarf Fortress",
-  "executable": [
+  "executables": [
     "dwarf-fortress"
   ],
   "locations": [

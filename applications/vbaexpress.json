@@ -1,6 +1,6 @@
 {
   "name": "VBA Express",
-  "executable": [
+  "executables": [
     "vbaexpress"
   ],
   "locations": [

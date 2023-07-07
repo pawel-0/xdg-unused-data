@@ -1,6 +1,6 @@
 {
   "name": "Stellarium",
-  "executable": [
+  "executables": [
     "stellarium"
   ],
   "locations": [

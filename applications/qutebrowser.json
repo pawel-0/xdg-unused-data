@@ -1,6 +1,6 @@
 {
   "name": "Qutebrowser",
-  "executable": [
+  "executables": [
     "qutebrowser"
   ],
   "locations": [

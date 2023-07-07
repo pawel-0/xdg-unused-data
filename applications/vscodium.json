@@ -1,6 +1,6 @@
 {
   "name": "VSCodium",
-  "executable": [
+  "executables": [
     "codium"
   ],
   "locations": [

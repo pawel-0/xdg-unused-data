@@ -1,6 +1,6 @@
 {
   "name": "Gpick",
-  "executable": [
+  "executables": [
     "gpick"
   ],
   "locations": [

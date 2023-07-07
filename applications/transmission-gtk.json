@@ -1,6 +1,6 @@
 {
   "name": "Transmission BT",
-  "executable": [
+  "executables": [
     "transmission-gtk"
   ],
   "locations": [

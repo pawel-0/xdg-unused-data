@@ -1,6 +1,6 @@
 {
   "name": "gscan2pdf",
-  "executable": [
+  "executables": [
     "gscan2pdf"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Bijiben",
-  "executable": [
+  "executables": [
     "bijiben"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Gpredict",
-  "executable": [
+  "executables": [
     "gpredict"
   ],
   "locations": [

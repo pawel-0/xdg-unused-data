@@ -1,6 +1,6 @@
 {
   "name": "Dillo",
-  "executable": [
+  "executables": [
     "dillo"
   ],
   "locations": [

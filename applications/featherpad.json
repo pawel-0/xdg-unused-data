@@ -1,6 +1,6 @@
 {
   "name": "FeatherPad",
-  "executable": [
+  "executables": [
     "featherpad"
   ],
   "locations": [

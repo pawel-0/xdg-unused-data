@@ -1,6 +1,6 @@
 {
   "name": "Clementine",
-  "executable": [
+  "executables": [
     "clementine"
   ],
   "locations": [

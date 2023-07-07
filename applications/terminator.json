@@ -1,6 +1,6 @@
 {
   "name": "Terminator",
-  "executable": [
+  "executables": [
     "terminator"
   ],
   "locations": [

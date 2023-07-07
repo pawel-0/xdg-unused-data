@@ -1,6 +1,6 @@
 {
   "name": "ETW",
-  "executable": [
+  "executables": [
     "etw"
   ],
   "locations": [

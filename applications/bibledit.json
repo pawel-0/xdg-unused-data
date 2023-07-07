@@ -1,6 +1,6 @@
 {
   "name": "Bibledit",
-  "executable": [
+  "executables": [
     "bibledit"
   ],
   "locations": [

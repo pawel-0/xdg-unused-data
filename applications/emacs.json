@@ -1,6 +1,6 @@
 {
   "name": "Emacs",
-  "executable": [
+  "executables": [
     "emacs"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "dupeGuru",
-  "executable": [
+  "executables": [
     "dupeguru"
   ],
   "locations": [

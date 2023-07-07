@@ -1,6 +1,6 @@
 {
   "name": "Geany",
-  "executable": [
+  "executables": [
     "geany"
   ],
   "locations": [

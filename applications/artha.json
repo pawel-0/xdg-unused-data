@@ -1,6 +1,6 @@
 {
   "name": "Artha",
-  "executable": [
+  "executables": [
     "artha"
   ],
   "locations": [

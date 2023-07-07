@@ -1,6 +1,6 @@
 {
   "name": "Deepin Calculator",
-  "executable": [
+  "executables": [
     "deepin-calculator"
   ],
   "locations": [

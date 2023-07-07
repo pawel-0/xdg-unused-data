@@ -1,6 +1,6 @@
 {
   "name": "GoldenDict",
-  "executable": [
+  "executables": [
     "goldendict"
   ],
   "locations": [

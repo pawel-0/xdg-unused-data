@@ -1,6 +1,6 @@
 {
   "name": "xmobar",
-  "executable": [
+  "executables": [
     "xmobar"
   ],
   "locations": [

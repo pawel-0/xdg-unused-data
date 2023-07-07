@@ -1,6 +1,6 @@
 {
   "name": "Fritzing",
-  "executable": [
+  "executables": [
     "fritzing"
   ],
   "locations": [

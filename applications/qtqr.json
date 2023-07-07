@@ -1,6 +1,6 @@
 {
   "name": "QtQR",
-  "executable": [
+  "executables": [
     "qtqr"
   ],
   "locations": [

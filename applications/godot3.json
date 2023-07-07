@@ -1,6 +1,6 @@
 {
   "name": "Godot Engine",
-  "executable": [
+  "executables": [
     "godot3"
   ],
   "locations": [

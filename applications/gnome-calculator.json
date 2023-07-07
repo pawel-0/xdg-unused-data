@@ -1,6 +1,6 @@
 {
   "name": "GNOME Calculator",
-  "executable": [
+  "executables": [
     "gnome-calculator"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "QuiteRSS",
-  "executable": [
+  "executables": [
     "quiterss"
   ],
   "locations": [

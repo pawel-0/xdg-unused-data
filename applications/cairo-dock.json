@@ -1,6 +1,6 @@
 {
   "name": "Cairo-Dock",
-  "executable": [
+  "executables": [
     "cairo-dock"
   ],
   "locations": [

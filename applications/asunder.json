@@ -1,6 +1,6 @@
 {
   "name": "Asunder",
-  "executable": [
+  "executables": [
     "asunder"
   ],
   "locations": [

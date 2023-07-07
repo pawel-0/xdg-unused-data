@@ -1,6 +1,6 @@
 {
   "name": "Variety",
-  "executable": [
+  "executables": [
     "variety"
   ],
   "locations": [

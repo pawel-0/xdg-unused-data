@@ -1,6 +1,6 @@
 {
   "name": "Angry Drunken Dwarves",
-  "executable": [
+  "executables": [
     "angrydd"
   ],
   "locations": [

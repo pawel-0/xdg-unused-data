@@ -1,6 +1,6 @@
 {
   "name": "Gerbera",
-  "executable": [
+  "executables": [
     "gerbera"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Claws Mail",
-  "executable": [
+  "executables": [
     "claws-mail"
   ],
   "locations": [

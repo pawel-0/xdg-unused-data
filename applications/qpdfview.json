@@ -1,6 +1,6 @@
 {
   "name": "QpdfView",
-  "executable": [
+  "executables": [
     "qpdfview"
   ],
   "locations": [

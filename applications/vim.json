@@ -1,6 +1,6 @@
 {
   "name": "vim",
-  "executable": [
+  "executables": [
     "vim"
   ],
   "locations": [

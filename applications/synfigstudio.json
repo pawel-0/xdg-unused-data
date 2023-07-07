@@ -1,6 +1,6 @@
 {
   "name": "Synfig Studio",
-  "executable": [
+  "executables": [
     "synfigstudio"
   ],
   "locations": [

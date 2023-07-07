@@ -1,6 +1,6 @@
 {
   "name": "Entangle",
-  "executable": [
+  "executables": [
     "entangle"
   ],
   "locations": [

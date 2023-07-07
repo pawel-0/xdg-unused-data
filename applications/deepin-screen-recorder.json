@@ -1,6 +1,6 @@
 {
   "name": "Deepin Screen Recorder",
-  "executable": [
+  "executables": [
     "deepin-screen-recorder"
   ],
   "locations": [

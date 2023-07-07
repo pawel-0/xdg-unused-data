@@ -1,6 +1,6 @@
 {
   "name": "Gtkpod",
-  "executable": [
+  "executables": [
     "gtkpod"
   ],
   "locations": [

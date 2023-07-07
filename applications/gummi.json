@@ -1,6 +1,6 @@
 {
   "name": "Gummi",
-  "executable": [
+  "executables": [
     "gummi"
   ],
   "locations": [

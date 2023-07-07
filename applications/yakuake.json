@@ -1,6 +1,6 @@
 {
   "name": "Yakuake",
-  "executable": [
+  "executables": [
     "yakuake"
   ],
   "locations": [

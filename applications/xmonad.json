@@ -1,6 +1,6 @@
 {
   "name": "xmonad",
-  "executable": [
+  "executables": [
     "xmonad"
   ],
   "locations": [

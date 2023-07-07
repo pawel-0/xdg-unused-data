@@ -1,6 +1,6 @@
 {
   "name": "Arduino",
-  "executable": [
+  "executables": [
     "arduino"
   ],
   "locations": [

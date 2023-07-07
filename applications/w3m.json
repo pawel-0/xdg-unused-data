@@ -1,6 +1,6 @@
 {
   "name": "w3m",
-  "executable": [
+  "executables": [
     "w3m"
   ],
   "locations": [

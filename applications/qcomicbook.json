@@ -1,6 +1,6 @@
 {
   "name": "QcomicBook",
-  "executable": [
+  "executables": [
     "qcomicbook"
   ],
   "locations": [

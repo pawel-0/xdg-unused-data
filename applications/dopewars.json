@@ -1,6 +1,6 @@
 {
   "name": "Dopewars",
-  "executable": [
+  "executables": [
     "dopewars"
   ],
   "locations": [

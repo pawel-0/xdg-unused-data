@@ -1,6 +1,6 @@
 {
   "name": "Fcitx",
-  "executable": [
+  "executables": [
     "fcitx"
   ],
   "locations": [

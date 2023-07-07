@@ -1,6 +1,6 @@
 {
   "name": "Gtick",
-  "executable": [
+  "executables": [
     "gtick"
   ],
   "locations": [

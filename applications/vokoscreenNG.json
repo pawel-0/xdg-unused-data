@@ -1,6 +1,6 @@
 {
   "name": "VokoscreenNG",
-  "executable": [
+  "executables": [
     "vokoscreenNG"
   ],
   "locations": [

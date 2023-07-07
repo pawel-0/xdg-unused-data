@@ -1,6 +1,6 @@
 {
   "name": "Frozen Bubble",
-  "executable": [
+  "executables": [
     "frozen-bubble"
   ],
   "locations": [

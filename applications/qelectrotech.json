@@ -1,6 +1,6 @@
 {
   "name": "QelectroTech",
-  "executable": [
+  "executables": [
     "qelectrotech"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "GNOME Mines",
-  "executable": [
+  "executables": [
     "gnome-mines"
   ],
   "locations": [

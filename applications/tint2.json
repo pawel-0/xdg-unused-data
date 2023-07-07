@@ -1,6 +1,6 @@
 {
   "name": "Tint2",
-  "executable": [
+  "executables": [
     "tint2"
   ],
   "locations": [

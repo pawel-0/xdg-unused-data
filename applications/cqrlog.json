@@ -1,6 +1,6 @@
 {
   "name": "CQRLOG",
-  "executable": [
+  "executables": [
     "cqrlog"
   ],
   "locations": [

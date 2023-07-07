@@ -1,6 +1,6 @@
 {
   "name": "digiKam",
-  "executable": [
+  "executables": [
     "digikam"
   ],
   "locations": [

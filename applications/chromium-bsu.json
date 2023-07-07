@@ -1,6 +1,6 @@
 {
   "name": "Chromium",
-  "executable": [
+  "executables": [
     "chromium-bsu"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Sonic Pi",
-  "executable": [
+  "executables": [
     "sonic-pi"
   ],
   "locations": [

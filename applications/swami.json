@@ -1,6 +1,6 @@
 {
   "name": "Swami ",
-  "executable": [
+  "executables": [
     "swami"
   ],
   "locations": [

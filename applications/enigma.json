@@ -1,6 +1,6 @@
 {
   "name": "Enigma",
-  "executable": [
+  "executables": [
     "enigma"
   ],
   "locations": [

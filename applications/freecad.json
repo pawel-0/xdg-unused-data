@@ -1,6 +1,6 @@
 {
   "name": "FreeCAD",
-  "executable": [
+  "executables": [
     "freecad"
   ],
   "locations": [

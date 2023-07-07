@@ -1,6 +1,6 @@
 {
   "name": "gretl",
-  "executable": [
+  "executables": [
     "gretl"
   ],
   "locations": [

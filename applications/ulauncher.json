@@ -1,6 +1,6 @@
 {
   "name": "Ulauncher",
-  "executable": [
+  "executables": [
     "ulauncher"
   ],
   "locations": [

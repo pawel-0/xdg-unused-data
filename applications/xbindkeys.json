@@ -1,6 +1,6 @@
 {
   "name": "xbindkeys",
-  "executable": [
+  "executables": [
     "xbindkeys"
   ],
   "locations": [

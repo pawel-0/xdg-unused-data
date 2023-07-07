@@ -1,6 +1,6 @@
 {
   "name": "GNOME Video Arcade",
-  "executable": [
+  "executables": [
     "gnome-video-arcade"
   ],
   "locations": [

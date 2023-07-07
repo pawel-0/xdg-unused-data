@@ -1,6 +1,6 @@
 {
   "name": "Guitarix",
-  "executable": [
+  "executables": [
     "guitarix"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Remmina",
-  "executable": [
+  "executables": [
     "remmina"
   ],
   "locations": [

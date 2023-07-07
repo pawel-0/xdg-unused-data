@@ -1,6 +1,6 @@
 {
   "name": "Grsync",
-  "executable": [
+  "executables": [
     "grsync"
   ],
   "locations": [

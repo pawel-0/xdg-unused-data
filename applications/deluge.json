@@ -1,6 +1,6 @@
 {
   "name": "Deluge",
-  "executable": [
+  "executables": [
     "deluge"
   ],
   "locations": [

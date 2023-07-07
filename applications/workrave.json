@@ -1,6 +1,6 @@
 {
   "name": "Workrave",
-  "executable": [
+  "executables": [
     "workrave"
   ],
   "locations": [

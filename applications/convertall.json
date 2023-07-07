@@ -1,6 +1,6 @@
 {
   "name": "ConvertAll",
-  "executable": [
+  "executables": [
     "convertall"
   ],
   "locations": [

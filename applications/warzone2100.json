@@ -1,6 +1,6 @@
 {
   "name": "Warzone 2100",
-  "executable": [
+  "executables": [
     "warzone2100"
   ],
   "locations": [

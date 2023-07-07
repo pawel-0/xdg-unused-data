@@ -1,6 +1,6 @@
 {
   "name": "zoom",
-  "executable": [
+  "executables": [
     "zoom"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Evolution",
-  "executable": [
+  "executables": [
     "evolution"
   ],
   "locations": [

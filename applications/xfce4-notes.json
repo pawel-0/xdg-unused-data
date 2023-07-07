@@ -1,6 +1,6 @@
 {
   "name": "Xfce 4 Notes",
-  "executable": [
+  "executables": [
     "xfce4-notes"
   ],
   "locations": [

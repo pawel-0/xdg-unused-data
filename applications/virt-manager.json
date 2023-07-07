@@ -1,6 +1,6 @@
 {
   "name": "Virt Manager",
-  "executable": [
+  "executables": [
     "virt-manager"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Gweled",
-  "executable": [
+  "executables": [
     "gweled"
   ],
   "locations": [

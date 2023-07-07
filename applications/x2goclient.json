@@ -1,6 +1,6 @@
 {
   "name": "X2Go Client",
-  "executable": [
+  "executables": [
     "x2goclient"
   ],
   "locations": [

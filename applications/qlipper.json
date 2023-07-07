@@ -1,6 +1,6 @@
 {
   "name": "Qlipper",
-  "executable": [
+  "executables": [
     "qlipper"
   ],
   "locations": [

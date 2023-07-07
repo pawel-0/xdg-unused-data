@@ -1,6 +1,6 @@
 {
   "name": "KmyMoney",
-  "executable": [
+  "executables": [
     "kmymoney"
   ],
   "locations": [

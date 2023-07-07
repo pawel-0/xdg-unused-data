@@ -1,6 +1,6 @@
 {
   "name": "zsh",
-  "executable": [
+  "executables": [
     "zsh"
   ],
   "locations": [

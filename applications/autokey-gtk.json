@@ -1,6 +1,6 @@
 {
   "name": "AutoKey",
-  "executable": [
+  "executables": [
     "autokey-gtk"
   ],
   "locations": [

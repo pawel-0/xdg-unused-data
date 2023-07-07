@@ -1,6 +1,6 @@
 {
   "name": "WSJT-X",
-  "executable": [
+  "executables": [
     "wsjtx"
   ],
   "locations": [

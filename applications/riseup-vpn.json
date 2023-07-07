@@ -1,6 +1,6 @@
 {
   "name": "RiseupVPN",
-  "executable": [
+  "executables": [
     "riseup-vpn"
   ],
   "locations": [

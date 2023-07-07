@@ -1,6 +1,6 @@
 {
   "name": "qmmp",
-  "executable": [
+  "executables": [
     "qmmp"
   ],
   "locations": [

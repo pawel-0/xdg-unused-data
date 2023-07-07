@@ -1,6 +1,6 @@
 {
   "name": "tldr",
-  "executable": [
+  "executables": [
     "tldr"
   ],
   "locations": [

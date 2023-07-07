@@ -1,6 +1,6 @@
 {
   "name": "Scratch",
-  "executable": [
+  "executables": [
     "scratch"
   ],
   "locations": [

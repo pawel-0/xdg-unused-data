@@ -1,6 +1,6 @@
 {
   "name": "Shotcut",
-  "executable": [
+  "executables": [
     "shotcut"
   ],
   "locations": [

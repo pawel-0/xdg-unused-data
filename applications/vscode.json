@@ -1,6 +1,6 @@
 {
   "name": "VSCode",
-  "executable": [
+  "executables": [
     "code"
   ],
   "locations": [

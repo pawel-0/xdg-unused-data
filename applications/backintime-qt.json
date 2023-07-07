@@ -1,6 +1,6 @@
 {
   "name": "Back In Time",
-  "executable": [
+  "executables": [
     "backintime-qt"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "BlockOut II",
-  "executable": [
+  "executables": [
     "blockout2"
   ],
   "locations": [

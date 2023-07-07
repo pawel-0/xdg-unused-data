@@ -1,6 +1,6 @@
 {
   "name": "HDF View",
-  "executable": [
+  "executables": [
     "hdfview"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Subversion",
-  "executable": [
+  "executables": [
     "svn"
   ],
   "locations": [

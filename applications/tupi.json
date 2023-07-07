@@ -1,6 +1,6 @@
 {
   "name": "TupiTube",
-  "executable": [
+  "executables": [
     "tupi"
   ],
   "locations": [

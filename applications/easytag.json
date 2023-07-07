@@ -1,6 +1,6 @@
 {
   "name": "EasyTAG",
-  "executable": [
+  "executables": [
     "easytag"
   ],
   "locations": [

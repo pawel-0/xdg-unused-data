@@ -1,6 +1,6 @@
 {
   "name": "vitetris",
-  "executable": [
+  "executables": [
     "vitetris"
   ],
   "locations": [

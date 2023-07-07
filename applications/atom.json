@@ -1,6 +1,6 @@
 {
   "name": "atom",
-  "executable": [
+  "executables": [
     "atom"
   ],
   "locations": [

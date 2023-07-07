@@ -1,6 +1,6 @@
 {
   "name": "Xarchiver",
-  "executable": [
+  "executables": [
     "xarchiver"
   ],
   "locations": [

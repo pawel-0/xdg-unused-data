@@ -1,6 +1,6 @@
 {
   "name": "Cmake GUI",
-  "executable": [
+  "executables": [
     "cmake-gui"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Amoebax",
-  "executable": [
+  "executables": [
     "amoebax"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Berusky II",
-  "executable": [
+  "executables": [
     "berusky2"
   ],
   "locations": [

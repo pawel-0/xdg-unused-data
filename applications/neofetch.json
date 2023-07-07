@@ -1,6 +1,6 @@
 {
   "name": "Neofetch",
-  "executable": [
+  "executables": [
     "neofetch"
   ],
   "locations": [

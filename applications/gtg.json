@@ -1,6 +1,6 @@
 {
   "name": "GTG",
-  "executable": [
+  "executables": [
     "gtg"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Klotski",
-  "executable": [
+  "executables": [
     "gnome-klotski"
   ],
   "locations": [

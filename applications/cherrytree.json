@@ -1,6 +1,6 @@
 {
   "name": "CherryTree",
-  "executable": [
+  "executables": [
     "cherrytree"
   ],
   "locations": [

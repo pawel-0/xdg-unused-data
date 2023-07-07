@@ -1,6 +1,6 @@
 {
   "name": "WakaTime",
-  "executable": [
+  "executables": [
     "wakatime"
   ],
   "locations": [

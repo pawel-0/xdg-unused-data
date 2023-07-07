@@ -1,6 +1,6 @@
 {
   "name": "go",
-  "executable": [
+  "executables": [
     "go"
   ],
   "locations": [

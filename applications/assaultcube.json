@@ -1,6 +1,6 @@
 {
   "name": "AssaultCube",
-  "executable": [
+  "executables": [
     "assaultcube"
   ],
   "locations": [

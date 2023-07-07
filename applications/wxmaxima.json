@@ -1,6 +1,6 @@
 {
   "name": "wxMaxima",
-  "executable": [
+  "executables": [
     "maxima",
     "wxmaxima"
   ],

@@ -1,6 +1,6 @@
 {
   "name": "Winetricks",
-  "executable": [
+  "executables": [
     "winetricks"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "Bluefish",
-  "executable": [
+  "executables": [
     "bluefish"
   ],
   "locations": [

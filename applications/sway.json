@@ -1,6 +1,6 @@
 {
   "name": "Sway WM",
-  "executable": [
+  "executables": [
     "sway"
   ],
   "locations": [

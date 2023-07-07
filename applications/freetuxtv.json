@@ -1,6 +1,6 @@
 {
   "name": "FreetuxTV",
-  "executable": [
+  "executables": [
     "freetuxtv"
   ],
   "locations": [

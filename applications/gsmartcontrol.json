@@ -1,6 +1,6 @@
 {
   "name": "GsmartControl",
-  "executable": [
+  "executables": [
     "gsmartcontrol"
   ],
   "locations": [

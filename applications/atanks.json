@@ -1,6 +1,6 @@
 {
   "name": "Atomic Tanks",
-  "executable": [
+  "executables": [
     "atanks"
   ],
   "locations": [

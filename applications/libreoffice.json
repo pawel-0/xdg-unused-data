@@ -1,6 +1,6 @@
 {
   "name": "Libre Office",
-  "executable": [
+  "executables": [
     "libreoffice"
   ],
   "locations": [

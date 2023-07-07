@@ -1,6 +1,6 @@
 {
   "name": "Xgnokii",
-  "executable": [
+  "executables": [
     "xgnokii"
   ],
   "locations": [

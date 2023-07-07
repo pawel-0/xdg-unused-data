@@ -1,6 +1,6 @@
 {
   "name": "0 A.D.",
-  "executable": [
+  "executables": [
     "0ad"
   ],
   "locations": [

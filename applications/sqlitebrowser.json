@@ -1,6 +1,6 @@
 {
   "name": "SQLite Database Browser",
-  "executable": [
+  "executables": [
     "sqlitebrowser"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "TROPHY",
-  "executable": [
+  "executables": [
     "trophy"
   ],
   "locations": [

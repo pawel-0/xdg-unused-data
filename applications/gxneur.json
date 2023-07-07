@@ -1,6 +1,6 @@
 {
   "name": "gXNeur",
-  "executable": [
+  "executables": [
     "gxneur"
   ],
   "locations": [

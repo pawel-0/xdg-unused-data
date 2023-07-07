@@ -1,6 +1,6 @@
 {
   "name": "Octave",
-  "executable": [
+  "executables": [
     "octave"
   ],
   "locations": [

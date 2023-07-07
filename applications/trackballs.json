@@ -1,6 +1,6 @@
 {
   "name": "Trackballs",
-  "executable": [
+  "executables": [
     "trackballs"
   ],
   "locations": [

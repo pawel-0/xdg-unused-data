@@ -1,6 +1,6 @@
 {
   "name": "Anjuta",
-  "executable": [
+  "executables": [
     "anjuta"
   ],
   "locations": [

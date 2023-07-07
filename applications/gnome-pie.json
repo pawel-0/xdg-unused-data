@@ -1,6 +1,6 @@
 {
   "name": "GNOME Pie",
-  "executable": [
+  "executables": [
     "gnome-pie"
   ],
   "locations": [

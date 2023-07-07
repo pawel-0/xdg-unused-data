@@ -1,6 +1,6 @@
 {
   "name": "Qimgv",
-  "executable": [
+  "executables": [
     "qimgv"
   ],
   "locations": [

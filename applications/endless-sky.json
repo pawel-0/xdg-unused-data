@@ -1,6 +1,6 @@
 {
   "name": "Endless Sky",
-  "executable": [
+  "executables": [
     "endless-sky"
   ],
   "locations": [

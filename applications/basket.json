@@ -1,6 +1,6 @@
 {
   "name": "Basket",
-  "executable": [
+  "executables": [
     "basket"
   ],
   "locations": [

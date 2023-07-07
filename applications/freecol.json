@@ -1,6 +1,6 @@
 {
   "name": "FreeCol",
-  "executable": [
+  "executables": [
     "freecol"
   ],
   "locations": [

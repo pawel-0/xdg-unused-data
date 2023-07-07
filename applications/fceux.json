@@ -1,6 +1,6 @@
 {
   "name": "FCEUX",
-  "executable": [
+  "executables": [
     "fceux"
   ],
   "locations": [

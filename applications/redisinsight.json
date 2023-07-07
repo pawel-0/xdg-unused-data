@@ -1,6 +1,6 @@
 {
   "name": "Redis Insight",
-  "executable": [
+  "executables": [
     "Redis Insight"
   ],
   "locations": [

@@ -1,6 +1,6 @@
 {
   "name": "USB Creator",
-  "executable": [
+  "executables": [
     "usb-creator-gtk"
   ],
   "locations": [

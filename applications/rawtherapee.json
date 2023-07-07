@@ -1,6 +1,6 @@
 {
   "name": "RawTherapee",
-  "executable": [
+  "executables": [
     "rawtherapee"
   ],
   "locations": [

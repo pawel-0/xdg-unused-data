@@ -1,6 +1,6 @@
 {
   "name": "BurgerSpace",
-  "executable": [
+  "executables": [
     "burgerspace"
   ],
   "locations": [

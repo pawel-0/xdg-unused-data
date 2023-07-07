@@ -1,6 +1,6 @@
 {
   "name": "Scribus",
-  "executable": [
+  "executables": [
     "scribus"
   ],
   "locations": [

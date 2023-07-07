@@ -1,6 +1,6 @@
 {
   "name": "Five or more",
-  "executable": [
+  "executables": [
     "five-or-more"
   ],
   "locations": [

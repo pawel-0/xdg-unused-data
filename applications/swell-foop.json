@@ -1,6 +1,6 @@
 {
   "name": "Swell Foop",
-  "executable": [
+  "executables": [
     "swell-foop"
   ],
   "locations": [

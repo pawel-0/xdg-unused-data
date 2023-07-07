@@ -1,6 +1,6 @@
 {
   "name": "QstarDict",
-  "executable": [
+  "executables": [
     "qstardict"
   ],
   "locations": [
