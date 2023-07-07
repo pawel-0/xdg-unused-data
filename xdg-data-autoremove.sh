@@ -15,7 +15,7 @@ COLOR_XA_YELLOW="\033[33m"
 COLOR_XA_BLUE="\033[34m"
 
 main(){
-    PARSED_JSON=$(jq -r '.name as $name | .executable as $executable | .locations[] | "\($name),\($executable),\(.file)"' "$APPLICATION_JSON_DIRECTORY"/*.json)
+    PARSED_JSON=$(jq -r '.name as $name | .executable as $executable | .locations[] | "\($name),\($executable[]),\(.file)"' "$APPLICATION_JSON_DIRECTORY"/wxmaxima.json)
     
     while IFS="," read -r APP_NAME APP_EXECUTABLE FILE_PATH; do 
         check_application "$APP_NAME" "$APP_EXECUTABLE" "$FILE_PATH"
