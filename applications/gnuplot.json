@@ -1,0 +1,9 @@
+{
+  "name": "Gnuplot",
+  "executable": "gnuplot",
+  "locations": [
+    {
+      "file": "$HOME/.gnuplot_history"
+    }
+  ]
+}

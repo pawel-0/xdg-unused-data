@@ -4,6 +4,9 @@
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/VirtualBox"
+    },
+    {
+      "file": "$HOME/.VirtualBox"
     }
   ]
 }

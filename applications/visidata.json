@@ -1,0 +1,15 @@
+{
+  "name": "visidata",
+  "executable": "visidata",
+  "locations": [
+    {
+      "file": "$HOME/.visidata/"
+    },
+    {
+      "file": "$HOME/.visidatarc"
+    },
+    {
+      "file": "$XDG_CACHE_HOME/visidata"
+    }
+  ]
+}

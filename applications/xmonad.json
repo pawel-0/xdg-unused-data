@@ -1,0 +1,15 @@
+{
+  "name": "xmonad",
+  "executable": "xmonad",
+  "locations": [
+    {
+      "file": "$HOME/.xmonad"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/xmonad"
+    },
+    {
+      "file": "$XDG_CACHE_HOME/xmonad"
+    }
+  ]
+}

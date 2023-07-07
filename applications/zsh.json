@@ -1,0 +1,39 @@
+{
+  "name": "zsh",
+  "executable": "zsh",
+  "locations": [
+    {
+      "file": "$HOME/.zshrc"
+    },
+    {
+      "file": "$HOME/.zcompcache"
+    },
+    {
+      "file": "$HOME/.zcompdump"
+    },
+    {
+      "file": "$HOME/.zhistory"
+    },
+    {
+      "file": "$HOME/.histfile"
+    },
+    {
+      "file": "$HOME/.zsh_history"
+    },
+    {
+      "file": "$HOME/.zlogin"
+    },
+    {
+      "file": "$HOME/.zprofile"
+    },
+    {
+      "file": "$HOME/.zshenv"
+    },
+    {
+      "file": "$ZDOTDIR"
+    },
+    {
+      "file": "$HISTFILE"
+    }
+  ]
+}

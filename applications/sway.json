@@ -1,0 +1,9 @@
+{
+  "name": "Sway WM",
+  "executable": "sway",
+  "locations": [
+    {
+      "file": "$HOME/.sway"
+    }
+  ]
+}

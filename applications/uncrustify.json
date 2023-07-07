@@ -1,0 +1,15 @@
+{
+  "name": "Uncrustify",
+  "executable": "uncrustify",
+  "locations": [
+    {
+      "file": "$HOME/.uncrustify.cfg"
+    },
+    {
+      "file": "$HOME/uncrustify.cfg"
+    },
+    {
+      "file": "$UNCRUSTIFY_CONFIG"
+    }
+  ]
+}

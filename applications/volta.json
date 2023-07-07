@@ -1,0 +1,12 @@
+{
+  "name": "Volta",
+  "executable": "volta",
+  "locations": [
+    {
+      "file": "$HOME/.volta"
+    },
+    {
+      "file": "$VOLTA_HOME"
+    }
+  ]
+}

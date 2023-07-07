@@ -1,9 +1,0 @@
-{
-  "name": "Deepin Calendar",
-  "executable": "dde-calendar",
-  "locations": [
-    {
-      "file": "$XDG_CONFIG_HOME/deepin"
-    }
-  ]
-}

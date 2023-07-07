@@ -1,0 +1,12 @@
+{
+  "name": "Units",
+  "executable": "units",
+  "locations": [
+    {
+      "file": "$HOME/.units_history"
+    },
+    {
+      "file": "$XDG_CACHE_HOME/units_history"
+    }
+  ]
+}

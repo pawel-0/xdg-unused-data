@@ -3,6 +3,9 @@
   "executable": "audacity",
   "locations": [
     {
+      "file": "$HOME/.audacity-data"
+    },
+    {
       "file": "$XDG_CONFIG_HOME/audacity"
     }
   ]

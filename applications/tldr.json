@@ -1,0 +1,9 @@
+{
+  "name": "tldr",
+  "executable": "tldr",
+  "locations": [
+    {
+      "file": "$HOME/.tldrc"
+    }
+  ]
+}

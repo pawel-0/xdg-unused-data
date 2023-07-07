@@ -4,6 +4,9 @@
   "locations": [
     {
       "file": "$HOME/.fceux"
+    },
+    {
+      "file": "$FCEUX_HOME"
     }
   ]
 }

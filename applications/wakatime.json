@@ -1,0 +1,24 @@
+{
+  "name": "WakaTime",
+  "executable": "wakatime",
+  "locations": [
+    {
+      "file": "$HOME/.wakatime"
+    },
+    {
+      "file": "$HOME/.wakatime.cfg"
+    },
+    {
+      "file": "$HOME/.wakatime.data"
+    },
+    {
+      "file": "$HOME/.wakatime.db"
+    },
+    {
+      "file": "$HOME/.wakatime.log"
+    },
+    {
+      "file": "$WAKATIME_HOME"
+    }
+  ]
+}

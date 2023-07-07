@@ -1,0 +1,15 @@
+{
+  "name": "SciTE",
+  "executable": "scite",
+  "locations": [
+    {
+      "file": "$HOME/.SciTE.session"
+    },
+    {
+      "file": "$TE_USERHOME"
+    },
+    {
+      "file": "$HOME/.SciTEUser.properties"
+    }
+  ]
+}

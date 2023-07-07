@@ -4,6 +4,9 @@
   "locations": [
     {
       "file": "$HOME/.unison"
+    },
+    {
+      "file": "$UNISON"
     }
   ]
 }

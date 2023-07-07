@@ -3,6 +3,18 @@
   "executable": "asunder",
   "locations": [
     {
+      "file": "$HOME/.asunder"
+    },
+    {
+      "file": "$HOME/.asunder_album_artist"
+    },
+    {
+      "file": "$HOME/.asunder_album_genre"
+    },
+    {
+      "file": "$HOME/.asunder_album_title"
+    },
+    {
       "file": "$XDG_CONFIG_HOME/asunder"
     }
   ]

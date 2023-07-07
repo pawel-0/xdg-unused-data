@@ -1,0 +1,12 @@
+{
+  "name": "easyocr",
+  "executable": "easyocr",
+  "locations": [
+    {
+      "file": "$HOME/.EasyOCR"
+    },
+    {
+      "file": "$EASYOCR_MODULE_PATH"
+    }
+  ]
+}

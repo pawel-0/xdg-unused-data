@@ -1,0 +1,27 @@
+{
+  "name": "vim",
+  "executable": "vim",
+  "locations": [
+    {
+      "file": "$HOME/.vimrc"
+    },
+    {
+      "file": "$HOME/.viminfo"
+    },
+    {
+      "file": "$HOME/.vim"
+    },
+    {
+      "file": "$GVIMINIT"
+    },
+    {
+      "file": "$MYGVIMRC"
+    },
+    {
+      "file": "$VIMINIT"
+    },
+    {
+      "file": "$MYVIMRC"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "atom",
+  "executable": "atom",
+  "locations": [
+    {
+      "file": "$HOME/.atom"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/Atom"
+    },
+    {
+      "file": "$ATOM_HOME"
+    }
+  ]
+}

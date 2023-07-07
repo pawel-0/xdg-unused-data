@@ -1,0 +1,15 @@
+{
+  "name": "AWS CLI",
+  "executable": "aws",
+  "locations": [
+    {
+      "file": "$HOME/.aws"
+    },
+    {
+      "file": "$AWS_SHARED_CREDENTIALS_FILE"
+    },
+    {
+      "file": "$AWS_CONFIG_FILE"
+    }
+  ]
+}

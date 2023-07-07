@@ -1,0 +1,15 @@
+{
+  "name": "Xonsh",
+  "executable": "xonsh",
+  "locations": [
+    {
+      "file": "$HOME/.xonshrc"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/xonsh"
+    },
+    {
+      "file": "$XDG_CACHE_HOME/xonsh"
+    }
+  ]
+}

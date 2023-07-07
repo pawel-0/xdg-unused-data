@@ -1,0 +1,12 @@
+{
+  "name": "since",
+  "executable": "since",
+  "locations": [
+    {
+      "file": "$HOME/.since"
+    },
+    {
+      "file": "$SINCE"
+    }
+  ]
+}
