@@ -1,6 +1,8 @@
 {
   "name": "GnuCash",
-  "executable": "gnucash",
+  "executable": [
+    "gnucash"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/gnucash"

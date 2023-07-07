@@ -1,6 +1,8 @@
 {
   "name": "Audacity",
-  "executable": "audacity",
+  "executable": [
+    "audacity"
+  ],
   "locations": [
     {
       "file": "$HOME/.audacity-data"

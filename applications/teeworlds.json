@@ -1,6 +1,8 @@
 {
   "name": "Teeworlds",
-  "executable": "teeworlds",
+  "executable": [
+    "teeworlds"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/teeworlds "

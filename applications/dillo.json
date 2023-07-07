@@ -1,6 +1,8 @@
 {
   "name": "Dillo",
-  "executable": "dillo",
+  "executable": [
+    "dillo"
+  ],
   "locations": [
     {
       "file": "$HOME/.dillo"

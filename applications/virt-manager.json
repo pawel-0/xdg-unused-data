@@ -1,6 +1,8 @@
 {
   "name": "Virt Manager",
-  "executable": "virt-manager",
+  "executable": [
+    "virt-manager"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/virt-manager"

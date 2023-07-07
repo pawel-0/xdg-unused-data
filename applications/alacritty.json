@@ -1,6 +1,8 @@
 {
   "name": "Alacritty",
-  "executable": "alacritty",
+  "executable": [
+    "alacritty"
+  ],
   "locations": [
     {
       "file": "$HOME/.alacritty.yml"

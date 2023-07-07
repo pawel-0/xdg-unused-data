@@ -1,6 +1,8 @@
 {
   "name": "Streamtuner2",
-  "executable": "streamtuner2",
+  "executable": [
+    "streamtuner2"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/streamtuner2"

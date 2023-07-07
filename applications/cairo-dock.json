@@ -1,6 +1,8 @@
 {
   "name": "Cairo-Dock",
-  "executable": "cairo-dock",
+  "executable": [
+    "cairo-dock"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/cairo-dock"

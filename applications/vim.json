@@ -1,6 +1,8 @@
 {
   "name": "vim",
-  "executable": "vim",
+  "executable": [
+    "vim"
+  ],
   "locations": [
     {
       "file": "$HOME/.vimrc"

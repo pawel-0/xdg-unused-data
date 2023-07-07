@@ -1,6 +1,8 @@
 {
   "name": "Qimgv",
-  "executable": "qimgv",
+  "executable": [
+    "qimgv"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/qimgv"

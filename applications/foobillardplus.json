@@ -1,6 +1,8 @@
 {
   "name": "FooBillardplus",
-  "executable": "foobillardplus",
+  "executable": [
+    "foobillardplus"
+  ],
   "locations": [
     {
       "file": "$HOME/.foobillardplus"

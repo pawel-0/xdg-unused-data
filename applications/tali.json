@@ -1,6 +1,8 @@
 {
   "name": "Tali",
-  "executable": "tali",
+  "executable": [
+    "tali"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/tali "

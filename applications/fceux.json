@@ -1,6 +1,8 @@
 {
   "name": "FCEUX",
-  "executable": "fceux",
+  "executable": [
+    "fceux"
+  ],
   "locations": [
     {
       "file": "$HOME/.fceux"

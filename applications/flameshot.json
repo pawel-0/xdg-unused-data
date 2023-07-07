@@ -1,6 +1,8 @@
 {
   "name": "Flameshot",
-  "executable": "flameshot",
+  "executable": [
+    "flameshot"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/flameshot"

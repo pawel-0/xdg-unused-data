@@ -1,6 +1,8 @@
 {
   "name": "Asunder",
-  "executable": "asunder",
+  "executable": [
+    "asunder"
+  ],
   "locations": [
     {
       "file": "$HOME/.asunder"

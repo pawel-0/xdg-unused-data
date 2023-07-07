@@ -1,6 +1,8 @@
 {
   "name": "Fcitx",
-  "executable": "fcitx",
+  "executable": [
+    "fcitx"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/fcitx"

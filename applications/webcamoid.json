@@ -1,6 +1,8 @@
 {
   "name": "Webcamoid",
-  "executable": "webcamoid",
+  "executable": [
+    "webcamoid"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/Webcamoid"

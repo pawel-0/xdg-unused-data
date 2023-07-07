@@ -1,6 +1,8 @@
 {
   "name": "GPX Viewer",
-  "executable": "gpxviewer",
+  "executable": [
+    "gpxviewer"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/gpxviewer"

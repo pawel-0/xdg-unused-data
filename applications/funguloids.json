@@ -1,6 +1,8 @@
 {
   "name": "Funguloids",
-  "executable": "funguloids",
+  "executable": [
+    "funguloids"
+  ],
   "locations": [
     {
       "file": "$HOME/.funguloids"

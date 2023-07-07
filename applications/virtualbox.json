@@ -1,6 +1,8 @@
 {
   "name": "VirtualBox",
-  "executable": "virtualbox",
+  "executable": [
+    "virtualbox"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/VirtualBox"

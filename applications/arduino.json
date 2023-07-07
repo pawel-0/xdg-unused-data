@@ -1,6 +1,8 @@
 {
   "name": "Arduino",
-  "executable": "arduino",
+  "executable": [
+    "arduino"
+  ],
   "locations": [
     {
       "file": "$HOME/Arduino"

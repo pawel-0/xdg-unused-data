@@ -1,6 +1,8 @@
 {
   "name": "Xsane",
-  "executable": "xsane",
+  "executable": [
+    "xsane"
+  ],
   "locations": [
     {
       "file": "$HOME/.sane"

@@ -1,6 +1,8 @@
 {
   "name": "VBA Express",
-  "executable": "vbaexpress",
+  "executable": [
+    "vbaexpress"
+  ],
   "locations": [
     {
       "file": "$HOME/VisualBoyAdvance.cfg"

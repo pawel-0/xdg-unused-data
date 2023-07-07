@@ -1,6 +1,8 @@
 {
   "name": "Yelp",
-  "executable": "yelp",
+  "executable": [
+    "yelp"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/yelp"

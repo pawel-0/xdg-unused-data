@@ -1,6 +1,8 @@
 {
   "name": "Shutter",
-  "executable": "shutter",
+  "executable": [
+    "shutter"
+  ],
   "locations": [
     {
       "file": "$HOME/.shutter"

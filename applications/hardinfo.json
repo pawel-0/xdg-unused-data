@@ -1,6 +1,8 @@
 {
   "name": "HardInfo",
-  "executable": "hardinfo",
+  "executable": [
+    "hardinfo"
+  ],
   "locations": [
     {
       "file": "$HOME/.hardinfo"

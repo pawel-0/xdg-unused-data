@@ -1,6 +1,8 @@
 {
   "name": "QstarDict",
-  "executable": "qstardict",
+  "executable": [
+    "qstardict"
+  ],
   "locations": [
     {
       "file": "$HOME/.qstardict"

@@ -1,6 +1,8 @@
 {
   "name": "Butt",
-  "executable": "butt",
+  "executable": [
+    "butt"
+  ],
   "locations": [
     {
       "file": "$HOME/.buttrc"

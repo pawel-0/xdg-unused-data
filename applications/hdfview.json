@@ -1,6 +1,8 @@
 {
   "name": "HDF View",
-  "executable": "hdfview",
+  "executable": [
+    "hdfview"
+  ],
   "locations": [
     {
       "file": "$HOME/.hdfview2.11"

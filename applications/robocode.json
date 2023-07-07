@@ -1,6 +1,8 @@
 {
   "name": "Robocode",
-  "executable": "robocode",
+  "executable": [
+    "robocode"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/robocode "

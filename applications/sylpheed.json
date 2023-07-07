@@ -1,6 +1,8 @@
 {
   "name": "Sylpheed",
-  "executable": "sylpheed",
+  "executable": [
+    "sylpheed"
+  ],
   "locations": [
     {
       "file": "$HOME/.sylpheed-2.0"

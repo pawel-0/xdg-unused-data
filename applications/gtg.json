@@ -1,6 +1,8 @@
 {
   "name": "GTG",
-  "executable": "gtg",
+  "executable": [
+    "gtg"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/gtg"

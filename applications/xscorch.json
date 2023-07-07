@@ -1,6 +1,8 @@
 {
   "name": "xscorch",
-  "executable": "xscorch",
+  "executable": [
+    "xscorch"
+  ],
   "locations": [
     {
       "file": "$HOME/.xscorch"

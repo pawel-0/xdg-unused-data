@@ -1,6 +1,8 @@
 {
   "name": "Synfig Studio",
-  "executable": "synfigstudio",
+  "executable": [
+    "synfigstudio"
+  ],
   "locations": [
     {
       "file": "$HOME/.synfig"

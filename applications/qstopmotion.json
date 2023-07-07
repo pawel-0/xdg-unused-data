@@ -1,6 +1,8 @@
 {
   "name": "qStopMotion",
-  "executable": "qstopmotion",
+  "executable": [
+    "qstopmotion"
+  ],
   "locations": [
     {
       "file": "$HOME/log_qstopmotion.txt"

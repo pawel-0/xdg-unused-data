@@ -1,6 +1,9 @@
 {
   "name": "Unison",
-  "executable": "unison-gtk",
+  "executable": [
+    "unison",
+    "unison-gtk"
+  ],
   "locations": [
     {
       "file": "$HOME/.unison"

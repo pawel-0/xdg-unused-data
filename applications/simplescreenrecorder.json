@@ -1,6 +1,8 @@
 {
   "name": "SimpleScreenRecorder",
-  "executable": "simplescreenrecorder",
+  "executable": [
+    "simplescreenrecorder"
+  ],
   "locations": [
     {
       "file": "$HOME/.ssr"

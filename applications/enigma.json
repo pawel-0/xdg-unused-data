@@ -1,6 +1,8 @@
 {
   "name": "Enigma",
-  "executable": "enigma",
+  "executable": [
+    "enigma"
+  ],
   "locations": [
     {
       "file": "$HOME/.enigma"

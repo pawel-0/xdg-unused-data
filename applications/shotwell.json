@@ -1,6 +1,8 @@
 {
   "name": "Shotwell",
-  "executable": "shotwell",
+  "executable": [
+    "shotwell"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/shotwell"

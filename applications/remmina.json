@@ -1,6 +1,8 @@
 {
   "name": "Remmina",
-  "executable": "remmina",
+  "executable": [
+    "remmina"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/remmina"

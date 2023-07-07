@@ -1,6 +1,8 @@
 {
   "name": "FileZilla",
-  "executable": "filezilla",
+  "executable": [
+    "filezilla"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/filezilla"

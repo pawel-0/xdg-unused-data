@@ -1,6 +1,8 @@
 {
   "name": "Clementine",
-  "executable": "clementine",
+  "executable": [
+    "clementine"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/Clementine"

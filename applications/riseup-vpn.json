@@ -1,6 +1,8 @@
 {
   "name": "RiseupVPN",
-  "executable": "riseup-vpn",
+  "executable": [
+    "riseup-vpn"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/RiseupVPN"

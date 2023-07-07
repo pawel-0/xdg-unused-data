@@ -1,6 +1,8 @@
 {
   "name": "Squeak",
-  "executable": "squeak",
+  "executable": [
+    "squeak"
+  ],
   "locations": [
     {
       "file": "$HOME/.squeak"

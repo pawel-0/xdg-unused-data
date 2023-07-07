@@ -1,6 +1,8 @@
 {
   "name": "ckb-next",
-  "executable": "ckb-next",
+  "executable": [
+    "ckb-next"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/ckb-next"

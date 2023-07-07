@@ -1,6 +1,8 @@
 {
   "name": "qBittorrent",
-  "executable": "qbittorrent",
+  "executable": [
+    "qbittorrent"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/qBittorrent"

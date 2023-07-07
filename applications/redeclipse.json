@@ -1,6 +1,8 @@
 {
   "name": "Red Eclipse",
-  "executable": "redeclipse",
+  "executable": [
+    "redeclipse"
+  ],
   "locations": [
     {
       "file": "$HOME/.redeclipse"

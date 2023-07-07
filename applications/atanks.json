@@ -1,6 +1,8 @@
 {
   "name": "Atomic Tanks",
-  "executable": "atanks",
+  "executable": [
+    "atanks"
+  ],
   "locations": [
     {
       "file": "$HOME/.atanks"

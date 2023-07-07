@@ -1,6 +1,8 @@
 {
   "name": "HexChat",
-  "executable": "hexchat",
+  "executable": [
+    "hexchat"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/hexchat"

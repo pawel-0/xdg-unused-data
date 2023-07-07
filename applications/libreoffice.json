@@ -1,6 +1,8 @@
 {
   "name": "Libre Office",
-  "executable": "libreoffice",
+  "executable": [
+    "libreoffice"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/libreoffice"

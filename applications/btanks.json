@@ -1,6 +1,8 @@
 {
   "name": "Battle Tanks",
-  "executable": "btanks",
+  "executable": [
+    "btanks"
+  ],
   "locations": [
     {
       "file": "$HOME/.btanks"

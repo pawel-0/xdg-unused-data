@@ -1,6 +1,8 @@
 {
   "name": "GNOME Video Arcade",
-  "executable": "gnome-video-arcade",
+  "executable": [
+    "gnome-video-arcade"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/gnome-video-arcade "

@@ -1,6 +1,8 @@
 {
   "name": "Viewnior",
-  "executable": "viewnior",
+  "executable": [
+    "viewnior"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/viewnior"

@@ -1,6 +1,8 @@
 {
   "name": "scummvm",
-  "executable": "scummvm",
+  "executable": [
+    "scummvm"
+  ],
   "locations": [
     {
       "file": "$HOME/.scummvmrc"

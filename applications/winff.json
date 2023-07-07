@@ -1,6 +1,8 @@
 {
   "name": "WinFF",
-  "executable": "winff",
+  "executable": [
+    "winff"
+  ],
   "locations": [
     {
       "file": "$HOME/.winff"

@@ -1,6 +1,8 @@
 {
   "name": "Units",
-  "executable": "units",
+  "executable": [
+    "units"
+  ],
   "locations": [
     {
       "file": "$HOME/.units_history"

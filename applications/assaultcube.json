@@ -1,6 +1,8 @@
 {
   "name": "AssaultCube",
-  "executable": "assaultcube",
+  "executable": [
+    "assaultcube"
+  ],
   "locations": [
     {
       "file": "$HOME/.assaultcube"

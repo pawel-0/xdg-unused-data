@@ -1,6 +1,8 @@
 {
   "name": "Cool-retro-term",
-  "executable": "cool-retro-term",
+  "executable": [
+    "cool-retro-term"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/cool-retro-term"

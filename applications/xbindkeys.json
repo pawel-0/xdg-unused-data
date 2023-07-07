@@ -1,6 +1,8 @@
 {
   "name": "xbindkeys",
-  "executable": "xbindkeys",
+  "executable": [
+    "xbindkeys"
+  ],
   "locations": [
     {
       "file": "$HOME/.xbindkeysrc"

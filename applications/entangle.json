@@ -1,6 +1,8 @@
 {
   "name": "Entangle",
-  "executable": "entangle",
+  "executable": [
+    "entangle"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/entangle"

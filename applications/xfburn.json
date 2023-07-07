@@ -1,6 +1,8 @@
 {
   "name": "Xfburn",
-  "executable": "xfburn",
+  "executable": [
+    "xfburn"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/xfburn"

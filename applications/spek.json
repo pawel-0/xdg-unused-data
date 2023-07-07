@@ -1,6 +1,8 @@
 {
   "name": "Spek",
-  "executable": "spek",
+  "executable": [
+    "spek"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/spek"

@@ -1,6 +1,8 @@
 {
   "name": "Gweled",
-  "executable": "gweled",
+  "executable": [
+    "gweled"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/gweled.conf"

@@ -1,6 +1,8 @@
 {
   "name": "FreeCAD",
-  "executable": "freecad",
+  "executable": [
+    "freecad"
+  ],
   "locations": [
     {
       "file": "$HOME/.FreeCAD"

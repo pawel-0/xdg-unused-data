@@ -1,6 +1,8 @@
 {
   "name": "Tint2",
-  "executable": "tint2",
+  "executable": [
+    "tint2"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/tint2"

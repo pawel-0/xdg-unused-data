@@ -1,6 +1,8 @@
 {
   "name": "Xournal",
-  "executable": "xournal",
+  "executable": [
+    "xournal"
+  ],
   "locations": [
     {
       "file": "$HOME/.xournal"

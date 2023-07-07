@@ -1,6 +1,8 @@
 {
   "name": "Double Commander",
-  "executable": "doublecmd",
+  "executable": [
+    "doublecmd"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/doublecmd"

@@ -1,6 +1,8 @@
 {
   "name": "VisualVM",
-  "executable": "visualvm",
+  "executable": [
+    "visualvm"
+  ],
   "locations": [
     {
       "file": "$HOME/.visualvm"

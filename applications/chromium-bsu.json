@@ -1,6 +1,8 @@
 {
   "name": "Chromium",
-  "executable": "chromium-bsu",
+  "executable": [
+    "chromium-bsu"
+  ],
   "locations": [
     {
       "file": "$HOME/.chromium-bsu"

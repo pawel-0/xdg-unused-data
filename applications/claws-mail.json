@@ -1,6 +1,8 @@
 {
   "name": "Claws Mail",
-  "executable": "claws-mail",
+  "executable": [
+    "claws-mail"
+  ],
   "locations": [
     {
       "file": "$HOME/.claws-mail"

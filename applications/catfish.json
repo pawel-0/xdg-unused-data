@@ -1,6 +1,8 @@
 {
   "name": "Catfish",
-  "executable": "catfish",
+  "executable": [
+    "catfish"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/catfish"

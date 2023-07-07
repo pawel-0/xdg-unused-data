@@ -1,6 +1,8 @@
 {
   "name": "RedNotebook",
-  "executable": "rednotebook",
+  "executable": [
+    "rednotebook"
+  ],
   "locations": [
     {
       "file": "$HOME/.rednotebook"

@@ -1,6 +1,8 @@
 {
   "name": "Geeqie",
-  "executable": "geeqie",
+  "executable": [
+    "geeqie"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/geeqie"

@@ -1,6 +1,8 @@
 {
   "name": "xmonad",
-  "executable": "xmonad",
+  "executable": [
+    "xmonad"
+  ],
   "locations": [
     {
       "file": "$HOME/.xmonad"

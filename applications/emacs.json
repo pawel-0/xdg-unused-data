@@ -1,6 +1,8 @@
 {
   "name": "Emacs",
-  "executable": "emacs",
+  "executable": [
+    "emacs"
+  ],
   "locations": [
     {
       "file": "$HOME/.emacs.d"

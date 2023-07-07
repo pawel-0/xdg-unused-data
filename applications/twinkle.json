@@ -1,6 +1,8 @@
 {
   "name": "Twinkle",
-  "executable": "twinkle",
+  "executable": [
+    "twinkle"
+  ],
   "locations": [
     {
       "file": "$HOME/.twinkle"

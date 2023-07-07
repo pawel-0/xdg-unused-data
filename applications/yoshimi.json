@@ -1,6 +1,8 @@
 {
   "name": "Yoshimi",
-  "executable": "yoshimi",
+  "executable": [
+    "yoshimi"
+  ],
   "locations": [
     {
       "file": "$HOME/.yoshimi_history"

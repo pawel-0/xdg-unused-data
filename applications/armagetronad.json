@@ -1,6 +1,8 @@
 {
   "name": "Armagetron Advanced",
-  "executable": "armagetronad",
+  "executable": [
+    "armagetronad"
+  ],
   "locations": [
     {
       "file": "$HOME/.armagetronad"

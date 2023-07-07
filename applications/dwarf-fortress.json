@@ -1,6 +1,8 @@
 {
   "name": "Dwarf Fortress",
-  "executable": "dwarf-fortress",
+  "executable": [
+    "dwarf-fortress"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/dwarf-fortress"

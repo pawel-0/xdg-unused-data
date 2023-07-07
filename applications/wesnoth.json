@@ -1,6 +1,8 @@
 {
   "name": "The Battle for Wesnoth",
-  "executable": "wesnoth",
+  "executable": [
+    "wesnoth"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/wesnoth-1.16"

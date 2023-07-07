@@ -1,6 +1,8 @@
 {
   "name": "Gl-117",
-  "executable": "gl-117",
+  "executable": [
+    "gl-117"
+  ],
   "locations": [
     {
       "file": "$HOME/.gl-117"

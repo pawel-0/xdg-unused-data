@@ -1,6 +1,8 @@
 {
   "name": "since",
-  "executable": "since",
+  "executable": [
+    "since"
+  ],
   "locations": [
     {
       "file": "$HOME/.since"

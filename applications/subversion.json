@@ -1,6 +1,8 @@
 {
   "name": "Subversion",
-  "executable": "svn",
+  "executable": [
+    "svn"
+  ],
   "locations": [
     {
       "file": "$HOME/.subversion"

@@ -1,6 +1,8 @@
 {
   "name": "Rhythmbox",
-  "executable": "rhythmbox",
+  "executable": [
+    "rhythmbox"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/rhythmbox"

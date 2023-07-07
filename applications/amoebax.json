@@ -1,6 +1,8 @@
 {
   "name": "Amoebax",
-  "executable": "amoebax",
+  "executable": [
+    "amoebax"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/amoebax"

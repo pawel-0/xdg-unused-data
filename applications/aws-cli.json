@@ -1,6 +1,8 @@
 {
   "name": "AWS CLI",
-  "executable": "aws",
+  "executable": [
+    "aws"
+  ],
   "locations": [
     {
       "file": "$HOME/.aws"

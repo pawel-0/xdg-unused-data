@@ -1,6 +1,8 @@
 {
   "name": "Klotski",
-  "executable": "gnome-klotski",
+  "executable": [
+    "gnome-klotski"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/gnome-klotski "

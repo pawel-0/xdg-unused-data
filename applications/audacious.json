@@ -1,6 +1,8 @@
 {
   "name": "Audacious",
-  "executable": "audacious",
+  "executable": [
+    "audacious"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/audacious"

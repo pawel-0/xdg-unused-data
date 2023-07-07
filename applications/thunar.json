@@ -1,6 +1,8 @@
 {
   "name": "Thunar",
-  "executable": "thunar",
+  "executable": [
+    "thunar"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/Thunar"

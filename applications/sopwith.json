@@ -1,6 +1,8 @@
 {
   "name": "Sopwith",
-  "executable": "sopwith",
+  "executable": [
+    "sopwith"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/SDL Sopwith "

@@ -1,6 +1,8 @@
 {
   "name": "Transmission BT",
-  "executable": "transmission-gtk",
+  "executable": [
+    "transmission-gtk"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/transmission"

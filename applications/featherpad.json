@@ -1,6 +1,8 @@
 {
   "name": "FeatherPad",
-  "executable": "featherpad",
+  "executable": [
+    "featherpad"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/featherpad"

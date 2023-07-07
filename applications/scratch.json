@@ -1,6 +1,8 @@
 {
   "name": "Scratch",
-  "executable": "scratch",
+  "executable": [
+    "scratch"
+  ],
   "locations": [
     {
       "file": "$HOME/.scratch"

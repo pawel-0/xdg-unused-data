@@ -1,6 +1,8 @@
 {
   "name": "w3m",
-  "executable": "w3m",
+  "executable": [
+    "w3m"
+  ],
   "locations": [
     {
       "file": "$HOME/.w3m"

@@ -1,6 +1,8 @@
 {
   "name": "Terminology",
-  "executable": "terminology",
+  "executable": [
+    "terminology"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/terminology"

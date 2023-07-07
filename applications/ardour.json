@@ -1,6 +1,8 @@
 {
   "name": "Ardour",
-  "executable": "ardour",
+  "executable": [
+    "ardour"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/ardour7"

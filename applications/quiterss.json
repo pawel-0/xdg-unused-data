@@ -1,6 +1,8 @@
 {
   "name": "QuiteRSS",
-  "executable": "quiterss",
+  "executable": [
+    "quiterss"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/QuiteRss"

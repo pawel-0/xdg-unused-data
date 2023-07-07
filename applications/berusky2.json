@@ -1,6 +1,8 @@
 {
   "name": "Berusky II",
-  "executable": "berusky2",
+  "executable": [
+    "berusky2"
+  ],
   "locations": [
     {
       "file": "$HOME/.berusky2"

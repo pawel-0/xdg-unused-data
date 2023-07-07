@@ -1,6 +1,8 @@
 {
   "name": "bazaar",
-  "executable": "bzr",
+  "executable": [
+    "bzr"
+  ],
   "locations": [
     {
       "file": "$HOME/.bzr.log"

@@ -1,6 +1,8 @@
 {
   "name": "Dolphin Emulator",
-  "executable": "dolphin-emu",
+  "executable": [
+    "dolphin-emu"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/dolphin-emu"

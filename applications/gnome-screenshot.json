@@ -1,6 +1,8 @@
 {
   "name": "GNOME Screenshot",
-  "executable": "gnome-screenshot",
+  "executable": [
+    "gnome-screenshot"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/gnome-screenshot"

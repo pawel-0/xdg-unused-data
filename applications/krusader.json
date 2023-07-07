@@ -1,6 +1,8 @@
 {
   "name": "Krusader",
-  "executable": "krusader",
+  "executable": [
+    "krusader"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/krusaderrc"

@@ -1,6 +1,8 @@
 {
   "name": "ClamTk",
-  "executable": "clamtk",
+  "executable": [
+    "clamtk"
+  ],
   "locations": [
     {
       "file": "$HOME/.clamtk"

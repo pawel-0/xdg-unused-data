@@ -1,6 +1,8 @@
 {
   "name": "X2Go Client",
-  "executable": "x2goclient",
+  "executable": [
+    "x2goclient"
+  ],
   "locations": [
     {
       "file": "$HOME/.x2goclient"

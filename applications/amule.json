@@ -1,6 +1,8 @@
 {
   "name": "aMule",
-  "executable": "amule",
+  "executable": [
+    "amule"
+  ],
   "locations": [
     {
       "file": "$HOME/.aMule"

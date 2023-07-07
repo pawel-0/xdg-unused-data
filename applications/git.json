@@ -1,6 +1,8 @@
 {
   "name": "Git",
-  "executable": "git",
+  "executable": [
+    "git"
+  ],
   "locations": [
     {
       "file": "$HOME/.gitconfig"

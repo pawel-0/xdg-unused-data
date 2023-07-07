@@ -1,6 +1,8 @@
 {
   "name": "FreeCol",
-  "executable": "freecol",
+  "executable": [
+    "freecol"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/freecol"

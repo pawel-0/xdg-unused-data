@@ -1,6 +1,8 @@
 {
   "name": "Ultimaker Cura",
-  "executable": "cura",
+  "executable": [
+    "cura"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/cura Ultimaker B.V."

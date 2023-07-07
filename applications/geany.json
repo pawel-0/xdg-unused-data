@@ -1,6 +1,8 @@
 {
   "name": "Geany",
-  "executable": "geany",
+  "executable": [
+    "geany"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/geany"

@@ -1,6 +1,8 @@
 {
   "name": "QjoyPad",
-  "executable": "qjoypad",
+  "executable": [
+    "qjoypad"
+  ],
   "locations": [
     {
       "file": "$HOME/.qjoypad3"

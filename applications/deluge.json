@@ -1,6 +1,8 @@
 {
   "name": "Deluge",
-  "executable": "deluge",
+  "executable": [
+    "deluge"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/deluge"

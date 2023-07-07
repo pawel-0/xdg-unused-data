@@ -1,6 +1,8 @@
 {
   "name": "dupeGuru",
-  "executable": "dupeguru",
+  "executable": [
+    "dupeguru"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/Hardcoded Software"

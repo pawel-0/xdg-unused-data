@@ -1,6 +1,8 @@
 {
   "name": "Thunderbird",
-  "executable": "thunderbird",
+  "executable": [
+    "thunderbird"
+  ],
   "locations": [
     {
       "file": "$HOME/.thunderbird"

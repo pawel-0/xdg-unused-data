@@ -1,6 +1,8 @@
 {
   "name": "RcloneBrowser",
-  "executable": "rclone-browser",
+  "executable": [
+    "rclone-browser"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/rclone-browser"

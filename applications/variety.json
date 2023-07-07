@@ -1,6 +1,8 @@
 {
   "name": "Variety",
-  "executable": "variety",
+  "executable": [
+    "variety"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/variety"

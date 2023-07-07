@@ -1,6 +1,8 @@
 {
   "name": "gPodder",
-  "executable": "gpodder",
+  "executable": [
+    "gpodder"
+  ],
   "locations": [
     {
       "file": "$HOME/gPodder"

@@ -1,6 +1,8 @@
 {
   "name": "TripleA",
-  "executable": "triplea",
+  "executable": [
+    "triplea"
+  ],
   "locations": [
     {
       "file": "$HOME/triplea"

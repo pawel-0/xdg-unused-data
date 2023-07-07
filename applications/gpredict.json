@@ -1,6 +1,8 @@
 {
   "name": "Gpredict",
-  "executable": "gpredict",
+  "executable": [
+    "gpredict"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/Gpredict"

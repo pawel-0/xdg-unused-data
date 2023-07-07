@@ -1,6 +1,8 @@
 {
   "name": "RawTherapee",
-  "executable": "rawtherapee",
+  "executable": [
+    "rawtherapee"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/RawTherapee"

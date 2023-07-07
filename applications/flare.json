@@ -1,6 +1,8 @@
 {
   "name": "Flare",
-  "executable": "flare",
+  "executable": [
+    "flare"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/flare"

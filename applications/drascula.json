@@ -1,6 +1,8 @@
 {
   "name": "Drascula",
-  "executable": "drascula",
+  "executable": [
+    "drascula"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/scummvm"

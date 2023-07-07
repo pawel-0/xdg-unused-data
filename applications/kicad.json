@@ -1,6 +1,8 @@
 {
   "name": "KiCad",
-  "executable": "kicad",
+  "executable": [
+    "kicad"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/kicad"

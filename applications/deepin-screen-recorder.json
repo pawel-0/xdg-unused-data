@@ -1,6 +1,8 @@
 {
   "name": "Deepin Screen Recorder",
-  "executable": "deepin-screen-recorder",
+  "executable": [
+    "deepin-screen-recorder"
+  ],
   "locations": [
     {
       "file": "$HOME/.deepin-screen-recorder"

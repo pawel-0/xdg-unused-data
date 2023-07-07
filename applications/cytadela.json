@@ -1,6 +1,8 @@
 {
   "name": "Cytadela",
-  "executable": "cytadela",
+  "executable": [
+    "cytadela"
+  ],
   "locations": [
     {
       "file": "$HOME/.cytadela"

@@ -1,6 +1,8 @@
 {
   "name": "Stop-Motion",
-  "executable": "stopmotion",
+  "executable": [
+    "stopmotion"
+  ],
   "locations": [
     {
       "file": "$HOME/.stopmotion"

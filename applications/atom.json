@@ -1,6 +1,8 @@
 {
   "name": "atom",
-  "executable": "atom",
+  "executable": [
+    "atom"
+  ],
   "locations": [
     {
       "file": "$HOME/.atom"

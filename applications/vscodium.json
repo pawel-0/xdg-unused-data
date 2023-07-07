@@ -1,6 +1,8 @@
 {
   "name": "VSCodium",
-  "executable": "codium",
+  "executable": [
+    "codium"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/VSCodium"

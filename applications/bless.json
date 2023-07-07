@@ -1,6 +1,8 @@
 {
   "name": "Bless",
-  "executable": "bless",
+  "executable": [
+    "bless"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/bless"

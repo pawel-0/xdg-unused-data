@@ -1,6 +1,8 @@
 {
   "name": "Yakuake",
-  "executable": "yakuake",
+  "executable": [
+    "yakuake"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/yakuakerc"

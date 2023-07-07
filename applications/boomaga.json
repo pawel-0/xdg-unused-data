@@ -1,6 +1,8 @@
 {
   "name": "Boomaga",
-  "executable": "boomaga",
+  "executable": [
+    "boomaga"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/boomaga"

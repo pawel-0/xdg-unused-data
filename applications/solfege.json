@@ -1,6 +1,8 @@
 {
   "name": "Solfege",
-  "executable": "solfege",
+  "executable": [
+    "solfege"
+  ],
   "locations": [
     {
       "file": "$HOME/.solfege"

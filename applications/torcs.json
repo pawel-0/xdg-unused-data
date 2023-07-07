@@ -1,6 +1,8 @@
 {
   "name": "TORCS",
-  "executable": "torcs",
+  "executable": [
+    "torcs"
+  ],
   "locations": [
     {
       "file": "$HOME/.torcs"

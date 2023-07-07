@@ -1,6 +1,8 @@
 {
   "name": "Xboard",
-  "executable": "xboard",
+  "executable": [
+    "xboard"
+  ],
   "locations": [
     {
       "file": "$HOME/.xboardrc"

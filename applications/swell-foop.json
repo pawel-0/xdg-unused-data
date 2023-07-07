@@ -1,6 +1,8 @@
 {
   "name": "Swell Foop",
-  "executable": "swell-foop",
+  "executable": [
+    "swell-foop"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/swell-foop "

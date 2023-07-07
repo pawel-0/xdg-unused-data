@@ -1,6 +1,8 @@
 {
   "name": "SQLite Database Browser",
-  "executable": "sqlitebrowser",
+  "executable": [
+    "sqlitebrowser"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/sqlitebrowser"

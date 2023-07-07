@@ -1,6 +1,8 @@
 {
   "name": "DreamChess",
-  "executable": "dreamchess",
+  "executable": [
+    "dreamchess"
+  ],
   "locations": [
     {
       "file": "$HOME/.dreamchess"

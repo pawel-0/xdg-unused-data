@@ -1,6 +1,8 @@
 {
   "name": "Vinagre",
-  "executable": "vinagre",
+  "executable": [
+    "vinagre"
+  ],
   "locations": [
     {
       "file": "$XDG_DATA_HOME/vinagre "

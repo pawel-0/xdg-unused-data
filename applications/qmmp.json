@@ -1,6 +1,8 @@
 {
   "name": "qmmp",
-  "executable": "qmmp",
+  "executable": [
+    "qmmp"
+  ],
   "locations": [
     {
       "file": "$HOME/.qmmp"

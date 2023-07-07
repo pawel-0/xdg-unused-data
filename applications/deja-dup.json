@@ -1,6 +1,8 @@
 {
   "name": "Deja Dup",
-  "executable": "deja-dup",
+  "executable": [
+    "deja-dup"
+  ],
   "locations": [
     {
       "file": "$XDG_CACHE_HOME/deja-dup"

@@ -1,6 +1,8 @@
 {
   "name": "WSJT-X",
-  "executable": "wsjtx",
+  "executable": [
+    "wsjtx"
+  ],
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/WSJT-X.ini"
