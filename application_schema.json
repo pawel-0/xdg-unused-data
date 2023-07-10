@@ -1,5 +1,6 @@
 {
     "name": "Applications",
+    "$id": "http://json-schema.org/draft-04/schema#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "description": "Application JSON specification",
