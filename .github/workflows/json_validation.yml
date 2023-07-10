@@ -1,0 +1,20 @@
+name: Validate JSON
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  verify-json-validation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: application_schema.json
+          INPUT_JSONS: applications/*.json

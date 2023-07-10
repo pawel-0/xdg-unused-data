@@ -1,0 +1,47 @@
+{
+    "name": "Applications",
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "description": "Application JSON specification",
+    "properties": {
+        "name": {
+            "type": "string",
+            "description": "Name of Application. Ony for display purpose",
+            "minLength": 1
+        },
+        "executables": {
+            "type": "array",
+            "minItems": 1,
+            "items": [
+                {
+                    "type": "string",
+                    "description": "name of the binary executable"
+                }
+            ]
+        },
+        "locations": {
+            "type": "array",
+            "minItems": 1,
+            "items": [
+                {
+                    "type": "object",
+                    "properties": {
+                        "file": {
+                            "type": "string",
+                            "description": "Location of file or folder including XDG environment variable",
+                            "minLength": 5
+                        }
+                    },
+                    "required": [
+                        "file"
+                    ]
+                }
+            ]
+        }
+    },
+    "required": [
+        "name",
+        "executables",
+        "locations"
+    ]
+}
