@@ -1,4 +1,6 @@
 {
+    "$id": "http://json-schema.org/draft-06/schema#",
+    "$schema": "http://json-schema.org/draft-06/schema#",
     "type": "object",
     "description": "Application JSON specification",
     "properties": {
@@ -9,30 +11,28 @@
         },
         "executables": {
             "type": "array",
-            "items": [
-                {
-                    "type": "string",
-                    "description": "name of the binary executable"
-                }
-            ]
+            "minItems": 1,
+            "items": {
+                "type": "string",
+                "description": "name of the binary executable"
+            }
         },
         "locations": {
             "type": "array",
-            "items": [
-                {
-                    "type": "object",
-                    "properties": {
-                        "file": {
-                            "type": "string",
-                            "description": "Location of file or folder including XDG environment variable",
-                            "minLength": 5
-                        }
-                    },
-                    "required": [
-                        "file"
-                    ]
-                }
-            ]
+            "minItems": 1,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "file": {
+                        "type": "string",
+                        "description": "Location of file or folder including XDG environment variable",
+                        "minLength": 5
+                    }
+                },
+                "required": [
+                    "file"
+                ]
+            }
         }
     },
     "required": [
