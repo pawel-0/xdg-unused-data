@@ -1,5 +1,7 @@
 # xdg-data-autoremove 
 
+[![Shellcheck](https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/shellcheck.yml)
+
 A shell script which helps you find and delete not used files and folders from uninstalled applications in your XDG folder like ~/.config, ~/.cache, ~/.local/share.
 
 ![xdg-data-autoremove-shell](https://github.com/pawel-0/xdg-data-autoremove/assets/1931622/3cf5c782-ff60-4085-97e1-1ab9751bbfbb)
