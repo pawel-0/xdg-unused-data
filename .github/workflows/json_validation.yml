@@ -9,12 +9,15 @@ on:
       - main
 
 jobs:
-  verify-json-validation:
+  validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_SCHEMA: application_schema.json
-          INPUT_JSONS: applications/*.json
+        uses: walbo/validate-json@v1.1.0
+        with:
+          files: applications/*.json
+          schema: application_schema.json
+          schema-version: draft-07
+          fail-on-missing-schema: true
+          strict: true
