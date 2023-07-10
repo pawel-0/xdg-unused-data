@@ -133,9 +133,10 @@ $COLOR_XA_YELLOW Usage:$COLOR_XA_RESET
     $SCRIPT_NAME [argument]
 
 $COLOR_XA_YELLOW Arguments:$COLOR_XA_RESET 
-    $COLOR_XA_GREEN-h, --help$COLOR_XA_RESET        Print this help message
-    $COLOR_XA_GREEN--raw$COLOR_XA_RESET             Outputs only pathes of files
-    $COLOR_XA_GREEN--remove-all$COLOR_XA_RESET      Remove all files found
+    $COLOR_XA_GREEN-h, --help$COLOR_XA_RESET            Print this help message
+    $COLOR_XA_GREEN--raw$COLOR_XA_RESET                 Outputs only pathes of files
+    $COLOR_XA_GREEN--remove-all$COLOR_XA_RESET          Remove all files found
+    $COLOR_XA_GREEN--remove-all-force$COLOR_XA_RESET    Remove all files without confirmation
 END
 )
     printf "%b\n" "$HELP_OUTPUT"
