@@ -52,9 +52,12 @@ check_application(){
     
 }
 
-confirm_file_delete(){
-    $OPTION_REMOVE_ALL && warning_message && read -rep "Are you sure you want to delete this files? (y/N): " REMOVE_CONFIRMATION   
-    { [ "${REMOVE_CONFIRMATION,,}" == "y" ] || [ $OPTION_REMOVE_ALL_FORCE == true ]; }  && remove_application_files
+confirm_file_delete(){    
+    $OPTION_REMOVE_ALL && warning_message && read -rep "Are you sure you want to delete this files? (y/N): " REMOVE_CONFIRMATION
+    
+    if [ "${REMOVE_CONFIRMATION,,}" == "y" ] || [ $OPTION_REMOVE_ALL_FORCE == true ]; then
+        remove_application_files
+    fi
 }
 
 remove_application_files(){
