@@ -1,17 +1,37 @@
-# xdg-data-autoremove 
+<h1 align="center">
+   <img src="./.github/assets/logo.svg" width="100px"><br />
+   XDG Data Autoremove
+</h1>
 
-[![Shellcheck](https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/shellcheck.yml/badge.svg)](https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/shellcheck.yml) [![Validate JSON](https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/json_validation.yml/badge.svg)](https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/json_validation.yml)
+<p align="center">
+   A simple way to identify unused and leftover files from removed applications in your XDG directories.
+</p>
 
-A shell script which helps you find and delete not used files and folders from uninstalled applications in your XDG folder like ~/.config, ~/.cache, ~/.local/share.
+<p align="center">
+   <a href="https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/shellcheck.yml">
+      <img src="https://img.shields.io/github/actions/workflow/status/pawel-0/xdg-data-autoremove/shellcheck.yml?event=push&logo=github&label=Shellcheck">
+   </a>
+   &nbsp;&nbsp;
+   <a href="https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/json_validation.yml">
+      <img src="https://img.shields.io/github/actions/workflow/status/pawel-0/xdg-data-autoremove/json_validation.yml?event=push&logo=github&label=Shellcheck">
+   </a>
+   &nbsp;&nbsp;
+   <a href="https://github.com/pawel-0/xdg-data-autoremove/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/pawel-0/xdg-data-autoremove?logo=github">
+   </a>
+</p>
 
-![xdg-data-autoremove-shell](https://github.com/pawel-0/xdg-data-autoremove/assets/1931622/3cf5c782-ff60-4085-97e1-1ab9751bbfbb)
+<p align="center">
+  <a href="#about">About</a> •
+  <a href="#dependencies">Dependencies</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#arguments">Arguments</a>
+</p>
 
-# Why xdg-data-autoremove?
-Package manager (e.g. dpkg, rpm, apt, dnf) will in general not delete application files and folder after they were deleted. This may lead to residues on your harddrive and bloat.
+# About
 
-# Data safety
+Package manager (e.g. dpkg, rpm, apt, dnf) will in general not delete application files in ~/.config, ~/.cache, ~/.local, etc. If you installed bunch of applications in the past, the chance your system is cluttered.
 
-xdg-data-autoremove.sh will never removes files by it's own without confirmation. Execution of the script simply prints out all files/folder which would be safe to 
 
 # Dependencies
 The following requirements are needed to run xdg-data-autoremove
@@ -19,25 +39,35 @@ The following requirements are needed to run xdg-data-autoremove
 
 
 # Installation
-Manually clone the repository:
+
+__1. Clone repository:__
 
 ```sh
 git clone https://github.com/pawel-0/xdg-data-autoremove
 ```
 
-# Usage
+__2. Change to directory__
 
-run `./xdg-data-autoremove.sh`
+```sh
+cd xdg-data-autoremove/
+```
 
-# Options
+__3. Set permission__
 
-```text
- Usage: 
-    xdg-data-autoremove.sh [argument]
+```sh
+chmod +x ./xdg-data-autoremove.sh
+```
 
- Arguments: 
-    -h, --help             Print this help message
-    --raw                  Outputs only pathes of files/folder
-    --remove-all           Remove all files found
-    --remove-all-force     Remove all files found
-  ```
+__4. Run application__
+
+```sh
+./xdg-data-autoremove.sh
+```
+
+# Arguments
+Usage: `xdg-data-autoremove.sh [argument]`
+
+* `--help` Print help page
+* `--raw` Print raw file pathes without colors and additional information
+* `--remove-all` Remove found files. You have to confirm to delete files
+* `--remove-all-force` Remove found files __WITHOUT__ need for confirmation
