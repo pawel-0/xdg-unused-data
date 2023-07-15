@@ -13,7 +13,7 @@
    </a>
    &nbsp;&nbsp;
    <a href="https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/json_validation.yml">
-      <img src="https://img.shields.io/github/actions/workflow/status/pawel-0/xdg-data-autoremove/json_validation.yml?event=push&logo=github&label=Shellcheck">
+      <img src="https://img.shields.io/github/actions/workflow/status/pawel-0/xdg-data-autoremove/json_validation.yml?event=push&logo=github&label=JSON Validation">
    </a>
    &nbsp;&nbsp;
    <a href="https://github.com/pawel-0/xdg-data-autoremove/blob/main/LICENSE">
