@@ -1,18 +1,9 @@
 #!/usr/bin/env bash
 
-APPLICATION_JSON_DIRECTORY=$(realpath "$0" | xargs dirname)"/applications"
-SCRIPT_NAME="$0"
-APP_OUTPUT=""
-FOUND_APP_PATHES=()
-TOTAL_FOUND_FILE_SIZE=0
-TOTAL_FOUND_FILE_COUNT=0
-
-COLOR_XA_RESET="\033[0m"
-COLOR_XA_BOLD="\033[1m"
-COLOR_XA_RED="\033[31m"
-COLOR_XA_GREEN="\033[32m"
-COLOR_XA_YELLOW="\033[33m"
-COLOR_XA_BLUE="\033[34m"
+# bash strict mode
+# http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo pipefail
+IFS=$'\n\t'
 
 main(){
     PARSED_JSON=$(jq -r '.name as $name | .executables as $executables | .locations[] | "\($name),\($executables|join("|")),\(.file)"' "$APPLICATION_JSON_DIRECTORY"/*.json)
@@ -52,7 +43,8 @@ check_application(){
     
 }
 
-confirm_file_delete(){    
+confirm_file_delete(){
+    REMOVE_CONFIRMATION='n'
     $OPTION_REMOVE_ALL && warning_message && read -rep "Are you sure you want to delete this files? (y/N): " REMOVE_CONFIRMATION
     
     if [ "${REMOVE_CONFIRMATION,,}" == "y" ] || [ $OPTION_REMOVE_ALL_FORCE == true ]; then
@@ -112,11 +104,7 @@ requirement_check(){
 }
 
 manage_flags(){
-    OPTION_RAW=false
-    OPTION_REMOVE_ALL=false
-    OPTION_REMOVE_ALL_FORCE=false
-
-    if [ "$1" = "--raw" ] || [ ! -t 1 ]; then
+    if [ "$1" = "--raw" ]; then
         OPTION_RAW=true
     elif [ "$1" = "--remove-all" ]; then
         OPTION_REMOVE_ALL=true
@@ -126,6 +114,7 @@ manage_flags(){
         print_help
         exit;
     fi
+
 }
 
 print_help(){
@@ -193,6 +182,26 @@ bytes_to_human_readable() {
     echo "$i$d ${S[$s]}"
 }
 
+set_global_variables() {
+    APPLICATION_JSON_DIRECTORY=$(realpath "$0" | xargs dirname)"/applications"
+    SCRIPT_NAME="$0"
+    APP_OUTPUT=""
+    FOUND_APP_PATHES=()
+    TOTAL_FOUND_FILE_SIZE=0
+    TOTAL_FOUND_FILE_COUNT=0
+    [ -t 1 ] && OPTION_RAW=false || OPTION_RAW=true
+    OPTION_REMOVE_ALL=false
+    OPTION_REMOVE_ALL_FORCE=false
+
+    COLOR_XA_RESET="\033[0m"
+    COLOR_XA_BOLD="\033[1m"
+    COLOR_XA_RED="\033[31m"
+    COLOR_XA_GREEN="\033[32m"
+    COLOR_XA_YELLOW="\033[33m"
+    COLOR_XA_BLUE="\033[34m"
+}
+
+set_global_variables
 requirement_check
-manage_flags "$@"
+[ $# -ne 0 ] && manage_flags "$@"
 main
