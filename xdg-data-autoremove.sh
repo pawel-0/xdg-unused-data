@@ -116,7 +116,7 @@ manage_flags(){
     OPTION_REMOVE_ALL=false
     OPTION_REMOVE_ALL_FORCE=false
 
-    if [ "$1" = "--raw" ]; then
+    if [ "$1" = "--raw" ] || [ ! -t 1 ]; then
         OPTION_RAW=true
     elif [ "$1" = "--remove-all" ]; then
         OPTION_REMOVE_ALL=true
