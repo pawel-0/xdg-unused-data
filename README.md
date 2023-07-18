@@ -11,11 +11,15 @@
    <a href="https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/shellcheck.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/pawel-0/xdg-data-autoremove/shellcheck.yml?event=push&logo=github&label=Shellcheck">
    </a>
-   &nbsp;&nbsp;
+   &nbsp;
    <a href="https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/json_validation.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/pawel-0/xdg-data-autoremove/json_validation.yml?event=push&logo=github&label=JSON Validation">
    </a>
-   &nbsp;&nbsp;
+   &nbsp;
+   <a href="https://github.com/pawel-0/xdg-data-autoremove/tree/main/applications">
+      <img src="https://img.shields.io/github/directory-file-count/pawel-0/xdg-data-autoremove/applications?logo=github&label=Applications&color=blue">
+   </a>
+   &nbsp;
    <a href="https://github.com/pawel-0/xdg-data-autoremove/blob/main/LICENSE">
       <img src="https://img.shields.io/github/license/pawel-0/xdg-data-autoremove?logo=github">
    </a>
