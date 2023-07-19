@@ -55,7 +55,7 @@ requirement_check() {
     MISSING_XDG=""
     [ -z "${XDG_DATA_HOME+x}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_DATA_HOME" && XDG_DATA_HOME=$HOME"/"
     [ -z "${XDG_CONFIG_HOME+x}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_CONFIG_HOME" && XDG_CONFIG_HOME=$HOME"/.config"
-    [ -z "${XDG_STATE_HOMEs+x}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_STATE_HOME" && XDG_STATE_HOME=$HOME"/.local/state"
+    [ -z "${XDG_STATE_HOME+x}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_STATE_HOME" && XDG_STATE_HOME=$HOME"/.local/state"
     [ -z "${XDG_CACHE_HOME+x}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_CACHE_HOME" && XDG_CACHE_HOME=$HOME"/.cache"
 
     if [ -n "$MISSING_XDG" ]; then
