@@ -5,10 +5,10 @@
 
 A simple way to identify unused applications data in user directories such as ~./config and ~/.cache.
 
-[![Shellcheck](https://img.shields.io/github/actions/workflow/status/pawel-0/xdg-data-autoremove/shellcheck.yml?event=push&logo=github&label=Shellcheck)](https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/shellcheck.yml) &nbsp;
-[![JSON validation](https://img.shields.io/github/actions/workflow/status/pawel-0/xdg-data-autoremove/json_validation.yml?event=push&logo=github&label=JSON%20Validation)](https://github.com/pawel-0/xdg-data-autoremove/actions/workflows/json_validation.yml)&nbsp;
-[![Application Support](https://img.shields.io/github/directory-file-count/pawel-0/xdg-data-autoremove/applications?logo=github&label=Applications&color=blue)](https://github.com/pawel-0/xdg-data-autoremove/tree/main/applications)&nbsp;
-[![Lizense](https://img.shields.io/github/license/pawel-0/xdg-data-autoremove?logo=github)](https://github.com/pawel-0/xdg-data-autoremove/blob/main/LICENSE)
+[![Shellcheck](https://img.shields.io/github/actions/workflow/status/pawel-0/xdg-unused-data/shellcheck.yml?event=push&logo=github&label=Shellcheck)](https://github.com/pawel-0/xdg-unused-data/actions/workflows/shellcheck.yml) &nbsp;
+[![JSON validation](https://img.shields.io/github/actions/workflow/status/pawel-0/xdg-unused-data/json_validation.yml?event=push&logo=github&label=JSON%20Validation)](https://github.com/pawel-0/xdg-unused-data/actions/workflows/json_validation.yml)&nbsp;
+[![Application Support](https://img.shields.io/github/directory-file-count/pawel-0/xdg-unused-data/applications?logo=github&label=Applications&color=blue)](https://github.com/pawel-0/xdg-unused-data/tree/main/applications)&nbsp;
+[![Lizense](https://img.shields.io/github/license/pawel-0/xdg-unused-data?logo=github)](https://github.com/pawel-0/xdg-unused-data/blob/main/LICENSE)
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ The goal of xdg-unused-data.sh is to identify this files and folders.
 
 ## How it works
 
-The [`applications/`](https://github.com/pawel-0/xdg-data-autoremove/tree/main/applications) folder contains JSON files that provide information about each application, including its executable name and associated files and folders.
+The [`applications/`](https://github.com/pawel-0/xdg-unused-data/tree/main/applications) folder contains JSON files that provide information about each application, including its executable name and associated files and folders.
 
 The scripts scans for each application. During execution, the script verifies the presence of both the executable and its corresponding files or folders. If the executable is missing but at least one of the associated files or folders exists, it is flagged for attention.
 
