@@ -14,7 +14,6 @@ A simple way to identify unused applications data in user directories such as ~.
 
 - [About](#about)
 - [Hot it works](#how-it-works)
-- [Data safety](#data-safety)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Arguments](#arguments)
