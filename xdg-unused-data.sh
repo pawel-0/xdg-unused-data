@@ -53,17 +53,13 @@ requirement_check() {
     }
 
     MISSING_XDG=""
-    [ -z "${HOME}" ] && MISSING_XDG=$MISSING_XDG"\n- \$HOME"
-    [ -z "${XDG_DATA_HOME}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_DATA_HOME"
-    [ -z "${XDG_CONFIG_HOME}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_CONFIG_HOME"
-    [ -z "${XDG_STATE_HOME}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_STATE_HOME"
-    [ -z "${XDG_CACHE_HOME}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_CACHE_HOME"
+    [ -z "${XDG_DATA_HOME+x}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_DATA_HOME" && XDG_DATA_HOME=$HOME"/"
+    [ -z "${XDG_CONFIG_HOME+x}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_CONFIG_HOME" && XDG_CONFIG_HOME=$HOME"/.config"
+    [ -z "${XDG_STATE_HOMEs+x}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_STATE_HOME" && XDG_STATE_HOME=$HOME"/.local/state"
+    [ -z "${XDG_CACHE_HOME+x}" ] && MISSING_XDG=$MISSING_XDG"\n- \$XDG_CACHE_HOME" && XDG_CACHE_HOME=$HOME"/.cache"
 
     if [ -n "$MISSING_XDG" ]; then
-        printf "$COLOR_XA_RED%s\n\n$COLOR_XA_RESET" "Missing XDG environment variables detected."
-        printf "$COLOR_XA_YELLOW%s %b$COLOR_XA_RESET\n" "Please configure the following variables in your shell configuration:" "$MISSING_XDG"
-
-        exit 1
+        printf "$COLOR_XA_YELLOW%s\n\n%s%b\n\n$COLOR_XA_RESET" "Some xdg-basedir envirnoment variables are not defined. Fallbacks will be used!" "Missing:" "$MISSING_XDG"
     fi
 }
 
@@ -81,12 +77,12 @@ print_help() {
         cat <<END
 A simple way to identify and remove unused data from applications stored in user directories
 
-$COLOR_XA_YELLOW Usage:$COLOR_XA_RESET 
+USAGE:
     $SCRIPT_NAME [argument]
 
-$COLOR_XA_YELLOW Arguments:$COLOR_XA_RESET 
-    $COLOR_XA_GREEN-h, --help$COLOR_XA_RESET            Print this help message
-    $COLOR_XA_GREEN--raw$COLOR_XA_RESET                 Outputs only pathes of files
+ARGUMENTS:
+    -h, --help    Print this help message
+    --raw         Outputs only pathes of files
 END
     )
     printf "%b\n" "$HELP_OUTPUT"
