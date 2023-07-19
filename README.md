@@ -31,13 +31,6 @@ The [`applications/`](https://github.com/pawel-0/xdg-data-autoremove/tree/main/a
 
 The scripts scans for each application. During execution, the script verifies the presence of both the executable and its corresponding files or folders. If the executable is missing but at least one of the associated files or folders exists, it is flagged for attention.
 
-## Data safety
-
-Since this script could delete files without the possibilty to restore them, it's very important every step in the process is clear and no files are deleted by accident.
-
-Executing the script without any parameter will not delete any files. It only lists the application, path and some stats.
-
-
 ## Dependencies
 The following requirements are needed to run xdg-unused-data
 - [jq](https://github.com/jqlang/jq)
