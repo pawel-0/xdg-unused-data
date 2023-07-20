@@ -24,6 +24,8 @@ A package manager (such as dpkg, rpm, apt, or dnf) generally does not remove app
 
 The goal of xdg-unused-data.sh is to identify this files and folders.
 
+![Screenshot](.github/assets/screenshot.png "Screenshot output")
+
 ## How it works
 
 The [`applications/`](https://github.com/pawel-0/xdg-unused-data/tree/main/applications) folder contains JSON files that provide information about each application, including its executable name and associated files and folders.
