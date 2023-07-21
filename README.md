@@ -14,6 +14,7 @@ A simple way to identify unused applications data in user directories such as ~.
 
 - [About](#about)
 - [Hot it works](#how-it-works)
+- [Hot to delete found files](#how-to-delete-found-files)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Arguments](#arguments)
@@ -31,6 +32,28 @@ The goal of xdg-unused-data.sh is to identify this files and folders.
 The [`applications/`](https://github.com/pawel-0/xdg-unused-data/tree/main/applications) folder contains JSON files that provide information about each application, including its executable name and associated files and folders.
 
 The scripts scans for each application. During execution, the script verifies the presence of both the executable and its corresponding files or folders. If the executable is missing but at least one of the associated files or folders exists, it is flagged for attention.
+
+## How to delete found files
+
+There is no built-in feature for deleting those files, as an earlier version had such functionality but was subsequently removed. The decision to eliminate this feature was made due to concerns about potential risks associated with modifying or removing user data.
+
+If you wish to delete these files, you have a couple of options. One approach is to manually remove them using a file manager or terminal. However, a more elegant solution involves piping the script's output through `xargs` to `rm`.
+
+The script detects when its output is being piped and automatically removes unnecessary information such as names, file sizes, and summary. Alternatively, you can achieve the same behavior by adding the `--raw` [argument](#arguments)`.
+
+> :warning: **Data Loss Risk - Proceed with Caution**
+> 
+> Before executing any commands, please be aware that you are solely responsible for the consequences of running them. Deleting files using the following commands can lead to permanent data loss, and it is essential to exercise caution and understand what the commands mean before proceeding.
+
+To delete all the files found by the script, you can run the following command:
+```bash
+./xdg-unused-data.sh | xargs rm -rf
+```
+
+If you only want to delete specific files, you can first filter the output using grep:
+```bash
+./xdg-unused-data.sh | grep gimp | xargs rm -rf
+```
 
 ## Dependencies
 The following requirements are needed to run xdg-unused-data
