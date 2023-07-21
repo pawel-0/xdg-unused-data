@@ -65,7 +65,7 @@ requirement_check() {
 
     if [ -n "$NO_XDG" ]; then
         printf "$COLOR_YELLOW%s\n\n%s%b\n\n$COLOR_RESET" \
-                "Some xdg-basedir envirnoment variables are not defined. Fallbacks will be used!" "Missing:" "$NO_XDG"
+                "Some xdg-basedir environment variables are not defined. Fallbacks will be used!" "Missing:" "$NO_XDG"
     fi
 }
 
