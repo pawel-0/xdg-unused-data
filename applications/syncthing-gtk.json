@@ -5,9 +5,6 @@
   ],
   "locations": [
     {
-      "file": "$XDG_CONFIG_HOME/syncthing"
-    },
-    {
       "file": "$XDG_CONFIG_HOME/syncthing-gtk"
     }
   ]
