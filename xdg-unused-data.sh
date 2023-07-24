@@ -28,8 +28,6 @@ check_application() {
     (! check_command_available "$APP_EXECUTABLE" && { [ -f "$FILE_PATH" ] || [ -d "$FILE_PATH" ]; }) || return 0
 
     OBJECT_SIZE=$(\du -0 -b -s "$FILE_PATH" 2>/dev/null | \cut -f1)
-    TOTAL_FILE_SIZE=$((TOTAL_FILE_SIZE + OBJECT_SIZE))
-    TOTAL_FILE_COUNT=$((TOTAL_FILE_COUNT + 1))
 
     if $OPTION_RAW; then
         printf -v APP_OUTPUT_LOC "%s\n" "$FILE_PATH"
@@ -38,7 +36,12 @@ check_application() {
                                  "$APP_NAME" "$FILE_PATH" "$(bytes_to_human_readable "$OBJECT_SIZE")"
     fi
 
-    APP_OUTPUT="$APP_OUTPUT""$APP_OUTPUT_LOC"
+    if [[ "$APP_OUTPUT" != *"$APP_OUTPUT_LOC"* ]]; then
+        TOTAL_FILE_SIZE=$((TOTAL_FILE_SIZE + OBJECT_SIZE))
+        TOTAL_FILE_COUNT=$((TOTAL_FILE_COUNT + 1))
+
+        APP_OUTPUT="$APP_OUTPUT""$APP_OUTPUT_LOC"
+    fi
 }
 
 print_info_output() {
