@@ -6,6 +6,9 @@
   "locations": [
     {
       "file": "$XDG_CONFIG_HOME/vlc"
+    },
+    {
+      "file": "$XDG_DATA_HOME/vlc"
     }
   ]
 }
