@@ -1,0 +1,15 @@
+{
+    "name": "Enpass",
+    "executables": [
+      "/opt/enpass/Enpass"
+    ],
+    "locations": [
+      {
+        "file": "$XDG_CACHE_HOME/Enpass"
+      },
+      {
+        "file": "$XDG_DATA_HOME/Enpass"
+      }
+    ]
+  }
+  

@@ -1,0 +1,18 @@
+{
+    "name": "Vivaldi Browser",
+    "executables": [
+      "vivaldi"
+    ],
+    "locations": [
+      {
+        "file": "$XDG_CACHE_HOME/vivaldi"
+      },
+      {
+        "file": "$XDG_CONFIG_HOME/vivaldi"
+      },
+      {
+        "file": "$XDG_CONFIG_HOME/vivaldi-snapshot"
+      }
+    ]
+  }
+  
