@@ -1,0 +1,15 @@
+{
+  "name": "Inkscape",
+  "executables": [
+    "inkscape"
+  ],
+  "locations": [
+    {
+      "file": "$XDG_CACHE_HOME/inkscape"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/inkscape"
+    }
+  ]
+}
+    
