@@ -1,0 +1,14 @@
+{
+  "name": "Brave Browser",
+  "executables": [
+    "brave-browser"
+  ],
+  "locations": [
+    {
+      "file": "$XDG_CACHE_HOME/BraveSoftware"
+    },
+    {
+      "file": "$XDG_CONFIG_HOME/BraveSoftware"
+    }
+  ]
+}
