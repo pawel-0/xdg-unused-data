@@ -61,10 +61,10 @@ requirement_check() {
     }
 
     local NO_XDG=""
-    [ -z "${XDG_DATA_HOME+x}" ] && NO_XDG=$NO_XDG"\n- \$XDG_DATA_HOME" && XDG_DATA_HOME=$HOME"/.local/share"
-    [ -z "${XDG_CONFIG_HOME+x}" ] && NO_XDG=$NO_XDG"\n- \$XDG_CONFIG_HOME" && XDG_CONFIG_HOME=$HOME"/.config"
-    [ -z "${XDG_STATE_HOME+x}" ] && NO_XDG=$NO_XDG"\n- \$XDG_STATE_HOME" && XDG_STATE_HOME=$HOME"/.local/state"
-    [ -z "${XDG_CACHE_HOME+x}" ] && NO_XDG=$NO_XDG"\n- \$XDG_CACHE_HOME" && XDG_CACHE_HOME=$HOME"/.cache"
+    [ -z "${XDG_DATA_HOME+x}" ] && XDG_DATA_HOME=$HOME"/.local/share" && NO_XDG=$NO_XDG"\n- XDG_DATA_HOME: $XDG_DATA_HOME" 
+    [ -z "${XDG_CONFIG_HOME+x}" ] && XDG_CONFIG_HOME=$HOME"/.config" && NO_XDG=$NO_XDG"\n- XDG_CONFIG_HOME: $XDG_CONFIG_HOME" 
+    [ -z "${XDG_STATE_HOME+x}" ] && XDG_STATE_HOME=$HOME"/.local/state" && NO_XDG=$NO_XDG"\n- XDG_STATE_HOME: $XDG_STATE_HOME" 
+    [ -z "${XDG_CACHE_HOME+x}" ] && XDG_CACHE_HOME=$HOME"/.cache" && NO_XDG=$NO_XDG"\n- XDG_CACHE_HOME: $XDG_CACHE_HOME" 
 
     if [ -n "$NO_XDG" ]; then
         printf "$COLOR_YELLOW%s\n\n%s%b\n\n$COLOR_RESET" \
