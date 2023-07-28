@@ -98,6 +98,6 @@ Usage: `xdg-unused-data.sh [argument]`
 The projects success is all about how many applications it can support. And to achieve that excellent coverage, I could really use your help! If you happen to come across any files or folders in one of the xdg directories that aren't currently covered, I'd be thrilled if you could contribute to this project with a:
 
 * **Ticket:** Please use [this issue template](https://github.com/pawel-0/xdg-unused-data/issues/new?assignees=&labels=&projects=&template=application-support.md&title=%5BSUPPORT%5D+Application+Name) to submit new applications. 
-* **Pull request:** Please check the "[Hot it works](#how-it-works)" section and respect the [json schema](https://github.com/pawel-0/xdg-unused-data/blob/main/application_schema.json)
+* **Pull request:** Please check the "[How it works](#how-it-works)" section and respect the [json schema](https://github.com/pawel-0/xdg-unused-data/blob/main/application_schema.json)
 
 Thank you for supporting this project. You are highly appreciated.
