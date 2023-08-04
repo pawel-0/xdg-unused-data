@@ -9,6 +9,9 @@
     },
     {
       "file": "$GOPATH"
+    },
+    {
+      "file": "$XDG_CACHE_HOME/go-build"
     }
   ]
 }
