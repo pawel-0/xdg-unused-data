@@ -1,0 +1,12 @@
+{
+  "name": "Fedora Media Writer",
+  "executables": [
+    "mediawriter"
+  ],
+  "locations": [
+    {
+      "file": "$XDG_CACHE_HOME/fedoraproject.org/MediaWriter"
+    }
+  ]
+}
+  
