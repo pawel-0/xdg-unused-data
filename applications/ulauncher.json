@@ -12,6 +12,9 @@
     },
     {
       "file": "$XDG_CACHE_HOME/ulauncher_cache"
+    },
+    {
+      "file": "$XDG_DATA_HOME/ulauncher"
     }
   ]
 }
