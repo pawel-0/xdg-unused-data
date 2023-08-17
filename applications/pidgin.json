@@ -1,0 +1,11 @@
+{
+  "name": "Pidgin",
+  "executables": [
+    "pidgin"
+  ],
+  "locations": [
+    {
+      "file": "$HOME/.purple"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "PuTTY",
+  "executables": [
+    "putty"
+  ],
+  "locations": [
+    {
+      "file": "$HOME/.putty"
+    }
+  ]
+}

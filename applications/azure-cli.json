@@ -1,0 +1,14 @@
+{
+  "name": "Azure CLI",
+  "executables": [
+    "az"
+  ],
+  "locations": [
+    {
+      "file": "$HOME/.azure"
+    },
+    {
+      "file": "$AZURE_CONFIG_DIR"
+    }
+  ]
+}
