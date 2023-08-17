@@ -1,6 +1,8 @@
 {
   "name": "PuTTY",
-  "executable": "putty",
+  "executables": [
+    "putty"
+  ],
   "locations": [
     {
       "file": "$HOME/.putty"

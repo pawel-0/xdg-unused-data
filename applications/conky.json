@@ -1,6 +1,8 @@
 {
   "name": "Conky",
-  "executable": "conky",
+  "executables": [
+    "conky"
+  ],
   "locations": [
     {
       "file": "$HOME/.conkyrc"
