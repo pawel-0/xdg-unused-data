@@ -60,16 +60,13 @@ requirement_check() {
         exit 1
     }
 
-    local NO_XDG=""
-    [ -z "${XDG_DATA_HOME+x}" ] && XDG_DATA_HOME=$HOME"/.local/share" && NO_XDG=$NO_XDG"\n- XDG_DATA_HOME: $XDG_DATA_HOME" 
-    [ -z "${XDG_CONFIG_HOME+x}" ] && XDG_CONFIG_HOME=$HOME"/.config" && NO_XDG=$NO_XDG"\n- XDG_CONFIG_HOME: $XDG_CONFIG_HOME" 
-    [ -z "${XDG_STATE_HOME+x}" ] && XDG_STATE_HOME=$HOME"/.local/state" && NO_XDG=$NO_XDG"\n- XDG_STATE_HOME: $XDG_STATE_HOME" 
-    [ -z "${XDG_CACHE_HOME+x}" ] && XDG_CACHE_HOME=$HOME"/.cache" && NO_XDG=$NO_XDG"\n- XDG_CACHE_HOME: $XDG_CACHE_HOME" 
+    # Check if XDG_* env variables are undefined and define fallback
+    [ -z "${XDG_DATA_HOME+x}" ] && XDG_DATA_HOME=$HOME"/.local/share"
+    [ -z "${XDG_CONFIG_HOME+x}" ] && XDG_CONFIG_HOME=$HOME"/.config"
+    [ -z "${XDG_STATE_HOME+x}" ] && XDG_STATE_HOME=$HOME"/.local/state"
+    [ -z "${XDG_CACHE_HOME+x}" ] && XDG_CACHE_HOME=$HOME"/.cache"
 
-    if [ -n "$NO_XDG" ]; then
-        printf "$COLOR_YELLOW%s\n\n%s%b\n\n$COLOR_RESET" \
-                "Some xdg-basedir environment variables are not defined. Fallbacks will be used!" "Missing:" "$NO_XDG"
-    fi
+    return 0
 }
 
 manage_flags() {
@@ -133,7 +130,6 @@ set_global_variables() {
     COLOR_RESET="\033[0m"
     COLOR_RED="\033[31m"
     COLOR_GREEN="\033[32m"
-    COLOR_YELLOW="\033[33m"
     COLOR_BLUE="\033[34m"
 }
 
