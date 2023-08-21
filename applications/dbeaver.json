@@ -1,0 +1,11 @@
+{
+  "name": "DBeaver",
+  "executables": [
+    "dbeaver-ce"
+  ],
+  "locations": [
+    {
+      "file": "$XDG_DATA_HOME/DBeaverData"
+    }
+  ]
+}
