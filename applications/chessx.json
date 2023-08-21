@@ -8,7 +8,7 @@
       "file": "$XDG_CONFIG_HOME/chessx"
     },
     {
-      "file": "$XDG_DATA_HOME/chessx "
+      "file": "$XDG_DATA_HOME/chessx"
     }
   ]
 }
