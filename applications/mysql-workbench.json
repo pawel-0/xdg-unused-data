@@ -1,0 +1,12 @@
+{
+  "name": "MySQL Workbench",
+  "executables": [
+    "mysql-workbench"
+  ],
+  "locations": [
+    {
+      "file": "$HOME/.mysql/workbench"
+    }
+  ]
+}
+  
