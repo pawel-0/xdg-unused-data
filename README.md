@@ -13,8 +13,8 @@ A simple way to identify unused applications data in user directories such as ~.
 ## Table of Contents
 
 - [About](#about)
-- [Hot it works](#how-it-works)
-- [Hot to delete found files](#how-to-delete-found-files)
+- [How it works](#how-it-works)
+- [How to delete found files](#how-to-delete-found-files)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Arguments](#arguments)
