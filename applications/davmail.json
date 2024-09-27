@@ -9,9 +9,6 @@
     },
     {
       "file": "$HOME/.davmail.properties"
-    },
-    {
-      "file": "$XDG_CACHE_HOME/JNA"
     }
   ]
 }
